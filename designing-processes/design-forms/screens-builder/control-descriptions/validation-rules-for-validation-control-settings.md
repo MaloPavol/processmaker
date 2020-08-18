@@ -47,6 +47,36 @@ Follow these steps to configure the parameter\(s\) for an `Accepted` validation 
 1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
 2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Accepted**. The `Accepted` validation rule has no parameters.
 
+### After Date
+
+Use the `After Date` validation rule to validate that the value entered into this control must be after a specified date. If the entered value is in datetime format, then the time format is ignored.
+
+The value entered into this control must be in one of the following formats:
+
+* **Date format**: `YYYY-MM-DD`. Example: `"2020-07-01"`
+* **Datetime format:** `YYYY-MM-DD HH:MM:SS`. Example: `"2020-07-01 14:25:15"`
+
+Follow these steps to configure the parameter\(s\) for an `After Date` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **After Date**. The **Date** setting displays. ![](../../../../.gitbook/assets/after-date-validation-rule-screen-builder-designer.png) 
+3. In the **Date** setting, enter the date in date format that this control's value must be after. This is a required setting.
+
+### After Or Equal To Date
+
+Use the `After or Equal to Date` validation rule to validate that the value entered into this control must be the same or after a specified date. If the entered value is in datetime format, then the time format is ignored.
+
+The value entered into this control must be in one of the following formats:
+
+* **Date format**: `YYYY-MM-DD`. Example: `"2020-07-01"`
+* **Datetime format:** `YYYY-MM-DD HH:MM:SS`. Example: `"2020-07-01 14:25:15"`
+
+Follow these steps to configure the parameter\(s\) for an `After or Equal to Date` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **After or Equal to Date**. The **Date** setting displays. ![](../../../../.gitbook/assets/after-or-equal-to-date-validation-rule-screen-builder-designer.png) 
+3. In the **Date** setting, enter the date in date format that this control's value must be the same or after. This is a required setting.
+
 ### Alpha
 
 Use the `Alpha` validation rule to validate that the value entered into this control must be contain only alphabetic characters.
@@ -83,6 +113,20 @@ Follow these steps to configure the parameter\(s\) for a `Between Min & Max` val
 2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Between Min & Max**. The **Min** and **Max** parameter settings display. ![](../../../../.gitbook/assets/between-min-max-validation-screens-builder-processes.png) 
 3. In the **Min** parameter setting, enter the numeric value that this control's value must be equal to or no lower than. This is a required setting.
 4. In the **Max** parameter setting, enter the numeric value that this control's value must be equal to or no greater than. This is a required setting.
+
+### Date
+
+Use the `Date` validation rule to validate that the value entered into this control is in date or datetime format.
+
+One of the following formats validates that the entered value is a date:
+
+* **Date format**: `YYYY-MM-DD`. Example: `"2020-07-01"`
+* **Datetime format:** `YYYY-MM-DD HH:MM:SS`. Example: `"2020-07-01 14:25:15"`
+
+Follow these steps to configure the parameter\(s\) for an `Date` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Date**. The `Date` validation rule has no parameters.
 
 ### Email
 
@@ -140,7 +184,7 @@ If the Textarea control with an `In` validation rule evaluates that `Canera` is 
 
 ### Max Length
 
-Use the `Max Length` validation rule to validate that the value entered into this control is equal to or no longer than a maximum value.
+Use the `Max Length` validation rule to validate that the value entered into this control must be equal to or no longer than a maximum value.
 
 The `Max Length` validation rule evaluates the following:
 
@@ -158,7 +202,7 @@ Follow these steps to configure the parameter\(s\) for a `Max Length` validation
 
 ### Min Length
 
-Use the `Min Length` validation rule to validate that the value entered into this control is equal to or no less than a minimum value.
+Use the `Min Length` validation rule to validate that the value entered into this control must be equal to or no less than a minimum value.
 
 The `Min Length` validation rule evaluates the following:
 
