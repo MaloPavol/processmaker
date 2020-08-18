@@ -49,7 +49,7 @@ Follow these steps to configure the parameter\(s\) for an `Accepted` validation 
 
 ### After Date
 
-Use the `After Date` validation rule to validate that the value entered into this control must be after a specified date. If the entered value is in datetime format, then the time format is ignored.
+Use the `After Date` validation rule to validate that the value entered into this control must be after \(later than\) a specified date. If the entered value is in datetime format, then the time format is ignored.
 
 The value entered into this control must be in one of the following formats:
 
@@ -60,11 +60,11 @@ Follow these steps to configure the parameter\(s\) for an `After Date` validatio
 
 1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
 2. From the **Select** drop-down menu in the **Validation Rules** setting, select **After Date**. The **Date** setting displays. ![](../../../../.gitbook/assets/after-date-validation-rule-screen-builder-designer.png) 
-3. In the **Date** setting, enter the date in date format that this control's value must be after. This is a required setting.
+3. In the **Date** setting, enter the date in date format that this control's value must be after \(later than\). This is a required setting.
 
 ### After Or Equal To Date
 
-Use the `After or Equal to Date` validation rule to validate that the value entered into this control must be the same or after a specified date. If the entered value is in datetime format, then the time format is ignored.
+Use the `After or Equal to Date` validation rule to validate that the value entered into this control must be the same or after \(later than\) a specified date. If the entered value is in datetime format, then the time format is ignored.
 
 The value entered into this control must be in one of the following formats:
 
@@ -75,7 +75,7 @@ Follow these steps to configure the parameter\(s\) for an `After or Equal to Dat
 
 1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
 2. From the **Select** drop-down menu in the **Validation Rules** setting, select **After or Equal to Date**. The **Date** setting displays. ![](../../../../.gitbook/assets/after-or-equal-to-date-validation-rule-screen-builder-designer.png) 
-3. In the **Date** setting, enter the date in date format that this control's value must be the same or after. This is a required setting.
+3. In the **Date** setting, enter the date in date format that this control's value must be the same or after \(later than\). This is a required setting.
 
 ### Alpha
 
@@ -94,6 +94,36 @@ Follow these steps to configure the parameter\(s\) for an `Alpha-Numeric` valida
 
 1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
 2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Alpha-Numeric**. The `Alpha-Numeric` validation rule has no parameters.
+
+### Before Date
+
+Use the `Before Date` validation rule to validate that the value entered into this control must be before \(earlier than\) a specified date. If the entered value is in datetime format, then the time format is ignored.
+
+The value entered into this control must be in one of the following formats:
+
+* **Date format**: `YYYY-MM-DD`. Example: `"2020-07-01"`
+* **Datetime format:** `YYYY-MM-DD HH:MM:SS`. Example: `"2020-07-01 14:25:15"`
+
+Follow these steps to configure the parameter\(s\) for a `Before Date` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Before Date**. The **Date** setting displays.  ![](../../../../.gitbook/assets/before-date-validation-rule-screen-builder-designer.png) 
+3. In the **Date** setting, enter the date in date format that this control's value must be before \(earlier than\). This is a required setting.
+
+### Before Or Equal To Date
+
+Use the `Before or Equal to Date` validation rule to validate that the value entered into this control must be the same or before \(earlier than\) a specified date. If the entered value is in datetime format, then the time format is ignored.
+
+The value entered into this control must be in one of the following formats:
+
+* **Date format**: `YYYY-MM-DD`. Example: `"2020-07-01"`
+* **Datetime format:** `YYYY-MM-DD HH:MM:SS`. Example: `"2020-07-01 14:25:15"`
+
+Follow these steps to configure the parameter\(s\) for a `Before or Equal to Date` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Before or Equal to Date**. The **Date** setting displays.  ![](../../../../.gitbook/assets/before-or-equal-to-date-validation-rule-screen-builder-designer.png) 
+3. In the **Date** setting, enter the date in date format that this control's value must be the same or before \(earlier than\). This is a required setting.
 
 ### Between Min & Max
 
