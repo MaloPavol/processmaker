@@ -299,6 +299,20 @@ If the Textarea control with a `Not In` validation rule evaluates that `Mindy` i
 {% endtab %}
 {% endtabs %}
 
+### Regex
+
+Use the `Regex` validation rule to validate that this control's value contains content as determined by a specified regular expression. A regular expression, abbreviated as regex, is a sequence of letters and symbols that defines a logical search pattern from which to search this control's content to validate that strings meet the defined pattern. This validation rule is useful to parse the contents of a control's value even if that control's Request variable contains programming code such as HTML or JSON.
+
+{% hint style="info" %}
+Need a primer on regular expression syntax? See [this primer](https://www.whoishostingthis.com/resources/regex/), and then use [RegExr](https://regexr.com/) to learn, build, and test your regular expressions.
+{% endhint %}
+
+Follow these steps to configure the parameter\(s\) for a `Regex` validation rule:
+
+1. [Create a validation rule for the control](validation-rules-for-validation-control-settings.md#create-a-validation-rule).
+2. From the **Select** drop-down menu in the **Validation Rules** setting, select **Regex**. The **Regex Pattern** setting displays.  ![](../../../../.gitbook/assets/regex-validation-rule-screen-builder-designer.png) 
+3. In the **Regex Pattern** setting, enter the regular expression from which to validate this control's value contains that content. This is a required setting.
+
 ### Required
 
 Use the `Required` validation rule to validate that this control has a value and is not empty.
