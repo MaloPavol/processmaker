@@ -135,7 +135,12 @@ The `Between Min & Max` validation rule evaluates the following:
 * integers
 * file sizes
 
-The `Between Min & Max` validation rule does not evaluate calendar dates, such as when an entered value in that control is between two dates.
+The `Between Min & Max` validation rule does not evaluate calendar dates, such as when an entered value in that control is between two dates. Use any of the following to validate date-related values:
+
+* [After Date](validation-rules-for-validation-control-settings.md#after-date)
+* [After or Equal to Date](validation-rules-for-validation-control-settings.md#after-or-equal-to-date)
+* [Before Date](validation-rules-for-validation-control-settings.md#before-date)
+* [Before or Equal to Date](validation-rules-for-validation-control-settings.md#before-or-equal-to-date)
 
 Follow these steps to configure the parameter\(s\) for a `Between Min & Max` validation rule:
 
