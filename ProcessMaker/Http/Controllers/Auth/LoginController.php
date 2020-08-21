@@ -6,6 +6,7 @@ use ProcessMaker\Models\User;
 use ProcessMaker\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use ProcessMaker\Traits\HasControllerAddons;
+use Socialite;
 
 class LoginController extends Controller
 {
@@ -86,6 +87,28 @@ class LoginController extends Controller
     public function keepAlive()
     {
         return response('', 204);
+    }
+
+    /**
+     * Redirect the user to the GitHub authentication page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function redirectToProvider()
+    {
+        return Socialite::driver('github')->redirect();
+    }
+
+    /**
+     * Obtain the user information from GitHub.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function handleProviderCallback()
+    {
+        $user = Socialite::driver('github')->user();
+
+        dd($user);
     }
     
 }

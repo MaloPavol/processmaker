@@ -110,7 +110,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         TeamTNT\Scout\TNTSearchScoutServiceProvider::class,
         Laravel\Scout\ScoutServiceProvider::class,
-
+        SocialiteProviders\Manager\ServiceProvider::class
     ],
 
 

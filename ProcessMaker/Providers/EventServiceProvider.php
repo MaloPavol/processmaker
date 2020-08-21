@@ -19,7 +19,10 @@ class EventServiceProvider extends ServiceProvider
         ],
         'ProcessMaker\Events\SessionStarted' => [
             'ProcessMaker\Listeners\ActiveUserListener',
-        ]
+        ],
+        \SocialiteProviders\Manager\SocialiteWasCalled::class => [
+            'SocialiteProviders\\GitHub\\GitHubExtendSocialite@handle',
+        ],
     ];
 
     /**

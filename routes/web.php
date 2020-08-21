@@ -111,6 +111,10 @@ Route::post('oauth/clients', 'Auth\ClientController@store')->name('passport.clie
 Route::put('oauth/clients/{client_id}', 'Auth\ClientController@update')->name('passport.clients.update')->middleware('can:edit-auth_clients');
 Route::delete('oauth/clients/{client_id}', 'Auth\ClientController@destroy')->name('passport.clients.update')->middleware('can:delete-auth_clients');
 
+// Socialite
+Route::get('login/github', 'Auth\LoginController@redirectToProvider');
+Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');
+
 Route::get('password/success', function () {
     return view('auth.passwords.success', ['title' => __('Password Reset')]);
 })->name('password-success');
