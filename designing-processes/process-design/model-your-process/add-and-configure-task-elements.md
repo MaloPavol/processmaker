@@ -326,6 +326,10 @@ Follow these steps to select to whom to assign the Task that is referenced in a 
 5. Enable the **Lock task assignment to user** option to assign this Task to the same Task assignee if workflow in the Request returns to this Task. If the initial Task assignee was a member of a ProcessMaker group, the Task is reassigned to the same ProcessMaker group member. This option is useful if the initial Task assignee in the Request might need to provide clarification regarding information that Request participant initially submitted in that Task.
 6. Enable the **Allow Reassignment** option to allow the Task assignee to reassign the Task if necessary. If the **Allow Reassignment** option is enabled, the **Reassign** button displays in the Task summary to allow that Task assignee to reassign that Task. See [View a Task Summary](../../../using-processmaker/task-management/view-a-task-summary.md#summary).
 
+{% hint style="info" %}
+If you enable the **Allow Reassignment** option, ensure that this Task is assigned to more than one ProcessMaker user or to a ProcessMaker group. Otherwise, despite the availability of the **Reassign** button in the Task summary, that Task assignee has no ProcessMaker users to which to reassign this Task unless that user started that Request.
+{% endhint %}
+
 #### Assign the Task Using Rules
 
 Instead of [selecting to whom to assign a Task](add-and-configure-task-elements.md#select-to-whom-to-assign-the-task) that is referenced in a Form Task element, assign the Task's assignee using one or more rules:

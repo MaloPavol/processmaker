@@ -71,6 +71,8 @@ The following summary displays about an assigned Task:
 
 If the Task has been configured to allow the Task assignee to reassign the Task to another ProcessMaker user, the **Reassign** button displays in the Task summary.
 
+If this Task is assigned only to you, unless you started this Request, then no other ProcessMaker users are available to which to reassign this Task.
+
 Follow these steps to reassign a Task to another ProcessMaker user:
 
 1. Click the **Reassign** button. The **Reassign to** screen displays.  
