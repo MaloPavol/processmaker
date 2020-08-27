@@ -21,6 +21,14 @@ Saved Search notifications can be [enabled](get-notified-of-save-search-result-c
 ### ProcessMaker Package Required
 
 To enable [notifications](../../notifications.md) for a [Saved Search](../what-is-a-saved-search.md), the [Saved Searches package](../../../package-development-distribution/package-a-connector/saved-searches-package.md) must be installed in your ProcessMaker instance. The Saved Search package is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](mailto:sales@processmaker.com) or ask your ProcessMaker sales representative how the Saved Search package can be installed in your ProcessMaker instance.
+
+### Permission Required
+
+Your ProcessMaker user account or group membership must have the following permission to receive notifications for your own Saved Searches unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Saved Search: Toggle Notifications
+
+See the ProcessMaker [Saved Search](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#saved-search) permission or ask your ProcessMaker Administrator for assistance.
 {% endhint %}
 
 Saved Search notifications can be enabled only for your own Saved Searches. Saved Searches by default send notifications when a Saved Search's results change.

@@ -16,7 +16,7 @@ After the PDF Generator package is installed to your ProcessMaker instance, the 
 
 Use the PDF Generator connector in your Process models when you want to provide a printable copy of a Display-type ProcessMaker Screen, such as for Request summaries or purchase order receipts.
 
-When the PDF Generator connector successfully generates the PDF during an in-progress Request, the PDF output can be downloaded from the [**Files** tab in its Request summary](../../using-processmaker/requests/request-details/summary-for-in-progress-requests.md#files-associated-with-the-request). The PDF Generator names the PDF output the same as the ProcessMaker Screen from which the PDF was generated. As long as the PDF Generator successfully generates the PDF, the PDF output remains available from that Request's summary regardless of that Request's status.
+When the PDF Generator connector successfully generates the PDF during an in-progress Request, the PDF output can be downloaded from the [**Files** tab in its Request summary](../../using-processmaker/requests/request-details/summary-for-in-progress-requests.md#files-associated-with-the-request). The PDF Generator by default names the PDF output the same as the ProcessMaker Screen from which the PDF was generated unless the name is configured via text or by referencing a Request variable using [mustache syntax](https://mustache.github.io/mustache.5.html). If the PDF Generator successfully generates the PDF, the PDF output remains available from that Request's summary regardless of that Request's status.
 
 See the following topics:
 

@@ -139,6 +139,16 @@ Follow these steps to change your ProcessMaker settings:
 
 ## View Another User's Profile Information
 
+{% hint style="info" %}
+### Permission Required
+
+Your ProcessMaker user account or group membership must have the following permission to view another ProcessMaker user's profile unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Users: View Other Users Profiles
+
+See the ProcessMaker [Users](../processmaker-administration/permission-descriptions-for-users-and-groups.md#users) permissions or ask your ProcessMaker Administrator for assistance.
+{% endhint %}
+
 To view another user's profile information, click that person's avatar.
 
 ![Click a user&apos;s avatar to view that person&apos;s user profile information](../.gitbook/assets/hover-over-a-user-avatar-for-profile-full-name.png)

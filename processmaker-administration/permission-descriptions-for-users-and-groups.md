@@ -186,11 +186,17 @@ Select the **View Processes** permission to use any of the other permissions in 
 
 ### Requests
 
-The **Requests** category contains the following permission:
+The **Requests** category contains the following permissions:
 
 * **Edit Request Data:** View the **Data** tab for a completed Request and edit the [completed Request data](https://processmaker.gitbook.io/processmaker/using-processmaker/requests/request-details/summary-for-completed-requests) that is in JSON format. See [Editable Request Data](https://processmaker.gitbook.io/processmaker/using-processmaker/requests/request-details/summary-for-completed-requests#editable-request-data).
 * **Edit Task Data:** View the **Data** tab for an assigned Task and edit the Task data that is in JSON format. See [Editable Task Data](https://processmaker.gitbook.io/processmaker/using-processmaker/task-management/view-a-task-summary#editable-task-data).
 * **View All Requests:** View the **All Requests** page and [Request information](../using-processmaker/requests/request-details/) accessible from that page. See [View All Requests](../using-processmaker/requests/view-all-requests.md).
+
+### Saved Search
+
+The **Saved Search** category contains the following permission:
+
+* **Toggle Notifications:** Receive Saved Search notifications for your own Saved Searches. Notifications must already be enabled for your own Saved Searches. See [Enable Notification of Saved Search Result Changes](../using-processmaker/save-and-share-request-and-task-related-searches/view-saved-searches-that-are-shared-with-you/get-notified-of-save-search-result-changes.md#enable-notification-of-saved-search-result-changes).
 
 ### Screens
 
@@ -263,6 +269,7 @@ The **Users** category contains the following permissions:
 * **Create Users:** Create a ProcessMaker user account from the **Users** page. Selecting this permission also selects the **Edit Users** permission. See [Create a New User Account](add-users/manage-user-accounts/create-a-user-account.md).
 * **Delete Users:** Delete a ProcessMaker user account from the **Users** page. See [Delete a User Account](add-users/manage-user-accounts/manage-deleted-user-accounts/remove-a-user-account.md).
 * **Edit Users:** Edit a ProcessMaker user account from the **Users** page. See [Edit a User Account](add-users/manage-user-accounts/edit-a-user-account.md).
+* **View Other Users Profiles:** View another ProcessMaker user's profile. See [View Another User's Profile Information](../using-processmaker/profile-settings.md#view-another-users-profile-information).
 * **View Users:** View the table of ProcessMaker user accounts on the **Users** page. See [View All Users Accounts](add-users/manage-user-accounts/view-all-users.md).
 
 {% hint style="info" %}

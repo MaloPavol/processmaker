@@ -14,7 +14,7 @@ The PDF Generator [connector](../what-is-a-connector.md) is part of the [PDF Gen
 The PDF Generator connector requires that the [PDF Generator package](../../../../package-development-distribution/package-a-connector/pdf-generator-package.md) be installed in your ProcessMaker instance. The PDF Generator connector and the PDF Generator [package](../../../../package-development-distribution/first-topic.md) are not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](https://www.processmaker.com/contact/) or ask your ProcessMaker sales representative how the PDF Generator connector can be installed in your ProcessMaker instance.
 {% endhint %}
 
-When the PDF Generator connector successfully generates the PDF during an in-progress Request, the PDF output can be downloaded from the [**Files** tab in its Request summary](../../../../using-processmaker/requests/request-details/summary-for-in-progress-requests.md#files-associated-with-the-request). The PDF Generator names the PDF output the same as the ProcessMaker Screen from which the PDF was generated. As long as the PDF Generator successfully generates the PDF, the PDF output remains available from that Request's summary regardless of that Request's status.
+When the PDF Generator connector successfully generates the PDF during an in-progress Request, the PDF output can be downloaded from the [**Files** tab in its Request summary](../../../../using-processmaker/requests/request-details/summary-for-in-progress-requests.md#files-associated-with-the-request). The PDF Generator by default names the PDF output the same as the ProcessMaker Screen from which the PDF was generated unless the name is configured via text or by referencing a Request variable using [mustache syntax](https://mustache.github.io/mustache.5.html). If the PDF Generator successfully generates the PDF, the PDF output remains available from that Request's summary regardless of that Request's status.
 
 ## Package and Permissions Required
 
@@ -120,6 +120,7 @@ The PDF Generator connector has the following panels that contain settings:
 
 * **Configuration** panel
   * [Edit the connector name](pdf-generator-connector.md#edit-the-connector-name)
+  * [Enter the file name for the generated PDF](pdf-generator-connector.md#enter-the-file-name-for-the-generated-pdf)
   * [Select the ProcessMaker Screen from which to generate a PDF](pdf-generator-connector.md#select-the-processmaker-screen-from-which-to-generate-a-pdf)
 
 ### Configuration Panel Settings
@@ -130,12 +131,29 @@ The PDF Generator connector has the following panels that contain settings:
 [A package and permissions are required to do this](pdf-generator-connector.md#package-and-permissions-required).
 {% endhint %}
 
-Follow these steps to configure a PDF Generator connector:
+Follow these steps to edit a PDF Generator connector's name:
 
 1. Ensure that the **Hide Menus** button![](../../../../.gitbook/assets/hide-menus-button-process-modeler-processes.png)is not enabled. See [Maximize the Process Modeler Canvas View](../../navigate-around-your-process-model.md#maximize-the-process-modeler-canvas-view).
 2. Select the PDF Generator connector from the Process model in which to configure its settings. Panels to configure this connector display.
 3. Expand the **Configuration** panel if it is not presently expanded. The **Name** setting displays. This is a required setting. ![](../../../../.gitbook/assets/pdf-generator-configuration-name-process-modeler-package-processes.png) 
 4. In the **Name** setting, edit the selected connector's name and then press **Enter**.
+
+#### Enter the File Name for the Generated PDF
+
+{% hint style="info" %}
+[A package and permissions are required to do this](pdf-generator-connector.md#package-and-permissions-required).
+{% endhint %}
+
+Enter the file name for the PDF that a PDF Generator connector generates. Optionally use [mustache syntax](https://mustache.github.io/mustache.5.html) to reference a Request variable as the PDF's file name. Using a Request variable to determine the PDF file name allows one PDF Generator connector to generate multiple iterations of a [Display](../../../design-forms/screens-builder/types-for-screens.md#display)-type [ProcessMaker Screen](../../../design-forms/what-is-a-form.md) in a loop without each PDF named identically.
+
+If this setting does not have a value, then by default the PDF Generator connector uses the ProcessMaker Screen's name as the PDF file name.
+
+Follow these steps to enter the file name for the PDF that a PDF Generator connector generates:
+
+1. Ensure that the **Hide Menus** button![](../../../../.gitbook/assets/hide-menus-button-process-modeler-processes.png)is not enabled. See [Maximize the Process Modeler Canvas View](../../navigate-around-your-process-model.md#maximize-the-process-modeler-canvas-view).
+2. Select the PDF Generator connector from the Process model in which to configure its settings. Panels to configure this connector display.
+3. Expand the **Configuration** panel if it is not presently expanded, and then locate the **PDF File Name** setting. ![](../../../../.gitbook/assets/pdf-file-name-generator-connector-package-screen-builder-designer.png) 
+4. In the **PDF File Name** setting enter the text for the file name or use mustache syntax to reference a Request variable for the file name.
 
 #### Select the ProcessMaker Screen from Which to Generate a PDF
 
