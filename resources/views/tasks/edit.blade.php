@@ -65,19 +65,6 @@
                             :task="task" 
                             :csrf-token="'{{ csrf_token() }}'"
                         ></task>
-                        @can('view-comments')
-                            <div v-if="taskHasComments">
-                                <timeline :commentable_id="task.id"
-                                            commentable_type="ProcessMaker\Models\ProcessRequestToken"
-                                            :reactions="taskHasComments.reactions"
-                                            :voting="taskHasComments.voting"
-                                            :edit="taskHasComments.edit_comments"
-                                            :remove="taskHasComments.remove_comments"
-                                            :adding="taskHasComments.comments"
-                                            :readonly="task.status === 'CLOSED'"
-                                            />
-                            </div>
-                        @endcan
                         @can('editData', $task->processRequest)
                             <div v-if="task.process_request.status === 'ACTIVE'" id="tab-data" role="tabpanel" aria-labelledby="tab-data" class="card card-body border-top-0 tab-pane p-3">
                                 @include('tasks.editdata')
