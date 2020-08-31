@@ -12,9 +12,7 @@ Aside from rich text styles and images, the Rich Text control can display the fo
 
 * **Request data:** Display the value of another control in the same or different [ProcessMaker Screen](../../what-is-a-form.md) by referencing that control's **Variable Value** setting value using [mustache syntax](https://mustache.github.io/mustache.5.html): encapsulate the **Variable Name** setting value between  `{{` and `}}` that represent mustache syntax. In doing so, you are referencing Request data. Spaces surrounding the Request data reference are allowed. During the Request, the Rich Text control references the Request data to locate that control's value to display it in the Rich Text control.
 
-  Consider the following example. If you have a [Line Input](line-input-control-settings.md) control with a **Variable Name** setting of `FullName` into which Request participants enter their full name in a different ProcessMaker Screen used in the same Request, enter `{{ data.FullName }}` within the Rich Text control to reference the value of that Line Input control. The `{{` and `}}` represent mustache syntax. The `data.` prefix indicates to reference Request data. If the referenced control is on the same ProcessMaker Screen as the referencing Rich Text control, then do not use the `data.` prefix.
-
-  Include your own HTML syntax in the Rich Text control along with Request data references. Example: `Full Name: <strong>{{ data.FullName }}</strong>`
+  Include your own HTML syntax in the Rich Text control along with Request data references. Example: `Full Name: <p>{{ FullName }}</p>`
 
 * **Magic Variable values:** Display the value of a [Magic Variable](../../../reference-global-variables-in-your-processmaker-assets.md) by referencing the Magic Variable using mustache syntax. Example: `{{ _user.fullname }}`. Spaces surrounding the Magic Variable reference are allowed.
 
