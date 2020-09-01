@@ -253,15 +253,13 @@ Follow these steps to specify when a Form Task element is due:
 
 #### Display the Next Assigned Task to the Task Assignee
 
-When the **Display the Next Assigned Task to the Task Assignee** setting is used in a Form Task element, the Task assignee receives a waiting message after that Task assignee submits that Task. This is different than the default functionality, whereby the [**To Do Tasks**](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks) page displays after each Task is submitted.
+When the **Display the Next Assigned Task to the Task Assignee** setting is used in a Form Task element, a selected [Display](../../design-forms/screens-builder/types-for-screens.md#display)-type ProcessMaker Screen displays that can show a message that the next Task is loading, for example. This is different than the default functionality, whereby the [**To Do Tasks**](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks) page displays after each Task is submitted.
 
-Use this setting when you understand that this Task assignee will be assigned multiple Tasks during the same Request, regardless of whomever that Task assignee is. This becomes convenient for that Task assignee to display the next Task immediately after submitting the initial Task during that Request, especially if Script Task elements are between Form Task and/or Manual Task elements so that Tasks are assigned quickly.
+Use this setting when you understand that this Task assignee will be assigned multiple Tasks during the same Request regardless of whomever that Task assignee is. This becomes convenient for that Task assignee to display the next Task immediately after submitting the initial Task during that Request, especially if Script Task elements are between Form Task and/or Manual Task elements so that Tasks are assigned quickly.
+
+If the next Task is assigned to a different ProcessMaker [user](../../../processmaker-administration/add-users/what-is-a-user.md) or [group](../../../processmaker-administration/assign-groups-to-users/what-is-a-group.md), then the interstitial ProcessMaker Screen displays until that Request completes or another Task is assigned that user.
 
 The **Display the Next Assigned Task to the Task Assignee** setting applies only during the same Request.
-
-The following message displays to the Task assignee after that Request participant submits the Task that uses the **Display the Next Assigned Task to the Task Assignee** setting: **Please Wait: We're getting the next task for you...**.
-
-![Message that displays when the Display the Next Assigned Task to the Task Assignee setting is used](../../../.gitbook/assets/display-next-assigned-task-icon-process-modeler-processes.png)
 
 {% hint style="info" %}
 [Permissions are required to do this](add-and-configure-task-elements.md#permissions-required).
@@ -272,7 +270,8 @@ Follow these steps to configure a Form Task element to display the next assigned
 1. Ensure that the **Hide Menus** button![](../../../.gitbook/assets/hide-menus-button-process-modeler-processes.png)is not enabled. See [Maximize the Process Modeler Canvas View](../navigate-around-your-process-model.md#maximize-the-process-modeler-canvas-view).
 2. Select the Form Task element from the Process model in which to configure it to display the next assigned Task to the Task assignee. Panels to configure this element display.
 3. Expand the **Configuration** panel if it is not presently expanded, and then locate the **Display Next Assigned Task to Task Assignee** setting. ![](../../../.gitbook/assets/display-next-task-to-task-assignee-option-process-modeler-processes.png) 
-4. Select the **Display Next Assigned Task to Task Assignee** setting.
+4. Select the **Display Next Assigned Task to Task Assignee** setting. The **Screen Interstitial** setting displays. ![](../../../.gitbook/assets/screen-interstitial-form-manual-task-process-modeler-designer.png) 
+5. From the **Screen Interstitial** drop-down menu, select which Display-type ProcessMaker Screen to display while the next Task loads. This is a required setting.
 
 ### Assignment Rules Panel Settings
 
