@@ -109,7 +109,9 @@ See how easy it is to start a [Request](../using-processmaker/requests/what-is-a
 This section contains videos discussing Process development proof-of-concepts and ideas how to use ProcessMaker.
 
 {% tabs %}
-{% tab title="Analyze Documents in a \"Loan Application\" Process" %}
+{% tab title="Analyze Documents using RPAs" %}
+### Example 1
+
 See how ProcessMaker integrates with third-party services Amazon Textract and UiPath Robotic Process Automation \(RPA\) so a loan application workflow scans, analyzes, and intelligently routes a [Request](../using-processmaker/requests/what-is-a-request.md) and provision a bot accordingly.
 
 * **Intended audience:** Process designers and business analysts
@@ -117,6 +119,8 @@ See how ProcessMaker integrates with third-party services Amazon Textract and Ui
 * **Tags:** [Process](../designing-processes/viewing-processes/what-is-a-process.md) design; design Process; workflow design; design workflow; form; web form; design form; form design; analyze documents; Load Application Process Request; API; application program interface; third-party API call; RPA; robotic process automation; banking; financial; loan application; demo; video
 
 {% embed url="https://vimeo.com/383574552" %}
+
+### Example 2
 
 ### Related Topics
 

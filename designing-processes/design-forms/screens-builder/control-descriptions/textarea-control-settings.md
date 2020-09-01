@@ -242,13 +242,7 @@ Below are settings for the Textarea control in the **Advanced** panel:
 
 #### Default Value
 
-{% hint style="info" %}
-### Topic Update
-
-This topic is updated for ProcessMaker version 4.0.1. See the [Release Notes](https://processmaker.gitbook.io/processmaker-release-notes/processmaker-4.0.x/processmaker-4.0.1-release-notes#screen-builder).
-{% endhint %}
-
-Enter the default value this control displays. If the **Default Value** setting has no value, then this control does not display a value when the ProcessMaker Screen displays. When the ProcessMaker Screen submits, the Request uses this control's default value unless the Request participant changes it. The **Default Value** setting supports [mustache syntax](https://mustache.github.io/mustache.5.html) as the default value. For example, if the **Default Value** setting is `{{ data.Textarea_LeaveReason }}` from which a Request participant entered a reason to request leave earlier in that Request, this control displays the content of that control in this control by default during the Request.  
+Enter the default value this control displays. If the **Default Value** setting has no value, then this control does not display a value when the ProcessMaker Screen displays. When the ProcessMaker Screen submits, the Request uses this control's default value unless the Request participant changes it. The **Default Value** setting supports [mustache syntax](https://mustache.github.io/mustache.5.html) as the default value. For example, if the **Default Value** setting is `{{ Textarea_LeaveReason }}` from which a Request participant entered a reason to request leave earlier in that Request, this control displays the content of that control in this control by default during the Request.  
 
 
 There are two ways to enter the default value this control displays.
