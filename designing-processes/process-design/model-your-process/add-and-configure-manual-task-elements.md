@@ -249,6 +249,16 @@ Use this setting when you understand that this Task assignee will be assigned mu
 
 If the next Task is assigned to a different ProcessMaker [user](../../../processmaker-administration/add-users/what-is-a-user.md) or [group](../../../processmaker-administration/assign-groups-to-users/what-is-a-group.md), then the interstitial ProcessMaker Screen displays until that Request completes or another Task is assigned that user.
 
+{% hint style="warning" %}
+Consider using the **Display the Next Assigned Task to the Task Assignee** setting only if workflow does not immediately route to any of the following when this Manual Task element completes:
+
+* [Script Task](process-modeling-element-descriptions.md#script-task) element
+* [Sub Process](process-modeling-element-descriptions.md#sub-process) element
+* Any [connector](../model-processes-using-connectors/what-is-a-connector.md)
+
+Because these particular elements and all connectors cannot be assigned to a ProcessMaker user or group, the selected interstitial Screen displays indefinitely after the Task assignee completes this Task.
+{% endhint %}
+
 The **Display the Next Assigned Task to the Task Assignee** setting applies only during the same Request.
 
 {% hint style="info" %}
