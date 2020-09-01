@@ -122,13 +122,19 @@ See how ProcessMaker integrates with third-party services Amazon Textract and Ui
 
 ### Example 2
 
+See how ProcessMaker integrates with third-party RPA service Automation Anywhere \(AA\) so a loan application workflow submits a loan request candidate's name to AA to automatically search the Office of Foreign Assets Control \(OFAC\) site to determine if that candidate is sanctioned from financial transactions, receives AA's response, and then intelligently routes a Request accordingly.
+
+* **Intended audience:** Process designers and business analysts
+* **Viewing time:** 16 minutes; contains narration
+* **Tags:** Process design; design Process; workflow design; design workflow; form; web form; design form; form design; analyze documents; Load Application Process Request; API; application program interface; third-party API call; RPA; robotic process automation; banking; financial; loan application; demo; video
+
+{% embed url="https://vimeo.com/453719051" %}
+
 ### Related Topics
 
 {% page-ref page="../using-processmaker/requests/what-is-a-request.md" %}
 
 {% page-ref page="../designing-processes/process-design/what-is-process-modeling.md" %}
-
-{% page-ref page="../designing-processes/design-forms/screens-builder/what-is-screens-builder.md" %}
 {% endtab %}
 
 {% tab title="Call Third-Party APIs with Data Connectors" %}

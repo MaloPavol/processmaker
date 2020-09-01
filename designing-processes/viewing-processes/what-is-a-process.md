@@ -24,12 +24,25 @@ To learn more about how to model a Process in ProcessMaker, see [Process Modelin
 
 ## RPA ProcessMaker Integration
 
-The following video demonstrates how ProcessMaker integrates with third-party services Amazon Textract and UiPath Robotic Process Automation \(RPA\) so a loan application workflow scans, analyzes, and intelligently routes a Request and provision a bot accordingly.
+{% tabs %}
+{% tab title="Integrate with Amazon Extract and UiPath" %}
+See how ProcessMaker integrates with third-party services Amazon Textract and UiPath Robotic Process Automation \(RPA\) so a loan application workflow scans, analyzes, and intelligently routes a Request and provision a bot accordingly.
 
 * **Intended audience:** Process designers and business analysts
 * **Viewing time:** 11 minutes; contains narration
 
-{% embed url="https://vimeo.com/383574552" caption="Video demonstration how ProcessMaker integrates with third-party services and RPAs" %}
+{% embed url="https://vimeo.com/383574552" caption="Video demonstration how ProcessMaker integrates with Amazon Textract and RPA \"UiPath\"" %}
+{% endtab %}
+
+{% tab title="Integrate with Automation Anywhere" %}
+See how ProcessMaker integrates with third-party RPA service Automation Anywhere \(AA\) so a loan application workflow submits a loan request candidate's name to AA to automatically search the Office of Foreign Assets Control \(OFAC\) site to determine if that candidate is sanctioned from financial transactions, receives AA's response, and then intelligently routes a Request accordingly.
+
+* **Intended audience:** Process designers and business analysts
+* **Viewing time:** 16 minutes; contains narration
+
+{% embed url="https://vimeo.com/453719051" caption="Video demonstration how ProcessMaker integrates with RPA \"Automation Anywhere\"" %}
+{% endtab %}
+{% endtabs %}
 
 ## Related Topics
 
