@@ -57,12 +57,12 @@ When the Advanced Screen package is installed in your ProcessMaker instance, cre
 {% hint style="warning" %}
 The Advanced Screen type is a highly technical solution only for advanced HTML and JavaScript designers intended only for specific solutions. ProcessMaker Support cannot support nor troubleshoot advanced forms.
 
-As a best practice when developing Advanced Screens, design your Screen outside of ProcessMaker to test its functionality, and then copy-and-paste your code into Screen Builder to test you Screen in Requests, Tasks or [ProcessMaker Collections](../../../package-development-distribution/package-a-connector/collections.md). The Advanced Screen type cannot be previewed.
+As a best practice when developing Advanced-type ProcessMaker Screens, design your Screen outside of ProcessMaker to test its functionality, and then copy-and-paste your code into Screen Builder to test your Screen in Requests, Tasks or [ProcessMaker Collections](../../../package-development-distribution/package-a-connector/collections.md). The Advanced Screen type cannot be previewed in Screen Builder.
 
 Please use at your own risk.
 {% endhint %}
 
-Use this template to study how to design your custom form.
+Use the following template to study how to design your Advanced-type ProcessMaker Screen.
 
 ```text
 <!DOCTYPE html>
