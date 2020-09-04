@@ -55,14 +55,66 @@ Use the Advanced Screen package to design your own advanced forms using HTML syn
 When the Advanced Screen package is installed in your ProcessMaker instance, create a new ProcessMaker Screen using the Advanced Screen type. Screen Builder displays a template that contains a sample Advanced-type ProcessMaker Screen.
 
 {% hint style="warning" %}
-The Advanced Screen type is a highly technical solution only for advanced HTML and JavaScript designers intended only for specific solutions. ProcessMaker Support cannot support nor troubleshoot advanced forms. Please use at your own risk.
+The Advanced Screen type is a highly technical solution only for advanced HTML and JavaScript designers intended only for specific solutions. ProcessMaker Support cannot support nor troubleshoot advanced forms.
+
+As a best practice when developing Advanced Screens, design your Screen outside of ProcessMaker to test its functionality, and then copy-and-paste your code into Screen Builder to test you Screen in Requests, Tasks or [ProcessMaker Collections](../../../package-development-distribution/package-a-connector/collections.md). The Advanced Screen type cannot be previewed.
+
+Please use at your own risk.
 {% endhint %}
 
-![Advanced-type ProcessMaker Screen](../../../.gitbook/assets/advanced-screen-builder-processes.png)
+Use this template to study how to design your custom form.
 
-Use this template to study how to design your custom form. Click the **Preview** button to view your custom form in [Preview](screens-builder-modes.md#preview-mode) mode.
+```text
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Advanced screen</h5>
+            <form onsubmit="submitForm(event)">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="email" placeholder="email" id="email">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
 
-![Preview of the Advanced Screen-type template](../../../.gitbook/assets/advanced-screen-preview-processes.png)
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <!--Do Not Delete Below -->
+    <script>/** LOAD_PM_VARIABLES **/</script>
+    <!--Do Not Delete Above -->
+    <script defer>
+        axios.defaults.headers.common['X-CSRF-TOKEN'] = PM_CSRF_TOKEN;
+        axios.defaults.headers.put['Content-Type'] = 'application/json;charset=UTF-8';
+
+        // Load values from request data
+        $("#email").val(PM_REQUEST_DATA.email);
+
+        /**
+         * Submit the form and complete the task
+         */
+        function submitForm(event) {
+            event.preventDefault();
+            axios.put(`/api/1.0/tasks/${PM_TASK_ID}`, {
+                status: 'COMPLETED',
+                data: {
+                    email: $("#email").val(),
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+```
 
 ## Related Topics
 
