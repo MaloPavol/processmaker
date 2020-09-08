@@ -58,9 +58,9 @@ Follow these steps to edit a horizontal bar, vertical bar, line, pie, or doughnu
      This is a required setting.
 
    * In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 7. Click the **Display** tab to configure the appearance and style of the Saved Search chart. The **Display** tab settings vary depending on the chart type selected from the **General** tab. 
 
    This step shows the settings for the Horizontal Bar, Vertical Bar, Line, Pie, or Doughnut chart:
@@ -134,9 +134,9 @@ Follow these steps to edit a count chart type for a Saved Search:
      This is a required setting.
 
    * In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 7. Click the **Display** tab to configure the appearance and style of the Saved Search chart. The **Display** tab settings vary depending on the chart type selected from the **General** tab. This step shows the settings for the Count chart.
 
    ![](../../../.gitbook/assets/display-edit-a-count-chart-saved-searches.png) 
@@ -208,9 +208,9 @@ Follow these steps to edit a list chart type for a Saved Search:
      This is a required setting.
 
    * In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 7. Click the **Display** tab to configure the appearance and style of the Saved Search chart. 
 
    This step shows the settings for the List chart.

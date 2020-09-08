@@ -18,7 +18,7 @@ To view the data details for a [Saved Search](../what-is-a-saved-search.md), the
 You may also view the data details for a Saved Search associated with a ProcessMaker [Collection](../../../collections/what-is-a-collection.md). Use Saved Searches in ProcessMaker Collections to search for records in a Collection. To use ProcessMaker Collections, the [Collections package](../../../package-development-distribution/package-a-connector/collections.md) must be installed in your ProcessMaker instance. The Collections package is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](mailto:sales@processmaker.com) or ask your ProcessMaker sales representative how the Collections package can be installed in your ProcessMaker instance.
 {% endhint %}
 
-Regardless of whether you [created](create-and-share-a-saved-search.md) a Saved Search or if it has been shared with you, you may view the data details of that search result that is based on the [ProcessMaker Query Language \(PMQL\)](../../search-processmaker-data-using-pmql.md) parameters configured in that Saved Search.
+Regardless of whether you [created](create-and-share-a-saved-search.md) a Saved Search or if it has been shared with you, you may view the data details of that search result that is based on the [ProcessMaker Query Language \(PMQL\)](../../search-processmaker-data-using-pmql/) parameters configured in that Saved Search.
 
 An image represents each Saved Search on the left sidebar, but only display on pages associated with its type. Saved Searches are organized by type:
 

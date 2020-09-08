@@ -55,7 +55,7 @@ If there are no search results, the following message displays: **No Data Availa
 
 ## Advanced Search for a Task
 
-Use the [ProcessMaker Query Language \(PMQL\)](../search-processmaker-data-using-pmql.md) to compose an advanced search for Tasks.
+Use the [ProcessMaker Query Language \(PMQL\)](../search-processmaker-data-using-pmql/) to compose an advanced search for Tasks.
 
 {% hint style="info" %}
 [Basic Task searches](search-for-a-task.md#basic-search-for-a-task) also use PMQL, but basic searches provide a user interface. Configure a basic search, and then click the **Advanced Search** button![](../../.gitbook/assets/advanced-search-button.png)to see the PMQL. This may help you learn how to use PMQL.
@@ -70,7 +70,7 @@ Follow these guidelines to do an advanced search for a Task using PMQL:
 
    If not, then click the **Advanced Search** button![](../../.gitbook/assets/advanced-search-button.png).
 
-3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [PMQL Syntax for Tasks](../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks).
+3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [PMQL Syntax for Tasks](../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks).
 
    Below is an example of a valid advanced Task search:
 

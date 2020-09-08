@@ -1,0 +1,27 @@
+---
+description: Understand what ProcessMaker Query Language (PMQL) is.
+---
+
+# What is PMQL?
+
+## Overview
+
+ProcessMaker Query Language \(PMQL\) is a custom ProcessMaker language to search ProcessMaker data. Similar in ways to search query language \(SQL\), which is a standard language for storing, manipulating and retrieving data in databases, use PMQL to find [Requests](../requests/what-is-a-request.md), [Tasks](../task-management/what-is-a-task.md), and ProcessMaker [Collection](../../collections/what-is-a-collection.md) record information.
+
+Use PMQL in the following ways:
+
+* **Requests:** Perform [advanced searches to find Request summaries](../requests/search-for-a-request.md#advanced-search-for-a-request).
+* **Tasks:** Perform [advanced searches through your Tasks](../task-management/search-for-a-task.md#advanced-search-for-a-task).
+* **ProcessMaker Collection records:** [Search through the records](../../collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md#search-records-in-a-processmaker-collection) in a ProcessMaker Collection.
+* **ProcessMaker Scripts:** Include PMQL searches in a [ProcessMaker Script](../../designing-processes/scripts/what-is-a-script.md) such that the search occurs when the Script runs.
+
+To understand how to use PQML, understand the basic concepts how to compose a PMQL search query:
+
+* **Syntax:** [Syntax]() specifies how to compare, combine, exclude, or group the "building blocks" of a PMQL search query. Consider that the syntax are the "verbs" of the PMQL search query. An example of a comparative operator is to compare if the last name of a Request participant is \(or is not\) "Canera".
+* **Data types:** If syntax are the verbs to compose PMQL search queries, then the [data types]() are the "objects." Data types specify which type of ProcessMaker data to search. There are three data types in PMQL: Requests, Tasks, and ProcessMaker Collection records.
+* **Properties:** [Properties]() are the "building blocks" from which to compose PMQL queries regardless of which data type a PMQL query applies. Some PMQL properties are a Process name, Request or Task status, who started a Request \(also known as the requester\), Request participants, and dates associated with Requests, Tasks, or ProcessMaker Collection records.
+
+## Related Topics
+
+
+

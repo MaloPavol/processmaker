@@ -46,9 +46,9 @@ Follow these steps to configure basic settings for your Saved Search:
      2. Locate the icon on your local computer or network to represent the Saved Search. The icon must not be larger than 2 kilobytes large or the following message displays below the **Choose File** button: **The file is too large. File size must be less than 2KB when base64 encoded.**.
 
    * **PMQL:** In the **PMQL** field, edit the ProcessMaker Query Language \(PMQL\) parameters if necessary. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 3. Click **Save**.
 
 ### Configure How Saved Search Results Display in Tabular Format

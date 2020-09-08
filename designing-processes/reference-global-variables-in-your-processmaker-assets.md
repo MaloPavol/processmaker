@@ -25,7 +25,7 @@ Use ProcessMaker Magic Variables in a variety of ways in ProcessMaker and in Pro
 
 ### Reference in PMQL Queries for Request and Task Searches
 
-Reference ProcessMaker Magic Variables to compose ProcessMaker Query Language \([PMQL](../using-processmaker/search-processmaker-data-using-pmql.md)\) advanced queries for [Request searches](../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request) and [Task searches](../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task).
+Reference ProcessMaker Magic Variables to compose ProcessMaker Query Language \([PMQL](../using-processmaker/search-processmaker-data-using-pmql/)\) advanced queries for [Request searches](../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request) and [Task searches](../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task).
 
 ### Mock in Script Testing
 
@@ -191,7 +191,7 @@ The `_request` Magic Variable contains data about the current [Request](../using
 
 {% page-ref page="../using-processmaker/task-management/search-for-a-task.md" %}
 
-{% page-ref page="../using-processmaker/search-processmaker-data-using-pmql.md" %}
+{% page-ref page="../using-processmaker/search-processmaker-data-using-pmql/" %}
 
 {% page-ref page="../using-processmaker/requests/what-is-a-request.md" %}
 

@@ -74,7 +74,7 @@ Follow these guidelines to do an advanced search for a Request using PMQL:
 
    If not, then click the **Advanced Search** button![](../../.gitbook/assets/advanced-search-button.png).
 
-3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [PMQL Syntax for Requests](../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests).
+3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [PMQL Syntax for Requests](../search-processmaker-data-using-pmql/#pmql-syntax-for-requests).
 
    Below is an example of a valid advanced Request search:
 

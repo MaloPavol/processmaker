@@ -58,9 +58,9 @@ Follow these steps to create a horizontal bar, vertical bar, line, pie, or dough
    This is a required setting.
 
 10. In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-    * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-    * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-    * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+    * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+    * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+    * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 11. Click the **Display** tab to configure the appearance and style of the Saved Search chart. ****![](../../../.gitbook/assets/display-tab-create-chart-screen-saved-searches-package.png) 
 12. From the **Color Scheme** setting, select the color palette from which to display the chart.
 13. Enable the **Stacked** toggle key to stack the chart's data markers: overlay the data markers one another in the x- and y-axis. See [this chart as an example of stacked data markers](overview-of-saved-search-charts.md#bar-chart-vertical).
@@ -118,9 +118,9 @@ Follow these steps to create a count chart type for a Saved Search:
    This is a required setting.
 
 8. In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-   * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-   * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-   * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+   * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+   * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+   * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 9. Click the **Display** tab to configure the appearance and style of the Saved Search chart.
 
    ![](../../../.gitbook/assets/display-tab-count-create-chart-screen-saved-searches-package.png) 
@@ -181,9 +181,9 @@ Follow these steps to create a list chart type for a Saved Search:
 
       This is a required setting.
 8. In the **Query** setting, optionally enter a ProcessMaker Query Language \(PMQL\) query from which to further filter the Saved Search's results. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-   * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-requests)
-   * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-tasks)
-   * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql.md#pmql-syntax-for-processmaker-collections)
+   * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
+   * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
+   * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
 9. Click the **Display** tab to configure the appearance and style of the Saved Search chart.
 
    **Follow this step if the Select Pivot Table toggle key is enabled from the Source tab:**

@@ -82,7 +82,7 @@ Refer to the **Using ProcessMaker** section that includes the following topics:
 * [Log Out of ProcessMaker](../using-processmaker/log-out.md)
 * [Requests](../using-processmaker/requests/)
 * [Task Management](../using-processmaker/task-management/)
-* [Search ProcessMaker Data Using ProcessMaker Query Language \(PMQL\)](../using-processmaker/search-processmaker-data-using-pmql.md)
+* [Search ProcessMaker Data Using ProcessMaker Query Language \(PMQL\)](../using-processmaker/search-processmaker-data-using-pmql/)
 * [Saved Searches](../using-processmaker/save-and-share-request-and-task-related-searches/)
 * [Notifications](../using-processmaker/notifications.md)
 * [Control How Tabular Information Displays](../using-processmaker/control-how-requests-display-in-a-tab.md)
