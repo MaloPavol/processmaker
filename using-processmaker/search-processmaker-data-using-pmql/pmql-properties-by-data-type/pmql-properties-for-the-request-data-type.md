@@ -10,7 +10,18 @@ description: >-
 
 The following ProcessMaker Query Language \(PMQL\) properties apply to the `Request` data type to perform PMQL search queries from any of the pages accessible from the **Requests** top menu option. Selecting any PMQL search result displays the Request summary for that result.
 
-* 
+* [`completed` property](pmql-properties-for-the-request-data-type.md#completed-requests-completion-datetime)
+* [`created` property](pmql-properties-for-the-request-data-type.md#created-requests-creation-datetime)
+* [`data` object](pmql-properties-for-the-request-data-type.md#data-object-search-request-data-for-specific-request-information)
+* [`id` property](pmql-properties-for-the-request-data-type.md#id-request-id-number)
+* [`modified` property](pmql-properties-for-the-request-data-type.md#modified-datetime-request-was-last-modified)
+* [`participant` property](pmql-properties-for-the-request-data-type.md#participant-request-participant-by-processmaker-user-name)
+* [`process_id` property](pmql-properties-for-the-request-data-type.md#process_id-process-id-number-associated-with-the-request)
+* [`request` property](pmql-properties-for-the-request-data-type.md#request-request-name)
+* [`requester` property](pmql-properties-for-the-request-data-type.md#requester-requesters-processmaker-user-name)
+* [`started` property](pmql-properties-for-the-request-data-type.md#started-datetime-request-started)
+* [`status` property](pmql-properties-for-the-request-data-type.md#status-request-status)
+
 ## `completed`: Request's Completion Datetime
 
 {% tabs %}
