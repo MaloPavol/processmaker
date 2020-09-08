@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-The following ProcessMaker Query Language \(PMQL\) properties apply to the `Collection` data type to perform PMQL search queries from any of the pages accessible from the **Collections** top menu option. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
+The following ProcessMaker Query Language \(PMQL\) properties apply to the `Collection` data type to perform PMQL search queries from any of the pages accessible from the **Collections** sidebar icon in the **Admin** top menu option. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
 
 * 
 ## `id`: Collection Record ID Number

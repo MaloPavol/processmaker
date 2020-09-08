@@ -27,7 +27,7 @@ The `Task` PMQL data type can use the following PMQL properties:
 * 
 ## PMQL Data Type: `Collection`
 
-When performing PMQL search queries from any ProcessMaker Collection accessible from the **Collections** top menu option, PMQL uses the `Collection` data type to apply PMQL syntax. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
+When performing PMQL search queries from any ProcessMaker Collection accessible from the **Collections** sidebar icon in the **Admin** top menu option, PMQL uses the `Collection` data type to apply PMQL syntax. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
 
 The `Collection` PMQL data type can use the following PMQL properties:
 
