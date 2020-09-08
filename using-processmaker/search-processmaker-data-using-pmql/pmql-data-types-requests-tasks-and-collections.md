@@ -1,10 +1,11 @@
 ---
 description: >-
   ProcessMaker Query Language (PMQL) data types indicate the type of
-  ProcessMaker information to find: for Requests, Tasks, or Collections.
+  ProcessMaker information to find: for Requests, Tasks, or ProcessMaker
+  Collection records.
 ---
 
-# PMQL Data Types: Requests, Tasks, and Collections
+# PMQL Data Types: Request, Task, and Collection
 
 ## Overview
 
@@ -26,7 +27,7 @@ The `Task` PMQL data type can use the following PMQL properties:
 * 
 ## PMQL Data Type: `Collection`
 
-When performing PMQL search queries from any ProcessMaker Collection accessible from the **Collections** top menu option, PMQL uses the `Collection` data type to apply PMQL syntax. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
+When performing PMQL search queries from any ProcessMaker Collection accessible from the **Collections** top menu option, PMQL uses the `Collection` data type to apply PMQL syntax. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
 
 The `Collection` PMQL data type can use the following PMQL properties:
 

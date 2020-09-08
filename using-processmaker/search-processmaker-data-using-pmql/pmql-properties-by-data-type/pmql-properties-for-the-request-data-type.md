@@ -1,12 +1,14 @@
 ---
-description: PMQL Properties for Request Search Queries
+description: >-
+  Use these ProcessMaker Query Language (PMQL) properties for Request PMQL
+  search queries.
 ---
 
-# PMQL Properties for the Request Data Type
+# Request Data Type PMQL Properties
 
 ## Overview
 
-The following PMQL properties apply to the `Request` data type to perform PMQL search queries from any of the pages accessible from the **Requests** top menu option. Selecting any PMQL search result displays the Request summary for that result.
+The following ProcessMaker Query Language \(PMQL\) properties apply to the `Request` data type to perform PMQL search queries from any of the pages accessible from the **Requests** top menu option. Selecting any PMQL search result displays the Request summary for that result.
 
 * 
 ## `completed`: Request's Completion Datetime
@@ -170,7 +172,35 @@ A [Line Input](../../../designing-processes/design-forms/screens-builder/control
 {% endtab %}
 {% endtabs %}
 
+## `id`: Request ID Number
 
+{% tabs %}
+{% tab title="Description" %}
+`id` property represents the Request ID number associated with the sought Request's Process as displayed in the **\#** column of Request pages.
+
+This `id` property only applies to Request-related PMQL search queries, and is distinct from the [`id` property for the `Task` data type](task-data-type-pmql-properties.md#id-task-id-number) or for the [`id` property for the `Collection` data type](collection-data-type-pmql-properties.md#id-collection-record-id-number).
+{% endtab %}
+
+{% tab title="Examples" %}
+### Example 1
+
+**Purpose of the search:** Find Requests that are newer than Request ID 5.
+
+```text
+id > 5
+```
+
+### Example 2
+
+**Purpose of the search:** Find Requests newer than Request ID 5 but older or the same as Request ID 10.
+
+This example uses the `AND` [operator](../syntax-to-search-processmaker-data.md#comparative-and-logical-operators) to require multiple property values for the search.
+
+```text
+(id > 5) AND (id <= 10)
+```
+{% endtab %}
+{% endtabs %}
 
 ## `request`: Request Name
 
