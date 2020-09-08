@@ -47,7 +47,7 @@
   * [View a Task Summary](using-processmaker/task-management/view-a-task-summary.md)
 * [Search ProcessMaker Data Using ProcessMaker Query Language \(PMQL\)](using-processmaker/search-processmaker-data-using-pmql/README.md)
   * [What is PMQL?](using-processmaker/search-processmaker-data-using-pmql/what-is-pmql.md)
-  * [Syntax to Search ProcessMaker Data](using-processmaker/search-processmaker-data-using-pmql/syntax-to-search-processmaker-data.md)
+  * [PMQL Syntax to Search ProcessMaker Data](using-processmaker/search-processmaker-data-using-pmql/syntax-to-search-processmaker-data.md)
   * [PMQL Data Types: Request, Task, and Collection](using-processmaker/search-processmaker-data-using-pmql/pmql-data-types-requests-tasks-and-collections.md)
   * [PMQL Properties by Data Type](using-processmaker/search-processmaker-data-using-pmql/pmql-properties-by-data-type/README.md)
     * [Request Data Type PMQL Properties](using-processmaker/search-processmaker-data-using-pmql/pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md)

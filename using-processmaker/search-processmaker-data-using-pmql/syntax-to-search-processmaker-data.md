@@ -4,7 +4,7 @@ description: >-
   using ProcessMaker Query Language (PMQL).
 ---
 
-# Syntax to Search ProcessMaker Data
+# PMQL Syntax to Search ProcessMaker Data
 
 ## Overview
 
