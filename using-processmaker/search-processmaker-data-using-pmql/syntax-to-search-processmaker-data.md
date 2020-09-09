@@ -180,3 +180,7 @@ Calculate the date of birth by subtracting 9125 days from the current datetime \
 
 {% page-ref page="pmql-properties-by-data-type/collection-data-type-pmql-properties.md" %}
 
+{% page-ref page="../../json-the-foundation-of-request-data/what-is-request-data.md" %}
+
+{% page-ref page="../../json-the-foundation-of-request-data/what-is-a-request-variable.md" %}
+

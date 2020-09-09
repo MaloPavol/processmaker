@@ -514,3 +514,7 @@ Note that PMQL interprets strings in the format `YYYY-MM-DD HH:MM:SS` as dates a
 
 {% page-ref page="collection-data-type-pmql-properties.md" %}
 
+{% page-ref page="../../../json-the-foundation-of-request-data/what-is-request-data.md" %}
+
+{% page-ref page="../../../json-the-foundation-of-request-data/what-is-a-request-variable.md" %}
+

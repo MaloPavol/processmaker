@@ -211,3 +211,7 @@ Note the following:
 
 {% page-ref page="task-data-type-pmql-properties.md" %}
 
+{% page-ref page="../../../json-the-foundation-of-request-data/what-is-request-data.md" %}
+
+{% page-ref page="../../../json-the-foundation-of-request-data/what-is-a-request-variable.md" %}
+

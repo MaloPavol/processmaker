@@ -71,3 +71,7 @@ The `Collection` PMQL data type can use the following PMQL properties:
 
 {% page-ref page="pmql-properties-by-data-type/collection-data-type-pmql-properties.md" %}
 
+{% page-ref page="../../json-the-foundation-of-request-data/what-is-request-data.md" %}
+
+{% page-ref page="../../json-the-foundation-of-request-data/what-is-a-request-variable.md" %}
+
