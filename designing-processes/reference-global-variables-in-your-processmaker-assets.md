@@ -9,7 +9,7 @@ description: >-
 
 ## Overview
 
-ProcessMaker uses a set of Magic Variables that you may reference in ProcessMaker Query Language \(PMQL\) queries and in your ProcessMaker assets, such as ProcessMaker [Scripts](scripts/what-is-a-script.md) and [Screens](design-forms/what-is-a-form.md).
+ProcessMaker uses a set of Magic Variables that you may reference in ProcessMaker Query Language \([PMQL](../using-processmaker/search-processmaker-data-using-pmql/what-is-pmql.md)\) queries and in your ProcessMaker assets, such as ProcessMaker [Scripts](scripts/what-is-a-script.md) and [Screens](design-forms/what-is-a-form.md).
 
 ProcessMaker uses a schema-less JSON data model from which to read, write, and store Request data. Since the JSON data model is schema-less \(meaning that it does not require a specific schema or structure from which ProcessMaker assets must conform\), the JSON data model is structured from the JSON objects in ProcessMaker assets used in a Request: the **Variable Name** setting values in a ProcessMaker Screen or Request variables a ProcessMaker Script creates. When an in-progress Request routes through the Process, Request data aggregates into the JSON data model, thereby becoming Request data.
 
@@ -25,7 +25,10 @@ Use ProcessMaker Magic Variables in a variety of ways in ProcessMaker and in Pro
 
 ### Reference in PMQL Queries for Request and Task Searches
 
-Reference ProcessMaker Magic Variables to compose ProcessMaker Query Language \([PMQL](../using-processmaker/search-processmaker-data-using-pmql/)\) advanced queries for [Request searches](../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request) and [Task searches](../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task).
+Reference ProcessMaker Magic Variables to compose ProcessMaker Query Language \([PMQL](../using-processmaker/search-processmaker-data-using-pmql/what-is-pmql.md)\) advanced queries for [Request searches](../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request) and [Task searches](../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task). See the following topics:
+
+* [`Request` Data Type PMQL Properties](../using-processmaker/search-processmaker-data-using-pmql/pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md)
+* [`Task` Data Type PMQL Properties](../using-processmaker/search-processmaker-data-using-pmql/pmql-properties-by-data-type/task-data-type-pmql-properties.md)
 
 ### Mock in Script Testing
 
@@ -38,7 +41,7 @@ Your ProcessMaker user account or group membership must have the following permi
 See the ProcessMaker [Scripts](../processmaker-administration/permission-descriptions-for-users-and-groups.md#scripts) permissions or ask your ProcessMaker Administrator for assistance.
 {% endhint %}
 
-[Mock ProcessMaker Magic Variable values while mocking Request data]() during testing to ensure your ProcessMaker Script runs as you intended.
+[Mock ProcessMaker Magic Variable values while mocking Request data](scripts/script-editor.md#mock-request-data-coming-into-the-processmaker-script) during testing to ensure your ProcessMaker Script runs as you intended.
 
 ### Reference in Screens
 
@@ -191,7 +194,7 @@ The `_request` Magic Variable contains data about the current [Request](../using
 
 {% page-ref page="../using-processmaker/task-management/search-for-a-task.md" %}
 
-{% page-ref page="../using-processmaker/search-processmaker-data-using-pmql/" %}
+{% page-ref page="../using-processmaker/search-processmaker-data-using-pmql/what-is-pmql.md" %}
 
 {% page-ref page="../using-processmaker/requests/what-is-a-request.md" %}
 
