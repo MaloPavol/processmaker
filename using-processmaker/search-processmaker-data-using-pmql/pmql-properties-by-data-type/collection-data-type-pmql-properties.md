@@ -207,6 +207,8 @@ Note the following:
 
 {% page-ref page="../pmql-data-types-requests-tasks-and-collections.md" %}
 
+{% page-ref page="../../../collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md" %}
+
 {% page-ref page="pmql-properties-for-the-request-data-type.md" %}
 
 {% page-ref page="task-data-type-pmql-properties.md" %}

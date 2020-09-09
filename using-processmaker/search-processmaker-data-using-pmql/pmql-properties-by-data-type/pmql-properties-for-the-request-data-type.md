@@ -510,6 +510,8 @@ Note that PMQL interprets strings in the format `YYYY-MM-DD HH:MM:SS` as dates a
 
 {% page-ref page="../pmql-data-types-requests-tasks-and-collections.md" %}
 
+{% page-ref page="../../requests/search-for-a-request.md" %}
+
 {% page-ref page="task-data-type-pmql-properties.md" %}
 
 {% page-ref page="collection-data-type-pmql-properties.md" %}

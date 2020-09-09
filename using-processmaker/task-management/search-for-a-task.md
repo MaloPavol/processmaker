@@ -55,7 +55,7 @@ If there are no search results, the following message displays: **No Data Availa
 
 ## Advanced Search for a Task
 
-Use the [ProcessMaker Query Language \(PMQL\)](../search-processmaker-data-using-pmql/) to compose an advanced search for Tasks.
+Use the ProcessMaker Query Language \([PMQL](../search-processmaker-data-using-pmql/what-is-pmql.md)\) to compose an advanced search for Tasks.
 
 {% hint style="info" %}
 [Basic Task searches](search-for-a-task.md#basic-search-for-a-task) also use PMQL, but basic searches provide a user interface. Configure a basic search, and then click the **Advanced Search** button![](../../.gitbook/assets/advanced-search-button.png)to see the PMQL. This may help you learn how to use PMQL.
@@ -70,12 +70,7 @@ Follow these guidelines to do an advanced search for a Task using PMQL:
 
    If not, then click the **Advanced Search** button![](../../.gitbook/assets/advanced-search-button.png).
 
-3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [PMQL Syntax for Tasks](../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks).
-
-   Below is an example of a valid advanced Task search:
-
-   `(request = "Tax Return Process" OR request = "Modify Document Process") AND (task = "Customer Documents" OR task = "Loan Request") AND (status = "In Progress" OR status = "Completed") AND (data.last_name = "Canera") AND (updated_at < NOW -2 day)`
-
+3. In the **PMQL** setting, enter your PMQL parameters that compose your advanced search. See [`Task` Data Type PMQL Properties](../search-processmaker-data-using-pmql/pmql-properties-by-data-type/task-data-type-pmql-properties.md).
 4. Click the **Search** button![](../../.gitbook/assets/request-task-search-button.png)to search for Tasks based on your entered criteria. If there is no search criteria in the **PMQL** setting when the **Search** button is clicked, the following message displays: **Search query is empty. Please add search attributes or PMQL before saving.**
 5. Optionally, if the [Save Searches package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is installed in your ProcessMaker instance, save and share the Task search by clicking the **Save Search** button![](../../.gitbook/assets/save-search-button-requests-tasks.png). See [Save and Share Request- and Task-Related Searches](../save-and-share-request-and-task-related-searches/).
 

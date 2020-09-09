@@ -642,6 +642,8 @@ Note the following:
 
 {% page-ref page="../pmql-data-types-requests-tasks-and-collections.md" %}
 
+{% page-ref page="../../task-management/search-for-a-task.md" %}
+
 {% page-ref page="pmql-properties-for-the-request-data-type.md" %}
 
 {% page-ref page="collection-data-type-pmql-properties.md" %}
