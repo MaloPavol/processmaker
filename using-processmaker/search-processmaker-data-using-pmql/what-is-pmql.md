@@ -17,9 +17,9 @@ Use PMQL in the following ways:
 
 To understand how to use PQML, understand the basic concepts how to compose a PMQL search query:
 
-* **Syntax:** [Syntax]() specifies how to compare, combine, exclude, or group the "building blocks" of a PMQL search query. Consider that the syntax are the "verbs" of the PMQL search query. An example of a comparative operator is to compare if the last name of a Request participant is \(or is not\) "Canera".
-* **Data types:** If syntax are the verbs to compose PMQL search queries, then the [data types]() are the "objects." Data types specify which type of ProcessMaker data to search. There are three data types in PMQL: Requests, Tasks, and ProcessMaker Collection records.
-* **Properties:** [Properties]() are the "building blocks" from which to compose PMQL queries regardless of which data type a PMQL query applies. Some PMQL properties are a Process name, Request or Task status, who started a Request \(also known as the requester\), Request participants, and dates associated with Requests, Tasks, or ProcessMaker Collection records.
+* **Syntax:** [Syntax](syntax-to-search-processmaker-data.md) specifies how to compare, combine, exclude, or group the "building blocks" of a PMQL search query. An example of a comparative operator is to compare if the last name of a Request participant is \(or is not\) "Canera".
+* **Data types:** [Data types](pmql-data-types-requests-tasks-and-collections.md) specify which type of ProcessMaker data to search. There are three data types in PMQL: [`Request`](pmql-data-types-requests-tasks-and-collections.md#pmql-data-type-request), [`Task`](pmql-data-types-requests-tasks-and-collections.md#pmql-data-type-task), and [`Collection`](pmql-data-types-requests-tasks-and-collections.md#pmql-data-type-collection).
+* **Properties:** [Properties](pmql-properties-by-data-type/) are the "building blocks" from which to compose PMQL queries regardless of which data type a PMQL query applies. Some PMQL properties are a Process name, Request or Task status, who started a Request \(also known as the requester\), Request participants, and dates associated with Requests, Tasks, or ProcessMaker Collection records.
 
 ## Related Topics
 

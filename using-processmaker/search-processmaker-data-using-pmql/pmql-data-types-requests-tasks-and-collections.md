@@ -35,14 +35,30 @@ When performing PMQL search queries from any of the pages accessible from the **
 
 The `Task` PMQL data type can use the following PMQL properties:
 
-* 
+* [`completed` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed)
+* [`created` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#created-tasks-creation-datetime)
+* [`data` object](pmql-properties-by-data-type/task-data-type-pmql-properties.md#data-object-search-request-data-for-specific-request-information)
+* [`due` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#due-datetime-task-is-or-was-due)
+* [`element_id` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#element_id-task-node-identifier-from-the-process-model)
+* [`id` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#id-task-id-number)
+* [`modified` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#modified-datetime-task-last-modified)
+* [`process_id` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#process_id-process-id-number-associated-with-the-task)
+* [`request` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#request-request-name-associated-with-the-task)
+* [`started` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#started-datetime-task-started)
+* [`status` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#status-task-status)
+* [`task` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#task-task-name)
+
 ## PMQL Data Type: `Collection`
 
 When performing PMQL search queries from any ProcessMaker Collection accessible from the **Collections** sidebar icon in the **Admin** top menu option, PMQL uses the `Collection` data type to apply PMQL syntax. PMQL search queries apply to records within the displayed ProcessMaker Collection. Selecting any PMQL search result displays the ProcessMaker Collection record for that result.
 
 The `Collection` PMQL data type can use the following PMQL properties:
 
-* 
+* [`created` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#created-records-creation-date)
+* [`data` object](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#data-object-search-collection-data-for-specific-record-information)
+* [`id` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#id-collection-record-id-number)
+* [`modified` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#modified-datetime-record-last-modified)
+
 ## Related Topics
 
 

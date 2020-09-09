@@ -92,7 +92,7 @@ Use the following PMQL search query to find both persons in Request data based o
 data.Personal.Email LIKE "%company%"
 ```
 
-See Example 2 for the [`completed` PMQL Task]() property for another example.
+See Example 2 for the [`completed` Task](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed) property for another example.
 
 ## `CAST` Function to Convert Data Types
 
@@ -134,7 +134,19 @@ The `NOW` keyword represents the current datetime. Use the `NOW` keyword in PMQL
   * `number` represents the number to add or subtract from the `date`
   * `interval` is the interval of time
 
-  See [Example to Find Request Last Modified](syntax-to-search-processmaker-data.md#example-to-find-request-last-modified). See also examples for [`participant` property]() and [`request` property]().
+  See [Example to Find Request Last Modified](syntax-to-search-processmaker-data.md#example-to-find-request-last-modified). See also the following property examples:
+
+  * [`participant` property](pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md#participant-request-participant-by-processmaker-user-name) for the `Request` data type
+  * [`request` property](pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md#request-request-name) for the `Request` data type
+  * [`completed` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed) for the `Task` data type
+  * [`created` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#created-tasks-creation-datetime) for the `Task` data type
+  * [`due` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#due-datetime-task-is-or-was-due) for the `Task` data type
+  * [`element_id` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#element_id-task-node-identifier-from-the-process-model) for the `Task` data type
+  * [`modified` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#modified-datetime-task-last-modified) for the `Task` data type
+  * [`request` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#request-request-name-associated-with-the-task) for the `Task` data type
+  * [`started` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#started-datetime-task-started) for the `Task` data type
+  * [`status` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#status-task-status) for the `Task` data type
+  * [`modified` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#modified-datetime-record-last-modified) for the `Collection` data type
 
 * Dynamically determine a chronological value of a Request variable from Request data as part of the PMQL search query. See [Example Using Request Data](syntax-to-search-processmaker-data.md#example-using-request-data).
 

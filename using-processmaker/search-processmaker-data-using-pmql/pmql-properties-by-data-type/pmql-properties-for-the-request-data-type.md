@@ -396,7 +396,7 @@ Note the following:
 * This example uses multiple operators: `AND` and `OR`. The `AND` operator searches for multiple required properties while the `OR` operator within one of the `AND` operators searches for any of multiple property values.
 * This example uses the [`started` property](pmql-properties-for-the-request-data-type.md#started-datetime-request-started) to search for when Requests started by a particular date. Note that PMQL interprets strings in the format `YYYY-MM-DD HH:MM:SS` as dates and can be used in comparative queries if that string is in quotation marks \(`"2020-01-01 00:00:00"`\).
 * This example uses the [`request` property](pmql-properties-for-the-request-data-type.md#request-request-name). The `request` property value \(`"Course_____"`\) is not case-sensitive.
-* This example uses the [`LIKE` operator](../syntax-to-search-processmaker-data.md#like-operator-for-wildcard-pattern-matching): functioning a a wildcard, each underscore character \(`_`\) represents one wildcard character up to the number of underscores in the string that is in quotation marks.
+* This example uses the [`LIKE` operator](../syntax-to-search-processmaker-data.md#like-operator-for-wildcard-pattern-matching): functioning as a wildcard, each underscore character \(`_`\) represents one wildcard character up to the number of underscores in the string that is in quotation marks.
 * [Note when PMQL search queries are case sensitive](../syntax-to-search-processmaker-data.md#lower-function-to-disregard-case-sensitivity-in-strings-and-request-variables).
 
 ```text
