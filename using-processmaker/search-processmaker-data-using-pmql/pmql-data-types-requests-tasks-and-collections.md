@@ -61,5 +61,13 @@ The `Collection` PMQL data type can use the following PMQL properties:
 
 ## Related Topics
 
+{% page-ref page="what-is-pmql.md" %}
 
+{% page-ref page="syntax-to-search-processmaker-data.md" %}
+
+{% page-ref page="pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md" %}
+
+{% page-ref page="pmql-properties-by-data-type/task-data-type-pmql-properties.md" %}
+
+{% page-ref page="pmql-properties-by-data-type/collection-data-type-pmql-properties.md" %}
 

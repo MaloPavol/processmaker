@@ -504,5 +504,13 @@ Note that PMQL interprets strings in the format `YYYY-MM-DD HH:MM:SS` as dates a
 
 ## Related Topics
 
+{% page-ref page="../what-is-pmql.md" %}
 
+{% page-ref page="../syntax-to-search-processmaker-data.md" %}
+
+{% page-ref page="../pmql-data-types-requests-tasks-and-collections.md" %}
+
+{% page-ref page="task-data-type-pmql-properties.md" %}
+
+{% page-ref page="collection-data-type-pmql-properties.md" %}
 

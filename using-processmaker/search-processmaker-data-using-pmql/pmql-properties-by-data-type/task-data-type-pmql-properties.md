@@ -636,7 +636,13 @@ Note the following:
 
 ## Related Topics
 
+{% page-ref page="../what-is-pmql.md" %}
 
+{% page-ref page="../syntax-to-search-processmaker-data.md" %}
 
+{% page-ref page="../pmql-data-types-requests-tasks-and-collections.md" %}
 
+{% page-ref page="pmql-properties-for-the-request-data-type.md" %}
+
+{% page-ref page="collection-data-type-pmql-properties.md" %}
 
