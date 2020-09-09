@@ -32,7 +32,7 @@ Follow these steps to configure basic settings for your Saved Search:
 
 1. [Select the Saved Search to configure](configure-a-saved-search.md#select-the-saved-search-to-configure). The **Configuration** tab displays. Use the **Configuration** tab to configure basic settings for your Saved Search. ![](../../../.gitbook/assets/configuration-tab-saved-search-package.png) 
 2. Edit the following information in the **Configuration** tab about your Saved Search as necessary:
-   * **Name:** In the **Name** field, edit the name of your Saved Search. Since this name displays in the left sidebar of **Requests**/**Tasks** pages, ensure that this is a descriptive name based on the ProcessMaker Query Language \(PMQL\) parameters that compose the search. This name is helpful for yourself and those with whom you share this Saved Search to know for what this Saved Search's results are. This is a required field.
+   * **Name:** In the **Name** setting, edit the name of your Saved Search. Since this name displays in the left sidebar of **Requests**/**Tasks** pages, ensure that this is a descriptive name based on the ProcessMaker Query Language \([PMQL](../../search-processmaker-data-using-pmql/what-is-pmql.md)\) parameters that compose the search. This name is helpful for yourself and those with whom you share this Saved Search to know for what this Saved Search's results are. This is a required setting.
    * **Image:** Follow these guidelines to select an image that represents the Saved Search results. Saved Searches associated with Requests display in the left sidebar of **Requests** pages, while those associated with Tasks display in the left sidebar of **Tasks** pages.
 
      **Select an image from ProcessMaker to represent the Saved Search:**
@@ -45,10 +45,10 @@ Follow these steps to configure basic settings for your Saved Search:
      1. Click the **Upload Custom Icon** button to the right of the **Icon** drop-down menu. The file browser window displays.
      2. Locate the icon on your local computer or network to represent the Saved Search. The icon must not be larger than 2 kilobytes large or the following message displays below the **Choose File** button: **The file is too large. File size must be less than 2KB when base64 encoded.**.
 
-   * **PMQL:** In the **PMQL** field, edit the ProcessMaker Query Language \(PMQL\) parameters if necessary. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
-     * [PMQL Syntax for Requests](../../search-processmaker-data-using-pmql/#pmql-syntax-for-requests)
-     * [PMQL Syntax for Tasks](../../search-processmaker-data-using-pmql/#pmql-syntax-for-tasks)
-     * [PMQL Syntax for ProcessMaker Collections](../../search-processmaker-data-using-pmql/#pmql-syntax-for-processmaker-collections)
+   * **PMQL:** In the **PMQL** setting, edit the ProcessMaker Query Language \(PMQL\) parameters if necessary. See the following topics for information how to use PMQL for Requests, Tasks, and ProcessMaker Collections:
+     * [`Request` Data Type PMQL Properties](../../search-processmaker-data-using-pmql/pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md)
+     * [`Task` Data Type PMQL Properties](../../search-processmaker-data-using-pmql/pmql-properties-by-data-type/task-data-type-pmql-properties.md)
+     * [`Collection` Data Type PMQL Properties](../../search-processmaker-data-using-pmql/pmql-properties-by-data-type/collection-data-type-pmql-properties.md)
 3. Click **Save**.
 
 ### Configure How Saved Search Results Display in Tabular Format
@@ -83,16 +83,16 @@ Follow these steps to configure how information displays for your Saved Search:
       The **Configure** screen for that informational component displays.  
       ![](../../../.gitbook/assets/configure-information-screen-label-field-saved-search-package.png)
 
-   2. In the **Label** field, edit the column label that displays in search results \(if necessary\).
-   3. In the **Field** field, edit the key name that represents the Request data \(if necessary\). `data.` represents that what follows derives from Request information. To derive that Request information if it is necessary to change the **Field** field value, view the [**Data** tab in the summary for a completed Request](../../requests/request-details/summary-for-completed-requests.md#editable-request-data) to view the data from a completed Request, and then use the specific key name \(represented in red-colored text\) in the following syntax, where `RequestData` represents the key name: `data.RequestData`. Note that your ProcessMaker user account or group membership must have the [Requests: Edit Request Data](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#requests) permission. Ask your ProcessMaker Administrator if you do not see the **Data** tab in completed Requests.
+   2. In the **Label** setting, edit the column label that displays in search results \(if necessary\).
+   3. In the **Field** setting, edit the key name that represents the Request data \(if necessary\). `data.` represents that what follows derives from Request information. To derive that Request information if it is necessary to change the **Field** setting value, view the [**Data** tab in the summary for a completed Request](../../requests/request-details/summary-for-completed-requests.md#editable-request-data) to view the data from a completed Request, and then use the specific key name \(represented in red-colored text\) in the following syntax, where `RequestData` represents the key name: `data.RequestData`. Note that your ProcessMaker user account or group membership must have the [Requests: Edit Request Data](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#requests) permission. Ask your ProcessMaker Administrator if you do not see the **Data** tab in completed Requests.
    4. Use the **Sortable** toggle key to adjust whether the column is sortable in search results.
    5. Click **Save**.
 
    **Add a custom column to include additional information in the Save Search results:**
 
    1. Use the **Add Custom Column** screen to add a custom column to include an informational component that ProcessMaker's analysis of completed Requests for the Saved Search's selected Process did not provide. Click the **Add Custom Column** button at the bottom of the **Available Columns** column. The **Create Custom Column** screen displays. ![](../../../.gitbook/assets/create-custom-column-screen-saved-search-package.png)
-   2. In the **Label** field, enter the column label that displays in search results.
-   3. In the **Field** field, enter the key name that represents the Request data. `data.` represents that what follows derives from Request information. To derive that Request information, view the [**Data** tab in the summary for a completed Request](../../requests/request-details/summary-for-completed-requests.md#editable-request-data) to view the data from a completed Request, and then use the specific key name \(represented in red-colored text\) in the following syntax, where `RequestData` represents the key name: `data.RequestData`. Note that your ProcessMaker user account or group membership must have the [Requests: Edit Request Data](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#requests) permission. Ask your ProcessMaker Administrator if you do not see the **Data** tab in completed Requests.
+   2. In the **Label** setting, enter the column label that displays in search results.
+   3. In the **Field** setting, enter the key name that represents the Request data. `data.` represents that what follows derives from Request information. To derive that Request information, view the [**Data** tab in the summary for a completed Request](../../requests/request-details/summary-for-completed-requests.md#editable-request-data) to view the data from a completed Request, and then use the specific key name \(represented in red-colored text\) in the following syntax, where `RequestData` represents the key name: `data.RequestData`. Note that your ProcessMaker user account or group membership must have the [Requests: Edit Request Data](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#requests) permission. Ask your ProcessMaker Administrator if you do not see the **Data** tab in completed Requests.
    4. Use the **Sortable** toggle key to adjust whether the column is sortable in search results.
    5. Click **Save**.
 
@@ -115,7 +115,7 @@ Follow these steps to configure with which ProcessMaker users to share your Save
 2. Click the **Shared with Users** tab. ![](../../../.gitbook/assets/shared-with-users-tab-saved-search-package.png) 
 3. Follow these guidelines to select with which ProcessMaker users to share your Saved Search:
    * Adjust the toggle key for each ProcessMaker user that you want to share your Saved Search. When the toggle key is enabled, that ProcessMaker user can use your Saved Search, but cannot configure, hide, or delete it.
-   * Enter in the **Search** field the text to filter ProcessMaker users by their full name.
+   * Enter in the **Search** setting the text to filter ProcessMaker users by their full name.
 4. Click **Save**.
 
 ### Select with Which ProcessMaker Groups to Share the Saved Search
@@ -126,7 +126,7 @@ Follow these steps to configure with which ProcessMaker groups to share your Sav
 2. Click the **Shared with Groups** tab. ![](../../../.gitbook/assets/shared-with-groups-tab-saved-search-package.png) 
 3. Follow these guidelines to select with which ProcessMaker groups to share your Saved Search:
    * Adjust the toggle key for each ProcessMaker user that you want to share your Saved Search. When the toggle key is enabled, all members of that ProcessMaker group can use your Saved Search, but none can configure, hide, or delete it.
-   * Enter in the **Search** field the text to filter ProcessMaker groups.
+   * Enter in the **Search** setting the text to filter ProcessMaker groups.
 4. Click **Save**.
 
 ## Related Topics
@@ -156,4 +156,6 @@ Follow these steps to configure with which ProcessMaker groups to share your Sav
 {% page-ref page="../schedule-to-email-reports-of-saved-search-results/" %}
 
 {% page-ref page="../create-charts-to-visualize-saved-search-results/" %}
+
+{% page-ref page="../../search-processmaker-data-using-pmql/what-is-pmql.md" %}
 

@@ -17,7 +17,7 @@ To search for a [Saved Search](../what-is-a-saved-search.md), the [Saved Searche
 Follow these steps to search for a Saved Search's result:
 
 1. [View the search results for a Saved Search](view-search-results-for-a-saved-search.md).
-2. Enter in the **Search** field the text to filter Saved Searches using the Saved Search's name that displays in the **Name** column.
+2. Enter in the **Search** setting the text to filter Saved Searches using the Saved Search's name that displays in the **Name** column.
 
 As you enter text into the **Search** field, search results display that match your entered text.
 
