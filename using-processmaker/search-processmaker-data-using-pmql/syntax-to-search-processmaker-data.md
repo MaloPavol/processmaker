@@ -67,6 +67,14 @@ The `%` wildcard represents zero, one, or more characters. The `_` wildcard repr
 * `data.last_name LIKE "Ca___"` finds all values from Requests that begin with `Ca` and those that match three following characters in the `last_name` Request variable.
 * `task LIKE "T%"` finds all Tasks that begin with `T`.
 
+See the following properties for more examples how to use the `LIKE` operator:
+
+* [`requester` property](pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md#requester-requesters-processmaker-user-name) for the `Request` data type
+* [`completed` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed) for the `Task` data type that includes an example how to [find data in JSON arrays](syntax-to-search-processmaker-data.md#find-data-in-json-arrays)
+* [`modified` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#modified-datetime-task-last-modified) for the `Task` data type
+* [`task` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#task-task-name) for the `Task` data type
+* [`created` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#created-records-creation-date) for the `Collection` data type
+
 #### Find Data in JSON Arrays
 
 Use the `LIKE` operator with the `%` wildcard to find text in a specified JSON array within Request data. Consider the following JSON array in Request data that contains two JSON objects. Each JSON object contains the first name, last name, and email address.
@@ -92,7 +100,7 @@ Use the following PMQL search query to find both persons in Request data based o
 data.Personal.Email LIKE "%company%"
 ```
 
-See Example 2 for the [`completed` Task](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed) property for another example.
+See Example 2 for the [`completed` property](pmql-properties-by-data-type/task-data-type-pmql-properties.md#completed-datetime-task-completed) for the `Task` data type for another example.
 
 ## `CAST` Function to Convert Data Types
 
@@ -106,6 +114,11 @@ The `CAST` function converts data from one data type to another. PMQL supports t
 
 * **Text:** If the Request data stores the Request variable in the PMQL query as an integer \(such as `2`\), convert that value to text \("2"\).
 * **Number:** If the Request data stores the Request variable in the PMQL query as text \(such as "2"\), convert that value to a number \(`2`\). For example, use the `CAST` function in a PMQL query to  perform a numerical comparison to the `Experience` Request variable that stores a job candidate's experience in an industry to find job candidates with two \(2\) years of experience or greater, use the following PMQL query: `CAST(data.Experience as number) >= 2`.
+
+See the following properties for examples:
+
+* [`modified` property](pmql-properties-by-data-type/pmql-properties-for-the-request-data-type.md#modified-datetime-request-was-last-modified) for the `Request` data type
+* [`modified` property](pmql-properties-by-data-type/collection-data-type-pmql-properties.md#modified-datetime-record-last-modified) for the `Collection` data type
 
 ## `NOW` Keyword to Perform Temporal Comparisons from Now
 
