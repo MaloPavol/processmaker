@@ -23,7 +23,7 @@ Your user account or group membership must have the following permissions to cre
 See the ProcessMaker [Data Connectors](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#data-connectors) permissions or ask your ProcessMaker Administrator for assistance.
 {% endhint %}
 
-A [ProcessMaker Data Connector](what-is-a-data-connector.md) is created for each created [ProcessMaker Collection](../../collections/what-is-a-collection.md). Such ProcessMaker Data Connectors have the same name as the Collection to which they connect, and are assigned to the **Generated** [Category](manage-data-connectors/manage-data-connector-categories/what-is-a-data-connector-category.md) by default. Therefore, it is not necessary to create ProcessMaker Data Connectors for ProcessMaker Collections.
+A [ProcessMaker Data Connector](what-is-a-data-connector.md) is created for each created [ProcessMaker Collection](../../processmaker-administration/processmaker-collections/what-is-a-collection.md). Such ProcessMaker Data Connectors have the same name as the Collection to which they connect, and are assigned to the **Generated** [Category](manage-data-connectors/manage-data-connector-categories/what-is-a-data-connector-category.md) by default. Therefore, it is not necessary to create ProcessMaker Data Connectors for ProcessMaker Collections.
 
 Follow these steps to create a new ProcessMaker Data Connector:
 

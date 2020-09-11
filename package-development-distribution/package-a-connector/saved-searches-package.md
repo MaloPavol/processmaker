@@ -10,9 +10,9 @@ description: Save and share search queries associated with Requests and Tasks.
 The Saved Searches [package](../first-topic.md) is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](https://www.processmaker.com/contact/) or ask your ProcessMaker sales representative how the Saved Searches package can be installed in your ProcessMaker instance.
 {% endhint %}
 
-Use the Saved Searches package to save and share search parameters associated with [Requests](../../using-processmaker/requests/what-is-a-request.md), [Tasks](../../using-processmaker/task-management/what-is-a-task.md) and [ProcessMaker Collections](../../collections/what-is-a-collection.md). In doing so, you manage the search parameters for your Saved Searches. You may share your own Saved Searches with other ProcessMaker [users](../../processmaker-administration/add-users/what-is-a-user.md) and/or [groups](../../processmaker-administration/assign-groups-to-users/what-is-a-group.md). Recipients of your shared Saved Searches can only use your Saved Search to view its search results, but cannot modify your Saved Searches' parameter settings you configured. The name for a Saved Search does not need to be unique within your ProcessMaker instance. Therefore, multiple Saved Searches may have the same name when your own Saved Search and one shared with you have the same name.
+Use the Saved Searches package to save and share search parameters associated with [Requests](../../using-processmaker/requests/what-is-a-request.md), [Tasks](../../using-processmaker/task-management/what-is-a-task.md) and [ProcessMaker Collections](../../processmaker-administration/processmaker-collections/what-is-a-collection.md). In doing so, you manage the search parameters for your Saved Searches. You may share your own Saved Searches with other ProcessMaker [users](../../processmaker-administration/add-users/what-is-a-user.md) and/or [groups](../../processmaker-administration/assign-groups-to-users/what-is-a-group.md). Recipients of your shared Saved Searches can only use your Saved Search to view its search results, but cannot modify your Saved Searches' parameter settings you configured. The name for a Saved Search does not need to be unique within your ProcessMaker instance. Therefore, multiple Saved Searches may have the same name when your own Saved Search and one shared with you have the same name.
 
-Similar to [advanced Request searches](../../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request), [advanced Task searches](../../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task), and [Collection record searches](../../collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md#search-records-in-a-processmaker-collection), filter the data that for a Saved Search using [ProcessMaker Query Language \(PMQL\)](../../using-processmaker/search-processmaker-data-using-pmql/).
+Similar to [advanced Request searches](../../using-processmaker/requests/search-for-a-request.md#advanced-search-for-a-request), [advanced Task searches](../../using-processmaker/task-management/search-for-a-task.md#advanced-search-for-a-task), and [Collection record searches](../../processmaker-administration/processmaker-collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md#search-records-in-a-processmaker-collection), filter the data that for a Saved Search using [ProcessMaker Query Language \(PMQL\)](../../using-processmaker/search-processmaker-data-using-pmql/).
 
 ![Saved Search results for Requests of the Account Opening Process showing data details ](../../.gitbook/assets/request-saved-search-data-tab-package.png)
 
@@ -40,11 +40,11 @@ See [Saved Searches](../../using-processmaker/save-and-share-request-and-task-re
 
 {% page-ref page="../../using-processmaker/task-management/what-is-a-task.md" %}
 
-{% page-ref page="../../collections/what-is-a-collection.md" %}
+{% page-ref page="../../processmaker-administration/processmaker-collections/what-is-a-collection.md" %}
 
 {% page-ref page="../../using-processmaker/requests/search-for-a-request.md" %}
 
 {% page-ref page="../../using-processmaker/task-management/search-for-a-task.md" %}
 
-{% page-ref page="../../collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md" %}
+{% page-ref page="../../processmaker-administration/processmaker-collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md" %}
 

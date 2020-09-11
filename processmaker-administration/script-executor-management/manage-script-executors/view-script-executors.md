@@ -12,7 +12,7 @@ Follow these steps to view all ProcessMaker Script Executors in your organizatio
 
 1. [Log on](../../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Script Executors** icon![](../../../.gitbook/assets/script-executors-icon-admin.png). The **Script Executors** page displays all ProcessMaker Script Executors.
+3. Click the **Script Executors** icon![](../../../.gitbook/assets/script-executors-icon-admin.png) from the left sidebar. The **Script Executors** page displays all ProcessMaker Script Executors.
 
 ![The &quot;Script Executors&quot; page displays all ProcessMaker Script Executors in your organization](../../../.gitbook/assets/script-executors-page-admin.png)
 

@@ -12,7 +12,7 @@ The [Data Connector](../../../data-connector-management/what-is-a-data-connector
 
 Use the Data Connector connector in your Process models in the following ways:
 
-* **Access ProcessMaker Collections:** From your [Process model](../../what-is-process-modeling.md), interact with any [ProcessMaker Collection](../../../../collections/what-is-a-collection.md) in your ProcessMaker instance, including viewing, creating, updating, and/or delete records in a selected Collection. By default, each ProcessMaker Collection has a corresponding Data Connector when it is created. Incorporate ProcessMaker Collection record data into your Process model so you can make business decisions using it. Likewise, automatically change records in a ProcessMaker Collection during a [Request](../../../../using-processmaker/requests/what-is-a-request.md) when workflow routing conditions are met.
+* **Access ProcessMaker Collections:** From your [Process model](../../what-is-process-modeling.md), interact with any [ProcessMaker Collection](../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md) in your ProcessMaker instance, including viewing, creating, updating, and/or delete records in a selected Collection. By default, each ProcessMaker Collection has a corresponding Data Connector when it is created. Incorporate ProcessMaker Collection record data into your Process model so you can make business decisions using it. Likewise, automatically change records in a ProcessMaker Collection during a [Request](../../../../using-processmaker/requests/what-is-a-request.md) when workflow routing conditions are met.
 * **Access third-party data sources:** Similarly to ProcessMaker Collections, interact with third-party data sources such as Application Program Interfaces \(APIs\). Reference data from that API, then incorporate it into your Process's Request data. Incorporating data from external data sources helps you make business decisions from information outside of your ProcessMaker instance.
 
 ## Package and Permissions Required
@@ -149,7 +149,7 @@ Follow these steps to edit the name for a Data Connector connector:
 
 #### Select the ProcessMaker Data Connector
 
-The Data Connector connector uses a [ProcessMaker Data Connector](../../../data-connector-management/what-is-a-data-connector.md) that is configured to interact with a data source, such as a [ProcessMaker Collection](../../../../collections/what-is-a-collection.md) or a third-party Application Program Interface \(API\). A ProcessMaker Data Connector must already exist before it can be selected for use in a Data Connector connector. Each ProcessMaker Data Connector is already configured with which data source it interacts.
+The Data Connector connector uses a [ProcessMaker Data Connector](../../../data-connector-management/what-is-a-data-connector.md) that is configured to interact with a data source, such as a [ProcessMaker Collection](../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md) or a third-party Application Program Interface \(API\). A ProcessMaker Data Connector must already exist before it can be selected for use in a Data Connector connector. Each ProcessMaker Data Connector is already configured with which data source it interacts.
 
 ProcessMaker Collections automatically create a Data Connector when the Collection is created. ProcessMaker Data Connectors created from a Collection by default have the same name as the Collection that it references.
 
@@ -171,7 +171,7 @@ Ensure to [select which Endpoint to call from the selected ProcessMaker Data Con
 
 #### Select the EndPoint the Data Connector Connector Uses to Interact with the Data Source
 
-Each [ProcessMaker Data Connector](../../../data-connector-management/what-is-a-data-connector.md) contains at least one [Endpoint](../../../data-connector-management/what-is-an-endpoint.md). These Endpoints are configured from the ProcessMaker Data Connector itself. An Endpoint is an action the ProcessMaker Data Connector uses to interact with the data source. The Data Connector connector uses an Endpoint to interact with the data source. These Endpoints may interact with [ProcessMaker Collection](../../../../collections/what-is-a-collection.md) records, Application Program Interfaces \(APIs\), or other data source types. After a ProcessMaker Data Connector has been selected from the [**Data Connector** setting](data-connector-connector.md#select-the-processmaker-data-connector), select the Endpoint from that ProcessMaker Data Connector the Data Connector uses to interact with the data source.
+Each [ProcessMaker Data Connector](../../../data-connector-management/what-is-a-data-connector.md) contains at least one [Endpoint](../../../data-connector-management/what-is-an-endpoint.md). These Endpoints are configured from the ProcessMaker Data Connector itself. An Endpoint is an action the ProcessMaker Data Connector uses to interact with the data source. The Data Connector connector uses an Endpoint to interact with the data source. These Endpoints may interact with [ProcessMaker Collection](../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md) records, Application Program Interfaces \(APIs\), or other data source types. After a ProcessMaker Data Connector has been selected from the [**Data Connector** setting](data-connector-connector.md#select-the-processmaker-data-connector), select the Endpoint from that ProcessMaker Data Connector the Data Connector uses to interact with the data source.
 
 ProcessMaker Data Connectors created from Collections use a default set of Endpoints. See [Endpoints for ProcessMaker Collections](../../../data-connector-management/what-is-an-endpoint.md#endpoints-for-processmaker-collections).
 
@@ -195,7 +195,7 @@ The Data Connector connector has the following setting in the **Data Mapping** p
 
 #### Map Data from the Data Source to the Request's JSON Data Model
 
-After [configuring which ProcessMaker Data Connector and Endpoint the Data Connector connector uses](data-connector-connector.md#configuration-panel-settings) to interact with the data source, specify how data from that data source integrates with [Request](../../../../using-processmaker/requests/what-is-a-request.md) data. After data integrates from the data source into the JSON data model for each Request started from your Process, make business decisions based on that data and reference it from [ProcessMaker Screens](../../../design-forms/what-is-a-form.md), [ProcessMaker Scripts](../../../scripts/what-is-a-script.md), and [ProcessMaker Collections](../../../../collections/what-is-a-collection.md).
+After [configuring which ProcessMaker Data Connector and Endpoint the Data Connector connector uses](data-connector-connector.md#configuration-panel-settings) to interact with the data source, specify how data from that data source integrates with [Request](../../../../using-processmaker/requests/what-is-a-request.md) data. After data integrates from the data source into the JSON data model for each Request started from your Process, make business decisions based on that data and reference it from [ProcessMaker Screens](../../../design-forms/what-is-a-form.md), [ProcessMaker Scripts](../../../scripts/what-is-a-script.md), and [ProcessMaker Collections](../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md).
 
 The procedure to integrate the data source's data to the Request JSON data model is called mapping: specify the JSON object\(s\) in the JSON data model to store the data source's data. Each JSON object contains a key name which references the JSON object, and the value for that key. If the JSON object already exists in a Request's JSON data model, then the Data Connector connector overwrites the existing JSON object value with that from the data source. If the JSON object\(s\) to map the data source data does not exist, then the Data Connector connector adds the JSON data object\(s\) to that Request's JSON data model.
 
@@ -225,7 +225,7 @@ Click the **Delete** icon![](../../../../.gitbook/assets/delete-record-record-li
 
 {% page-ref page="../../../data-connector-management/what-is-a-data-connector.md" %}
 
-{% page-ref page="../../../../collections/what-is-a-collection.md" %}
+{% page-ref page="../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md" %}
 
 {% page-ref page="../../../design-forms/what-is-a-form.md" %}
 

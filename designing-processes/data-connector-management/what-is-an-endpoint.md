@@ -32,11 +32,11 @@ A third-party API's resource may also expect specific parameters from the Proces
 View this [ProcessMaker API documentation](https://staging-pm4.processmaker.net/api/documentation) to quickly view how to use the ProcessMaker RESTful API without testing API endpoints.
 {% endhint %}
 
-[ProcessMaker Collections](../../collections/what-is-a-collection.md) also have Endpoints with which a ProcessMaker Data Connector interacts with records in that Collection.
+[ProcessMaker Collections](../../processmaker-administration/processmaker-collections/what-is-a-collection.md) also have Endpoints with which a ProcessMaker Data Connector interacts with records in that Collection.
 
 ## Endpoints for ProcessMaker Collections
 
-A [ProcessMaker Collection](../../collections/what-is-a-collection.md) automatically creates a Data Connector when it is created. [ProcessMaker Data Connectors](what-is-a-data-connector.md) created from a Collection by default have the same name as the Collection that it references.
+A [ProcessMaker Collection](../../processmaker-administration/processmaker-collections/what-is-a-collection.md) automatically creates a Data Connector when it is created. [ProcessMaker Data Connectors](what-is-a-data-connector.md) created from a Collection by default have the same name as the Collection that it references.
 
 ProcessMaker Data Connectors created from ProcessMaker Collections have the following [Endpoints](what-is-an-endpoint.md) to interact with that Collection.
 

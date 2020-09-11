@@ -24,7 +24,7 @@ Follow these steps to view the English-language labels and messages from the Pro
 
 1. [Log on](../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Translations** icon![](../../.gitbook/assets/translations-icon-admin.png). The **Translations** page displays each label and message in the ProcessMaker user interface and its default English-language text.
+3. Click the **Translations** icon![](../../.gitbook/assets/translations-icon-admin.png) from the left sidebar. The **Translations** page displays each label and message in the ProcessMaker user interface and its default English-language text.
 
 ![Translations page](../../.gitbook/assets/translations-page-admin.png)
 

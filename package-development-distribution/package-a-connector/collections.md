@@ -12,7 +12,7 @@ description: >-
 The Collections [package](../first-topic.md) is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](https://www.processmaker.com/contact/) or ask your ProcessMaker sales representative how the Collections package can be installed in your ProcessMaker instance.
 {% endhint %}
 
-Use the Collections package to maintain sets of schema-less data records using [ProcessMaker Screens](../../designing-processes/design-forms/what-is-a-form.md), each referred to as a [ProcessMaker Collection](../../collections/what-is-a-collection.md). The Collections package has the following features:
+Use the Collections package to maintain sets of schema-less data records using [ProcessMaker Screens](../../designing-processes/design-forms/what-is-a-form.md), each referred to as a [ProcessMaker Collection](../../processmaker-administration/processmaker-collections/what-is-a-collection.md). The Collections package has the following features:
 
 * An external database is not required to store ProcessMaker Collections. ProcessMaker Collections are maintained in the ProcessMaker instance.
 * Define the record using ProcessMaker Screens, which makes it easy for any ProcessMaker [user](../../processmaker-administration/add-users/what-is-a-user.md) to view, create, or edit record data if they have the [appropriate permission\(s\)](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#collections) to do so.
@@ -28,7 +28,7 @@ Use the Collections package to maintain sets of schema-less data records using [
 
 {% page-ref page="data-connector-package.md" %}
 
-{% page-ref page="../../collections/what-is-a-collection.md" %}
+{% page-ref page="../../processmaker-administration/processmaker-collections/what-is-a-collection.md" %}
 
 {% page-ref page="../../using-processmaker/save-and-share-request-and-task-related-searches/what-is-a-saved-search.md" %}
 

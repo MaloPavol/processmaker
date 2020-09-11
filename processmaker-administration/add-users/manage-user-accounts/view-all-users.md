@@ -20,7 +20,7 @@ Follow these steps to view all ProcessMaker user accounts in your organization:
 2. Click the **Admin** option from the top menu. The **Users** tab displays all ProcessMaker user accounts that have not been deleted. For deleted ProcessMaker user accounts, see [View Deleted User Accounts](manage-deleted-user-accounts/view-or-edit-deleted-user-accounts.md#view-all-scripts).
 
 {% hint style="info" %}
-Click the **Users** ![](../../../.gitbook/assets/users-icon-admin.png) icon to view the **Users** tab when you are viewing other administrative-related pages.
+Click the **Users** ![](../../../.gitbook/assets/users-icon-admin.png) icon from the left sidebar to view the **Users** tab when you are viewing other administrative-related pages.
 {% endhint %}
 
 ![&quot;Users&quot; tab displays all ProcessMaker users in your organization that have not been deleted](../../../.gitbook/assets/users-tab-page-admin.png)

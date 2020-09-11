@@ -14,7 +14,7 @@ Follow these steps to view the Queue Management Dashboard:
 
 1. [Log on](../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Queue Management** icon![](../../.gitbook/assets/queue-management-icon-admin.png). The Queue Management Dashboard displays.
+3. Click the **Queue Management** icon![](../../.gitbook/assets/queue-management-icon-admin.png) from the left sidebar. The Queue Management Dashboard displays.
 
 {% hint style="info" %}
 Click **Dashboard** to view the Dashboard from another Queue Management page.

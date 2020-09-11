@@ -38,7 +38,7 @@ Showing a Saved Search only hides it from the left sidebar for its specific Save
 Follow these steps to show one of your hidden Saved Searches:
 
 1. [View the Shared Searches for a specific Saved Search type](view-search-results-for-a-saved-search.md). The **Edit Saved Searches** page displays.
-2. Click the **Show Saved Search** icon![](../../../.gitbook/assets/show-saved-search-icon-package.png) for the hidden Saved Search. The Saved Search is visible in the left sidebar for that type of Saved Search, indicated by full visibility of that Saved Search in the **Edit Saved Searches** page.
+2. Click the **Show Saved Search** icon![](../../../.gitbook/assets/show-saved-search-icon-package.png) for the hidden Saved Search. The Saved Search is visible from the left sidebar for that type of Saved Search, indicated by full visibility of that Saved Search in the **Edit Saved Searches** page.
 
 ## Related Topics
 

@@ -18,7 +18,7 @@ Follow these steps to view all ProcessMaker groups in your organization:
 
 1. [Log on](../../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Groups** icon![](../../../.gitbook/assets/groups-icon-admin.png). The **Groups** page displays all ProcessMaker groups.
+3. Click the **Groups** icon![](../../../.gitbook/assets/groups-icon-admin.png) from the left sidebar. The **Groups** page displays all ProcessMaker groups.
 
 ![&quot;Groups&quot; page displays all groups in your organization](../../../.gitbook/assets/groups-page-admin.png)
 

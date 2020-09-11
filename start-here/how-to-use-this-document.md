@@ -58,7 +58,7 @@ Refer to the **Manage and Model Processes** section that includes the following 
 * [Process Modeling](../designing-processes/process-design/)
 * [Vocabularies Management](../designing-processes/vocabularies-management/)
 
-Learn about [ProcessMaker Collections](../collections/what-is-a-collection.md) and extending ProcessMaker functionality by adding [packages](../package-development-distribution/first-topic.md).
+Learn about [ProcessMaker Collections](../processmaker-administration/processmaker-collections/what-is-a-collection.md) and extending ProcessMaker functionality by adding [packages](../package-development-distribution/first-topic.md).
 
 ### ProcessMaker Developer
 

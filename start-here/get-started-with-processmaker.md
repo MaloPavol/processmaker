@@ -204,11 +204,11 @@ See how to design a Leave Request form using [Screen Builder](../designing-proce
 {% endtab %}
 
 {% tab title="Populate a Record List from a Collection" %}
-See how to populate a [Record List](../designing-processes/design-forms/screens-builder/control-descriptions/record-list-control-settings.md) control from records in a [ProcessMaker Collection](../collections/what-is-a-collection.md).
+See how to populate a [Record List](../designing-processes/design-forms/screens-builder/control-descriptions/record-list-control-settings.md) control from records in a [ProcessMaker Collection](../processmaker-administration/processmaker-collections/what-is-a-collection.md).
 
 * **Intended audience:** Process designers, Web designers, graphic designers, software developers, coding engineers
 * **Viewing time:** 10 minutes; contains narration
-* **Tags:** form; web form; design form; form design; [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md); [ProcessMaker Collection](../collections/what-is-a-collection.md); [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md); [Screen Builder](../designing-processes/design-forms/screens-builder/); [Record List](../designing-processes/design-forms/screens-builder/control-descriptions/record-list-control-settings.md) control; demo; video
+* **Tags:** form; web form; design form; form design; [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md); [ProcessMaker Collection](../processmaker-administration/processmaker-collections/what-is-a-collection.md); [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md); [Screen Builder](../designing-processes/design-forms/screens-builder/); [Record List](../designing-processes/design-forms/screens-builder/control-descriptions/record-list-control-settings.md) control; demo; video
 
 {% embed url="https://vimeo.com/392377797" %}
 
@@ -218,7 +218,7 @@ See how to populate a [Record List](../designing-processes/design-forms/screens-
 
 {% page-ref page="../designing-processes/design-forms/screens-builder/control-descriptions/record-list-control-settings.md" %}
 
-{% page-ref page="../collections/what-is-a-collection.md" %}
+{% page-ref page="../processmaker-administration/processmaker-collections/what-is-a-collection.md" %}
 {% endtab %}
 
 {% tab title="Design Dependent Fields" %}

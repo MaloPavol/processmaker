@@ -18,7 +18,7 @@ Follow these steps to view all ProcessMaker Environment Variables in your organi
 
 1. ​[Log on](https://processmaker.gitbook.io/processmaker-4-community/-LPblkrcFWowWJ6HZdhC/using-processmaker/log-in#log-in) to ProcessMaker.
 2. Click the **Designer** option from the top menu. The **Processes** page displays.
-3. Click the **Environment Variables** icon![](../../../.gitbook/assets/environment-variable-icon-processes.png). The **Environment Variables** page displays all ProcessMaker Environment Variables.
+3. Click the **Environment Variables** icon![](../../../.gitbook/assets/environment-variable-icon-processes.png) from the left sidebar. The **Environment Variables** page displays all ProcessMaker Environment Variables.
 
 ![Environment Variables page displays all Environment Variables in your organization](../../../.gitbook/assets/environment-variables-screen-processes.png)
 

@@ -14,7 +14,7 @@ Follow these steps to view the queue of self-service Tasks from which to assign 
 
 1. Ensure that you are [logged on](../log-in.md#log-in) to ProcessMaker.
 2. Click the **Tasks** option from the top menu. The **To Do Tasks** page displays.
-3. Click the **Self Service** icon![](../../.gitbook/assets/completed-icon-request%20%281%29.png)in the left sidebar. The queue of self-service Tasks displays.
+3. Click the **Self Service** icon![](../../.gitbook/assets/completed-icon-request%20%281%29.png)from the left sidebar. The queue of self-service Tasks displays.
 4. Click the **Claim Task** button to self-assign this Task. This Task moves from the **Self Service** page to your **To Do Tasks** page, and its status changes to In Progress.
 
 Below is an example of the **Self Service** Task page that displays queued Tasks from which you can assign to yourself. The [Saved Search package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is not installed in this example, so this page displays in the ProcessMaker open-source edition.

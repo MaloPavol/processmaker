@@ -6,13 +6,13 @@ description: Understand what ProcessMaker Query Language (PMQL) is.
 
 ## Overview
 
-ProcessMaker Query Language \(PMQL\) is a custom ProcessMaker language to search ProcessMaker data. Similar in ways to search query language \(SQL\), which is a standard language for storing, manipulating and retrieving data in databases, use PMQL to find [Requests](../requests/what-is-a-request.md), [Tasks](../task-management/what-is-a-task.md), and ProcessMaker [Collection](../../collections/what-is-a-collection.md) record information.
+ProcessMaker Query Language \(PMQL\) is a custom ProcessMaker language to search ProcessMaker data. Similar in ways to search query language \(SQL\), which is a standard language for storing, manipulating and retrieving data in databases, use PMQL to find [Requests](../requests/what-is-a-request.md), [Tasks](../task-management/what-is-a-task.md), and ProcessMaker [Collection](../../processmaker-administration/processmaker-collections/what-is-a-collection.md) record information.
 
 Use PMQL in the following ways:
 
 * **Requests:** Perform [advanced searches to find Request summaries](../requests/search-for-a-request.md#advanced-search-for-a-request).
 * **Tasks:** Perform [advanced searches through your Tasks](../task-management/search-for-a-task.md#advanced-search-for-a-task).
-* **ProcessMaker Collection records:** [Search through the records](../../collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md#search-records-in-a-processmaker-collection) in a ProcessMaker Collection.
+* **ProcessMaker Collection records:** [Search through the records](../../processmaker-administration/processmaker-collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md#search-records-in-a-processmaker-collection) in a ProcessMaker Collection.
 * **ProcessMaker Scripts:** Include PMQL searches in a [ProcessMaker Script](../../designing-processes/scripts/what-is-a-script.md) such that the search occurs when the Script runs.
 
 To understand how to use PQML, understand the basic concepts how to compose a PMQL search query:

@@ -12,7 +12,7 @@ Follow these steps to view all your completed Tasks:
 
 1. Ensure that you are [logged on](../log-in.md#log-in) to ProcessMaker.
 2. Click the **Tasks** option from the top menu. The **To Do Tasks** page displays.
-3. Click the **Completed** icon![](../../.gitbook/assets/completed-icon-request%20%281%29.png)in the left sidebar. All your completed Tasks display.
+3. Click the **Completed** icon![](../../.gitbook/assets/completed-icon-request%20%281%29.png)from the left sidebar. All your completed Tasks display.
 
 Below is an example of the **Completed** Task page that displays your completed Tasks. The [Saved Search package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is not installed in this example, so this page displays in the ProcessMaker open-source edition.
 

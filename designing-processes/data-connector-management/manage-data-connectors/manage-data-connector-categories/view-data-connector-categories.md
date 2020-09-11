@@ -32,7 +32,7 @@ Follow these steps to view [Data Connector Categories](what-is-a-data-connector-
 
 The **Categories** tab displays the following information in tabular format about Data Connector Categories:
 
-* **Name:** The **Name** column displays the name of the Data Connector Category. The Data Connector Category named **Generated** is the default Category. Data Connectors that are automatically created when a [ProcessMaker Collection](../../../../collections/what-is-a-collection.md) is created are assigned the **Generated** Category by default.
+* **Name:** The **Name** column displays the name of the Data Connector Category. The Data Connector Category named **Generated** is the default Category. Data Connectors that are automatically created when a [ProcessMaker Collection](../../../../processmaker-administration/processmaker-collections/what-is-a-collection.md) is created are assigned the **Generated** Category by default.
 * **Status:** The **Status** column displays the status of the Data Connector Category. Below is a description of each status:
   * **Active:** Active Data Connector Categories can have ProcessMaker Data Connectors assigned to them. The Data Connector Category named **Generated** is active by default.
   * **Inactive:** Inactive Data Connector Categories cannot have ProcessMaker Data Connectors assigned to them.

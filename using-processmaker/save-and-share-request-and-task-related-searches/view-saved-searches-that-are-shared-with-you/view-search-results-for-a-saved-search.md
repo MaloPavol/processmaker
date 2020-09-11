@@ -15,16 +15,16 @@ To view the data details for a [Saved Search](../what-is-a-saved-search.md), the
 
 ### Optional ProcessMaker Package
 
-You may also view the data details for a Saved Search associated with a ProcessMaker [Collection](../../../collections/what-is-a-collection.md). Use Saved Searches in ProcessMaker Collections to search for records in a Collection. To use ProcessMaker Collections, the [Collections package](../../../package-development-distribution/package-a-connector/collections.md) must be installed in your ProcessMaker instance. The Collections package is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](mailto:sales@processmaker.com) or ask your ProcessMaker sales representative how the Collections package can be installed in your ProcessMaker instance.
+You may also view the data details for a Saved Search associated with a ProcessMaker [Collection](../../../processmaker-administration/processmaker-collections/what-is-a-collection.md). Use Saved Searches in ProcessMaker Collections to search for records in a Collection. To use ProcessMaker Collections, the [Collections package](../../../package-development-distribution/package-a-connector/collections.md) must be installed in your ProcessMaker instance. The Collections package is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](mailto:sales@processmaker.com) or ask your ProcessMaker sales representative how the Collections package can be installed in your ProcessMaker instance.
 {% endhint %}
 
 Regardless of whether you [created](create-and-share-a-saved-search.md) a Saved Search or if it has been shared with you, you may view the data details of that search result that is based on the ProcessMaker Query Language \([PMQL](../../search-processmaker-data-using-pmql/what-is-pmql.md)\) parameters configured in that Saved Search.
 
-An image represents each Saved Search on the left sidebar, but only display on pages associated with its type. Saved Searches are organized by type:
+An image represents each Saved Search from the left sidebar, but only display on pages associated with its type. Saved Searches are organized by type:
 
 * [Request](../../requests/what-is-a-request.md)-related Saved Searches are accessed from **Requests** pages.
 * [Task](../../task-management/what-is-a-task.md)-related Saved Searches are accessed from **Tasks** pages.
-* Saved Searches for [ProcessMaker Collection](../../../collections/what-is-a-collection.md) records are accessed from the **Collections** sidebar icon![](../../../.gitbook/assets/collections-icon-admin.png)in the **Admin** top menu option. \(Your ProcessMaker user account or group membership must have the "Collections: View Collections" permission to view the list of ProcessMaker Collections unless your user account has the **Make this user a Super Admin** setting selected. See the ProcessMaker [Collections](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#collections) permissions or ask your ProcessMaker Administrator for assistance. Lastly, your ProcessMaker user account or group membership must have the **View** [record permission](../../../collections/manage-collections/configure-a-collection.md#configure-record-permissions-for-processmaker-users) from a Collection's configuration to view that Collection's records. See [Configure a Collection](../../../collections/manage-collections/configure-a-collection.md#configure-a-processmaker-collection) or ask the manager of that ProcessMaker Collection for assistance.\)
+* Saved Searches for [ProcessMaker Collection](../../../processmaker-administration/processmaker-collections/what-is-a-collection.md) records are accessed from the **Collections** sidebar icon![](../../../.gitbook/assets/collections-icon-admin.png)in the **Admin** top menu option. \(Your ProcessMaker user account or group membership must have the "Collections: View Collections" permission to view the list of ProcessMaker Collections unless your user account has the **Make this user a Super Admin** setting selected. See the ProcessMaker [Collections](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#collections) permissions or ask your ProcessMaker Administrator for assistance. Lastly, your ProcessMaker user account or group membership must have the **View** [record permission](../../../processmaker-administration/processmaker-collections/manage-collections/configure-a-collection.md#configure-record-permissions-for-processmaker-users) from a Collection's configuration to view that Collection's records. See [Configure a Collection](../../../processmaker-administration/processmaker-collections/manage-collections/configure-a-collection.md#configure-a-processmaker-collection) or ask the manager of that ProcessMaker Collection for assistance.\)
 
 Columns that display in the tabular-formatted results for a Saved Search can be customized by the ProcessMaker [user](../../../processmaker-administration/add-users/what-is-a-user.md) that created the Saved Search. See the following topics:
 
@@ -34,7 +34,7 @@ Columns that display in the tabular-formatted results for a Saved Search can be 
 If a Saved Search has been shared with you, you may not change the type of information that displays in its results.
 
 {% hint style="info" %}
-To quickly view how many search results pertain to each Saved Search that either you have created or have been shared with you, click the logo that displays in the left sidebar to expand that sidebar. View at a glance how many items pertain to each Saved Search as well as Saved Searches for that type.  
+To quickly view how many search results pertain to each Saved Search that either you have created or have been shared with you, click the logo that displays from the left sidebar to expand that sidebar. View at a glance how many items pertain to each Saved Search as well as Saved Searches for that type.  
 ![](../../../.gitbook/assets/requests-sidebar-saved-searches-package.png) 
 {% endhint %}
 
@@ -53,7 +53,7 @@ Saved Searches that pertain to Requests display on the following **Requests** pa
 * **Completed** page. See [View Completed Requests](../../requests/view-completed-requests.md#view-completed-requests-in-which-you-participated).
 * **All Requests** page. See [View All Requests](../../requests/view-all-requests.md#view-all-requests-in-your-organization). \(Note that your ProcessMaker user account must have the [**Requests: View All Requests** permission](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#requests) to view the **All Requests** page.\)
 
-An image represents each Saved Search on the left sidebar. Saved Search icons display below the icons to access the default **Requests** pages.
+An image represents each Saved Search from the left sidebar. Saved Search icons display below the icons to access the default **Requests** pages.
 
 Follow these steps to view results from a Saved Search pertaining to Requests:
 
@@ -91,7 +91,7 @@ Saved Searches that pertain to Tasks display on the following **Tasks** pages:
 * **Completed** page. See [View Completed Tasks](../../task-management/view-completed-tasks.md).
 * **Self Service** page.
 
-An image represents each Saved Search on the left sidebar. Saved Search icons display below the icons to access the default **Tasks** pages.
+An image represents each Saved Search from the left sidebar. Saved Search icons display below the icons to access the default **Tasks** pages.
 
 Follow these steps to view results from a Saved Search pertaining to Tasks:
 
@@ -126,16 +126,17 @@ To view search results for a [Saved Search](../what-is-a-saved-search.md), the [
 
 Your ProcessMaker user account or group membership must have the "Collections: View Collections" permission to view the list of ProcessMaker Collections unless your user account has the **Make this user a Super Admin** setting selected. See the ProcessMaker [Collections](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#collections) permissions or ask your ProcessMaker Administrator for assistance.
 
-Furthermore, your ProcessMaker user account or group membership must have the **View** [record permission](../../../collections/manage-collections/configure-a-collection.md#configure-record-permissions-for-processmaker-users) from a Collection's configuration to view that Collection's records. See [Configure a Collection](../../../collections/manage-collections/configure-a-collection.md#configure-a-processmaker-collection) or ask the manager of that ProcessMaker Collection for assistance.
+Furthermore, your ProcessMaker user account or group membership must have the **View** [record permission](../../../processmaker-administration/processmaker-collections/manage-collections/configure-a-collection.md#configure-record-permissions-for-processmaker-users) from a Collection's configuration to view that Collection's records. See [Configure a Collection](../../../processmaker-administration/processmaker-collections/manage-collections/configure-a-collection.md#configure-a-processmaker-collection) or ask the manager of that ProcessMaker Collection for assistance.
 {% endhint %}
 
-Saved Searches that pertain to records in a ProcessMaker Collection display from the **Collections** sidebar icon![](../../../.gitbook/assets/collections-icon-admin.png)in the **Admin** top menu option. An image represents each Saved Search on the left sidebar. Saved Search icons display above the icons to access ProcessMaker Collections.
+Saved Searches that pertain to records in a ProcessMaker Collection display from the **Collections** icon![](../../../.gitbook/assets/collections-icon-admin.png)in the left sidebar after selecting the **Admin** top menu option. An image represents each Saved Search from the left sidebar. Saved Search icons display above the icons to access ProcessMaker Collections.
 
 Follow these steps to view results from a Saved Search pertaining to records in a ProcessMaker Collection:
 
-1. Click the **Admin** option from the top menu. The **Users** page displays.
-2. Click the **Collections** icon![](../../../.gitbook/assets/collections-icon-admin.png)from the left sidebar. The **Collections** page displays the ProcessMaker Collections that you are allowed to view.
-3. Click the image that represents the Saved Search. The results for that Saved Search display.
+1. Ensure that you are [logged on](../../log-in.md#log-in) to ProcessMaker.
+2. Click the **Admin** option from the top menu. The **Users** page displays.
+3. Click the **Collections** icon![](../../../.gitbook/assets/collections-icon-admin.png)from the left sidebar. The **Collections** page displays the ProcessMaker Collections that you are allowed to view.
+4. Click the image that represents the Saved Search. The results for that Saved Search display.
 
 {% hint style="info" %}
 ### Visualize ProcessMaker Collection-Related Saved Search Results

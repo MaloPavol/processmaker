@@ -14,7 +14,7 @@ Follow these steps to view your assigned Tasks:
 2. Click the **Tasks** option from the top menu. The **To Do Tasks** page displays. Tasks that display on this page are assigned to you.
 
 {% hint style="info" %}
-Click the **To Do** icon![](../../.gitbook/assets/to-do-icon-tasks.png) in the left sidebar to view your assigned Tasks when you are viewing other Task-related pages. Note that if the [Saved Search package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is installed in your ProcessMaker instance, the [Saved Search](../save-and-share-request-and-task-related-searches/what-is-a-saved-search.md) for Tasks you need to do displays.
+Click the **To Do** icon![](../../.gitbook/assets/to-do-icon-tasks.png) from the left sidebar to view your assigned Tasks when you are viewing other Task-related pages. Note that if the [Saved Search package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is installed in your ProcessMaker instance, the [Saved Search](../save-and-share-request-and-task-related-searches/what-is-a-saved-search.md) for Tasks you need to do displays.
 {% endhint %}
 
 Below is an example of the **To Do Tasks** page that displays your assigned Tasks. The [Saved Search package](../../package-development-distribution/package-a-connector/saved-searches-package.md) is not installed in this example, so this page displays in the ProcessMaker open-source edition.

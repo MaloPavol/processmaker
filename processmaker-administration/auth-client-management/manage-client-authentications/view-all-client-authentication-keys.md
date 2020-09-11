@@ -18,7 +18,7 @@ Follow these steps to view all authenticated clients:
 
 1. [Log on](../../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Auth Clients** icon![](../../../.gitbook/assets/auth-client-icon-admin.png). The **Auth Clients** page displays all client authentication keys. 
+3. Click the **Auth Clients** icon![](../../../.gitbook/assets/auth-client-icon-admin.png) from the left sidebar. The **Auth Clients** page displays all client authentication keys. 
 
 ![&quot;Auth Clients&quot; page displays all authenticated clients that can access the ProcessMaker&apos;s RESTful API](../../../.gitbook/assets/auth-client-page-admin.png)
 

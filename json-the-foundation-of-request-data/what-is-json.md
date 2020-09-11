@@ -158,7 +158,7 @@ In technical terms for this example, each Request data is a JSON element and con
 * **JSON element value:** The value of that JSON element is the information entered into each ProcessMaker Screen control. If the JSON element is referenced in another ProcessMaker asset using mustache syntax, the value of that JSON element enters that ProcessMaker asset. ProcessMaker assets that can reference Request data include:
   * a ProcessMaker Screen control for a different [Form Task](../designing-processes/process-design/model-your-process/process-modeling-element-descriptions.md#task) 
   * a ProcessMaker Screen control for a [Manual Task](../designing-processes/process-design/model-your-process/process-modeling-element-descriptions.md#manual-task) 
-  * a ProcessMaker Screen for a [ProcessMaker Collection](../collections/what-is-a-collection.md) record 
+  * a ProcessMaker Screen for a [ProcessMaker Collection](../processmaker-administration/processmaker-collections/what-is-a-collection.md) record 
   * a [ProcessMaker Script](../designing-processes/scripts/what-is-a-script.md)
   * a [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md)
 

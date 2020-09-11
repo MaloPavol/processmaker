@@ -18,7 +18,7 @@ Follow these steps to configure SAML settings to single sign-on \(SSO\) to your 
 
 1. [Log on](../../using-processmaker/log-in.md#log-in) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
-3. Click the **Auth SAML** icon![](../../.gitbook/assets/auth-saml-icon-package-admin.png). The **SAML Configuration** page displays the settings for the SAML package. ![](../../.gitbook/assets/saml-configuration-package-admin.png) 
+3. Click the **Auth SAML** icon![](../../.gitbook/assets/auth-saml-icon-package-admin.png) from the left sidebar. The **SAML Configuration** page displays the settings for the SAML package. ![](../../.gitbook/assets/saml-configuration-package-admin.png) 
 4. Document the following URLs to provide to your identity provider from which identity provider members will SSO to your ProcessMaker instance:
    * **ACS Url:** The **ACS Url** field displays the Assertive Customer Service \(ACS\) URL. This URL is your ProcessMaker instance that accepts messages or SAML artifacts from the identity provider to establish the SSO session.
    * **Entity ID \(Metadata\):** The **Entity ID \(Metadata\)** field displays the URL to the SAML XML files in your ProcessMaker instance that the identity provider uses to build the authentication response when establishing the SSO session.

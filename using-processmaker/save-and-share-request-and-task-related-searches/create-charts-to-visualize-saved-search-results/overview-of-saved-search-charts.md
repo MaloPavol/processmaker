@@ -139,7 +139,7 @@ The doughnut chart visualizes Saved Search results as relational proportions bet
 
 #### Count Chart
 
-The count chart displays a single data metric on a canvas. The following count chart shows how many records are in the "Department" [ProcessMaker Collection](../../../collections/what-is-a-collection.md).
+The count chart displays a single data metric on a canvas. The following count chart shows how many records are in the "Department" [ProcessMaker Collection](../../../processmaker-administration/processmaker-collections/what-is-a-collection.md).
 
 ![Number of records in the &quot;Department&quot; ProcessMaker Collection](../../../.gitbook/assets/count-chart-example-saved-searches-package.png)
 
