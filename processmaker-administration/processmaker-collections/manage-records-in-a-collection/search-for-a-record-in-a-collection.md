@@ -39,6 +39,8 @@ Follow these steps to search records in a ProcessMaker Collection:
 
 {% page-ref page="create-a-collection-record.md" %}
 
+{% page-ref page="create-multiple-collection-records-from-a-csv-file.md" %}
+
 {% page-ref page="save-and-share-a-record-search.md" %}
 
 {% page-ref page="edit-a-collection-record.md" %}

@@ -40,6 +40,8 @@ Follow these steps to edit a record in a ProcessMaker Collection:
 
 {% page-ref page="create-a-collection-record.md" %}
 
+{% page-ref page="create-multiple-collection-records-from-a-csv-file.md" %}
+
 {% page-ref page="search-for-a-record-in-a-collection.md" %}
 
 {% page-ref page="save-and-share-a-record-search.md" %}

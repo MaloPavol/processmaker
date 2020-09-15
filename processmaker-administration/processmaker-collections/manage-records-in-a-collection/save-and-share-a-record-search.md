@@ -36,6 +36,8 @@ See [Create and Share a Saved Search](../../../using-processmaker/save-and-share
 
 {% page-ref page="create-a-collection-record.md" %}
 
+{% page-ref page="create-multiple-collection-records-from-a-csv-file.md" %}
+
 {% page-ref page="search-for-a-record-in-a-collection.md" %}
 
 {% page-ref page="edit-a-collection-record.md" %}

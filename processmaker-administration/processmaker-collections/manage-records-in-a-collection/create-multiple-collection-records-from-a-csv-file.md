@@ -75,5 +75,23 @@ Follow these steps to create multiple ProcessMaker Collection records at once fr
 
 ## Related Topics
 
+{% page-ref page="../what-is-a-collection.md" %}
 
+{% page-ref page="../manage-collections/" %}
+
+{% page-ref page="view-all-records-in-a-collection.md" %}
+
+{% page-ref page="../manage-collections/create-a-new-collection.md" %}
+
+{% page-ref page="search-for-a-record-in-a-collection.md" %}
+
+{% page-ref page="save-and-share-a-record-search.md" %}
+
+{% page-ref page="edit-a-collection-record.md" %}
+
+{% page-ref page="view-a-collection-record.md" %}
+
+{% page-ref page="delete-a-collection-record.md" %}
+
+{% page-ref page="../edit-a-collection.md" %}
 
