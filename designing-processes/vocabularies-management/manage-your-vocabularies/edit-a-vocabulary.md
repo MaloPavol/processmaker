@@ -19,6 +19,10 @@ Your ProcessMaker user account or group membership must have the following permi
 * Vocabularies: View Vocabularies
 
 See the ProcessMaker [Vocabularies](../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#vocabularies) permissions or ask your ProcessMaker Administrator for assistance.
+
+### Learn How to Design JSON Schemas
+
+Need to learn how to design JSON schemas? Start with [JSON Schema](https://json-schema.org/). Need to learn how to convert valid JSON to a JSON schema? Use the [JSON Schema Tool](https://jsonschema.net), though do not use JSON intended for production on this free GitHub application.
 {% endhint %}
 
 Follow these steps to edit a ProcessMaker [Vocabulary](../what-is-a-vocabulary.md):
@@ -26,7 +30,7 @@ Follow these steps to edit a ProcessMaker [Vocabulary](../what-is-a-vocabulary.m
 1. [View your ProcessMaker Vocabularies](view-all-vocabularies.md#view-all-vocabularies). The **Vocabularies** page displays.
 2. Do one of the following:
 
-   * Create a new ProcessMaker Vocabulary.
+   * [Create a new ProcessMaker Vocabulary](create-a-new-vocabulary.md).
    * Click the **Edit** icon![](../../../.gitbook/assets/edit-icon.png)for your ProcessMaker Vocabulary.
 
    The **Edit** page displays.  
@@ -35,9 +39,35 @@ Follow these steps to edit a ProcessMaker [Vocabulary](../what-is-a-vocabulary.m
 3. Edit the following information about the ProcessMaker Vocabulary as necessary:
    * In the **Title** field, edit the ProcessMaker Vocabulary name. This is a required field.
    * In the **Description** field, edit the description of the ProcessMaker Vocabulary. This is a required field.
-   * In the **Content** section, edit the JSON schema from which ProcessMaker assets are to be designed. Use the scroll panel to navigate to script not currently displayed. This is useful especially when you are editing a long JSON schema.
-4. Click **Save**.
+4. In the **Content** section, edit the JSON schema following one or both of these guidelines:
 
+   * [Visually edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#visually-edit-a-processmaker-vocabulary) using a graphical interface that non-developers may find easier to design a Vocabulary.
+   * [Code a ProcessMaker Vocabulary](edit-a-vocabulary.md#code-a-processmaker-vocabulary).
+
+   Changes made to the visual editor reflect in the coded JSON schema and vice versa.
+
+5. Click **Save**.
+
+### Visually Design a ProcessMaker Vocabulary
+
+Design a ProcessMaker [Vocabulary](../what-is-a-vocabulary.md) from the **Visual** tab in the **Content** section of a ProcessMaker Vocabulary if you are not familiar with coding a JSON schema but understand the design compliance your ProcessMaker assets must meet.
+
+Changes to the ProcessMaker Vocabulary in the **Visual** tab reflect in the **Code** tab, and vice versa.
+
+Follow these steps to visually edit a ProcessMaker Vocabulary:
+
+1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
+2. 
+### Code a ProcessMaker Vocabulary
+
+Code a ProcessMaker Vocabulary from the **Code** tab in the **Content** section of a ProcessMaker Vocabulary.
+
+Changes to the ProcessMaker Vocabulary in the **Code** tab reflect in the **Visual** tab, and vice versa.
+
+Follow these steps to code a ProcessMaker Vocabulary:
+
+1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
+2. 
 ## Related Topics
 
 {% page-ref page="../what-is-a-vocabulary.md" %}
