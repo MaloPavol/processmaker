@@ -23,6 +23,8 @@ Furthermore, your ProcessMaker user account or group membership must have the fo
 See [Configure a Collection](../manage-collections/configure-a-collection.md#configure-a-processmaker-collection) or ask the manager of that ProcessMaker Collection for assistance.
 {% endhint %}
 
+Optionally, [import a Comma-Separated Values \(CSV\) file](create-multiple-collection-records-from-a-csv-file.md) from which to create multiple ProcessMaker Collection records simultaneously from the CSV's data records.
+
 Follow these steps to create a new record in a ProcessMaker Collection:
 
 1. [View the records for the ProcessMaker Collection](view-all-records-in-a-collection.md#view-all-records-in-a-collection) in which you want to add a record.

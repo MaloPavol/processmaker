@@ -28,7 +28,7 @@ Follow these steps to view all ProcessMaker Collections in your organization:
 2. Click the **Admin** option from the top menu. The **Users** page displays.
 3. Click the **Collections** icon![](../../../.gitbook/assets/collections-icon-admin.png)in the left sidebar. The **Collections** page displays the ProcessMaker Collections that you are allowed to view.
 
-![&quot;Collections&quot; page displays all ProcessMaker Collections in your organization](../../../.gitbook/assets/collections-page.png)
+![&quot;Collections&quot; page displays all ProcessMaker Collections in your organization](../../../.gitbook/assets/collections-page-package.png)
 
 The **Collections** page displays the following information in tabular format about ProcessMaker Collections:
 
@@ -60,6 +60,10 @@ Click the **Edit** icon![](../../../.gitbook/assets/configure-process-icon-proce
 ### Delete a ProcessMaker Collection
 
 Click the **Delete** icon![](../../../.gitbook/assets/trash-icon-process-modeler-processes.png). See [Delete a Collection Record](../manage-records-in-a-collection/delete-a-collection-record.md#delete-a-processmaker-collection-record).
+
+### Export a ProcessMaker Collection
+
+Click the **Export** icon![](../../../.gitbook/assets/export-process-icon-processes.png). See [Export a Collection](export-a-collection.md).
 
 ### No ProcessMaker Collections?
 
