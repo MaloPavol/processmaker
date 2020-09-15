@@ -52,22 +52,27 @@ Follow these steps to edit a ProcessMaker [Vocabulary](../what-is-a-vocabulary.m
 
 Design a ProcessMaker [Vocabulary](../what-is-a-vocabulary.md) from the **Visual** tab in the **Content** section of a ProcessMaker Vocabulary if you are not familiar with coding a JSON schema but understand the design compliance your ProcessMaker assets must meet.
 
-Changes to the ProcessMaker Vocabulary in the **Visual** tab reflect in the **Code** tab, and vice versa.
+Changes to the ProcessMaker Vocabulary in the **Visual** tab reflect in the [**Code** tab](edit-a-vocabulary.md#code-a-processmaker-vocabulary), and vice versa.
 
 Follow these steps to visually edit a ProcessMaker Vocabulary:
 
 1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
-2. 
+2. Locate the **Content** section of the ProcessMaker Vocabulary below the **Description** setting. The **Visual** tab displays by default. ![](../../../.gitbook/assets/visual-tab-vocabulary-package.png) 
+3. Each ProcessMaker Vocabulary is a JSON object named `mainSchema` that contains the JSON schema, as noted in the **Property** column. If this ProcessMaker Vocabulary contains the same JSON schema properties as an existing Vocabulary in this ProcessMaker instance, select it from the **Length or Inherit** column setting. The default setting for the **Length or Inherit** column is **No inheritance**, meaning this ProcessMaker Vocabulary does not conform to another Vocabulary.
+4. Follow these guidelines to add a property to this ProcessMaker Vocabulary if this Vocabulary is not inherit to another Vocabulary:
+   1. 
+5. 
 ### Code a ProcessMaker Vocabulary
 
 Code a ProcessMaker Vocabulary from the **Code** tab in the **Content** section of a ProcessMaker Vocabulary.
 
-Changes to the ProcessMaker Vocabulary in the **Code** tab reflect in the **Visual** tab, and vice versa.
+Changes to the ProcessMaker Vocabulary in the **Code** tab reflect in the [**Visual** tab](edit-a-vocabulary.md#visually-design-a-processmaker-vocabulary), and vice versa.
 
 Follow these steps to code a ProcessMaker Vocabulary:
 
 1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
-2. 
+2. Locate the **Content** section of the ProcessMaker Vocabulary below the **Description** setting, and then select the **Code** tab. ![](../../../.gitbook/assets/code-tab-vocabulary-package.png) 
+3. 
 ## Related Topics
 
 {% page-ref page="../what-is-a-vocabulary.md" %}

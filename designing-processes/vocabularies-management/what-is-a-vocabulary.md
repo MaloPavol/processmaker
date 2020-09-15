@@ -16,13 +16,18 @@ The Vocabularies package is not available in the ProcessMaker open-source editio
 
 ### Why Use ProcessMaker Vocabularies?
 
-ProcessMaker uses a schema-less JSON data model from which to read, write, and store Request data. Since the JSON data model is schema-less \(meaning that it does not require a specific schema or structure from which ProcessMaker assets must conform\), the JSON data model is structured from the JSON objects in ProcessMaker assets used in a Request: the **Variable Name** setting values in a ProcessMaker Screen or variables a ProcessMaker Script creates. When an in-progress Request routes through the Process, Request data aggregates into the JSON data model, thereby becoming Request data.
+ProcessMaker uses a schema-less JSON data model from which to read, write, and store [Request data](../../json-the-foundation-of-request-data/what-is-request-data.md). Since the JSON data model is schema-less \(meaning that it does not require a specific schema or structure from which ProcessMaker assets must conform\), the JSON data model is structured from the JSON objects in ProcessMaker assets used in a Request: the **Variable Name** setting values in a ProcessMaker Screen or variables a ProcessMaker Script creates. When an in-progress Request routes through the Process, Request data aggregates into the JSON data model, thereby becoming Request data.
 
 Use ProcessMaker Vocabularies to ensure Request data complies with a specific data structure. This is often mandatory for many types of business sectors including banking and healthcare. Ensure the quality and compliance of Request data. For example, during a Loan Application process, ensure that personal information has been included in the Request to that moment in that in-progress Request.
 
 ### What is a ProcessMaker Vocabulary?
 
-A ProcessMaker Vocabulary is a JSON schema. The JSON schema describes the data objects, types, and structure that you want in both a machine- and human-readable format. Apply one or more ProcessMaker Vocabularies to your Processes and/or specific BPMN 2.0 elements in your Process models to ensure the JSON data model in Request data complies with the data structure outlined in the JSON schema that you need to meet regulatory specifications or ensure Request data contains required information.
+A ProcessMaker Vocabulary is a JSON schema. The JSON schema describes the data objects, properties data types, and structure that you want in both a machine- and human-readable format. Apply one or more ProcessMaker Vocabularies to your ProcessMaker assets including the following:
+
+* Process models and/or specific BPMN 2.0 elements in your Process models to ensure the JSON data model in [Request data](../../json-the-foundation-of-request-data/what-is-request-data.md) complies with the data structure outlined in the Vocabulary's JSON schema.
+* ProcessMaker Screens to ensure that designers comply with the ProcessMaker Vocabulary when they design Screens, and therefore validate that Request participants and [ProcessMaker Collection](../../processmaker-administration/processmaker-collections/what-is-a-collection.md) records also comply with the JSON schema's data structure.
+
+Complying with the ProcessMaker Vocabulary's JSON schema ensures that you meet regulatory specifications and ensures that Request data and/or Collection records contains required information.
 
 {% hint style="info" %}
 Need to learn how to design JSON schemas? Start with [JSON Schema](https://json-schema.org/). Need to learn how to convert valid JSON to a JSON schema? Use the [JSON Schema Tool](https://jsonschema.net), though do not use JSON intended for production on this free GitHub application. 
