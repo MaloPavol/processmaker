@@ -1,10 +1,10 @@
 ---
 description: >-
-  Create multiple ProcessMaker Collection records at once by importing a
-  Comma-Separated Values (CSV) file.
+  Create multiple ProcessMaker Collection records simultaneously by importing a
+  Comma-Separated Values (CSV) file's data records.
 ---
 
-# Create Multiple Collection Records from a CSV File
+# Import a CSV File to Create Multiple Collection Records
 
 ## Overview
 

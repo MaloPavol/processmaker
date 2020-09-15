@@ -333,7 +333,7 @@
   * [Manage Records in a Collection](processmaker-administration/processmaker-collections/manage-records-in-a-collection/README.md)
     * [View All Records in a Collection](processmaker-administration/processmaker-collections/manage-records-in-a-collection/view-all-records-in-a-collection.md)
     * [Create a New Collection Record](processmaker-administration/processmaker-collections/manage-records-in-a-collection/create-a-collection-record.md)
-    * [Create Multiple Collection Records from a CSV File](processmaker-administration/processmaker-collections/manage-records-in-a-collection/create-multiple-collection-records-from-a-csv-file.md)
+    * [Import a CSV File to Create Multiple Collection Records](processmaker-administration/processmaker-collections/manage-records-in-a-collection/create-multiple-collection-records-from-a-csv-file.md)
     * [Search Records in a Collection](processmaker-administration/processmaker-collections/manage-records-in-a-collection/search-for-a-record-in-a-collection.md)
     * [Save and Share a Record Search](processmaker-administration/processmaker-collections/manage-records-in-a-collection/save-and-share-a-record-search.md)
     * [Edit a Collection Record](processmaker-administration/processmaker-collections/manage-records-in-a-collection/edit-a-collection-record.md)
