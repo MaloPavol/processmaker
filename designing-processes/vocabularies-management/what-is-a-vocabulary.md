@@ -20,6 +20,13 @@ ProcessMaker uses a schema-less JSON data model from which to read, write, and s
 
 Use ProcessMaker Vocabularies to ensure Request data complies with a specific data structure. This is often mandatory for many types of business sectors including banking and healthcare. Ensure the quality and compliance of Request data. For example, during a Loan Application process, ensure that personal information has been included in the Request to that moment in that in-progress Request.
 
+See an example in the following video how to use a ProcessMaker Vocabulary.
+
+* **Intended audience:** Process designers, software developers, and coding engineers
+* **Viewing time:** 15 minutes; contains narration
+
+{% embed url="https://vimeo.com/458748422" caption="Video demonstration how to use a ProcessMaker Vocabulary" %}
+
 ## What is a ProcessMaker Vocabulary?
 
 A ProcessMaker Vocabulary is a JSON schema. The JSON schema describes the data objects, properties data types, and structure in both a machine- and human-readable format. Apply one or more ProcessMaker Vocabularies to your ProcessMaker assets including the following:

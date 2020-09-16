@@ -286,6 +286,30 @@ See how to use [Watchers](../designing-processes/design-forms/screens-builder/ma
 {% endtab %}
 {% endtabs %}
 
+## Design ProcessMaker Vocabularies
+
+This section contains videos discussing ProcessMaker Vocabulary design.
+
+{% tabs %}
+{% tab title="Using Vocabularies" %}
+See how to design a [ProcessMaker Vocabulary](../designing-processes/vocabularies-management/what-is-a-vocabulary.md) that uses a JSON schema to validate that [Request data](../json-the-foundation-of-request-data/what-is-request-data.md) complies to specific requirements.
+
+* **Intended audience:** Process designers, software developers, and coding engineers
+* **Viewing time:** 15 minutes; contains narration
+* **Tags:** data validation; data compliance; form design; [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md); [Screen Builder](../designing-processes/design-forms/screens-builder/); [Process modeling](../designing-processes/process-design/); video
+
+{% embed url="https://vimeo.com/458748422" %}
+
+### Related Topics
+
+{% page-ref page="../designing-processes/vocabularies-management/what-is-a-vocabulary.md" %}
+
+{% page-ref page="../designing-processes/design-forms/what-is-a-form.md" %}
+
+{% page-ref page="../designing-processes/design-forms/screens-builder/what-is-screens-builder.md" %}
+{% endtab %}
+{% endtabs %}
+
 ## Use the ProcessMaker API and SDKs
 
 This section contains videos how to use the [ProcessMaker RESTful Application Program Interface \(API\)](https://staging-pm4.processmaker.net/api/documentation) and ProcessMaker's Software Development Kits \(SDKs\). Every function that you may do in ProcessMaker's elegant and well-designed user interface makes an API call. Since every ProcessMaker function is supported in the ProcessMaker API, ProcessMaker can be [white-labeled](../processmaker-administration/user-interface-language-management/what-is-user-interface-language-management.md) to run behind the scenes from other SaaS applications. Learn how you can use the ProcessMaker API.
