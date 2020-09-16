@@ -39,7 +39,7 @@ Follow these steps to edit a ProcessMaker [Vocabulary](../what-is-a-vocabulary.m
 3. Edit the following information about the ProcessMaker Vocabulary as necessary:
    * In the **Title** field, edit the ProcessMaker Vocabulary name. This is a required field.
    * In the **Description** field, edit the description of the ProcessMaker Vocabulary. This is a required field.
-4. In the **Content** section, edit the JSON schema following one or both of these guidelines:
+4. In the **Content** section, edit the JSON schema following one or both of these methods:
 
    * [Visually edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#visually-edit-a-processmaker-vocabulary) using a graphical interface that non-developers may find easier to design a Vocabulary.
    * [Code a ProcessMaker Vocabulary](edit-a-vocabulary.md#code-a-processmaker-vocabulary).
@@ -54,25 +54,49 @@ Design a ProcessMaker [Vocabulary](../what-is-a-vocabulary.md) from the **Visual
 
 Changes to the ProcessMaker Vocabulary in the **Visual** tab reflect in the [**Code** tab](edit-a-vocabulary.md#code-a-processmaker-vocabulary), and vice versa.
 
+Prior to editing the content of a ProcessMaker Vocabulary, review the [guidelines and best practices in Vocabulary design](../what-is-a-vocabulary.md#guidelines-and-best-practices-in-processmaker-vocabulary-design).
+
 Follow these steps to visually edit a ProcessMaker Vocabulary:
 
 1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
 2. Locate the **Content** section of the ProcessMaker Vocabulary below the **Description** setting. The **Visual** tab displays by default. ![](../../../.gitbook/assets/visual-tab-vocabulary-package.png) 
-3. Each ProcessMaker Vocabulary is a JSON object named `mainSchema` that contains the JSON schema, as noted in the **Property** column. If this ProcessMaker Vocabulary contains the same JSON schema properties as an existing Vocabulary in this ProcessMaker instance, select it from the **Length or Inherit** column setting. The default setting for the **Length or Inherit** column is **No inheritance**, meaning this ProcessMaker Vocabulary does not conform to another Vocabulary.
-4. Follow these guidelines to add a property to this ProcessMaker Vocabulary if this Vocabulary is not inherit to another Vocabulary:
-   1. 
-5. 
+3. Select from the **Length or Inherit** column whether this ProcessMaker Vocabulary inherits its properties, at least in part, from another Vocabulary in this ProcessMaker instance. If no other ProcessMaker Vocabularies are in this ProcesMaker instance, only the **No inheritance** option is available. Note that unless a JSON schema was uploaded when this ProcessMaker Vocabulary was created, its root name is `mainSchema`. The JSON schema root contains the JSON schema properties as noted in the **Property** column. The default setting for the **Length or Inherit** column is **No inheritance**, meaning this ProcessMaker Vocabulary does not reference properties from another Vocabulary.
+4. Follow these guidelines to add a property to this ProcessMaker Vocabulary regardless of whether this ProcessMaker Vocabulary inherits the properties from another Vocabulary:
+   1. Click the **+** icon. A new property embeds to the JSON schema root and below any existing schema properties.
+   2. Rename this property by clicking inside the property name below the **Property** column.
+   3. Select which data type this property requires by selecting it below the **Type** column for this property. Specifying a data type for this property is not required; however, if a data type is not selected, then validation for that property's value does not occur. A JSON schema property may use one of the following data types:
+
+      * Text \(`String` data type\)
+      * Integer
+      * Decimal \(Request data stores as a `Floating Point` data type\)
+      * Boolean
+      * Date \(Request data stores as a `String` data type\)
+      * Datetime \(Request data stores as a `String` data type\)
+      * Array
+      * Object
+
+      See [JSON Data Types](../../../json-the-foundation-of-request-data/what-is-json.md#json-data-types) for examples of each data type.
+
+   4. Indicate if this property requires a value by selecting the checkbox below the **Required** column for that property.
+5. Do any of the following as necessary:
+   * Click the **View Property as Schema** icon![](../../../.gitbook/assets/view-property-as-schema-icon-vocabulary-package.png)to view the JSON schema property as code.
+   * Click the **Delete Property** icon![](../../../.gitbook/assets/delete-property-icon-vocabulary-package.png)to delete a property.
+   * Select the **Code** tab to view your entire JSON schema.
+
 ### Code a ProcessMaker Vocabulary
 
 Code a ProcessMaker Vocabulary from the **Code** tab in the **Content** section of a ProcessMaker Vocabulary.
 
 Changes to the ProcessMaker Vocabulary in the **Code** tab reflect in the [**Visual** tab](edit-a-vocabulary.md#visually-design-a-processmaker-vocabulary), and vice versa.
 
+Prior to editing the content of a ProcessMaker Vocabulary, review the [guidelines and best practices in Vocabulary design](../what-is-a-vocabulary.md#guidelines-and-best-practices-in-processmaker-vocabulary-design).
+
 Follow these steps to code a ProcessMaker Vocabulary:
 
 1. [Edit a ProcessMaker Vocabulary](edit-a-vocabulary.md#edit-a-processmaker-vocabulary).
 2. Locate the **Content** section of the ProcessMaker Vocabulary below the **Description** setting, and then select the **Code** tab. ![](../../../.gitbook/assets/code-tab-vocabulary-package.png) 
-3. 
+3. Edit your JSON schema. Optionally, select the **Visual** tab to view your entire JSON schema in the graphical interface.
+
 ## Related Topics
 
 {% page-ref page="../what-is-a-vocabulary.md" %}

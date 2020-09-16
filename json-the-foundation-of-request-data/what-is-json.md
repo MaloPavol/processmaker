@@ -319,14 +319,23 @@ Each data type requires specific syntax to be valid. Below is the syntax for eac
         <p>Request data stores the <b>Date</b> and <b>Datetime</b> data types as the <b>String</b> data
           type. The Date Picker control can indicate dates using the <b>Date</b> and <b>Datetime</b> data
           types.</p>
+        <p></p>
+        <p>Examples of <b>Date</b> and <b>Datetime</b> data types:</p>
+        <ul>
+          <li><b>Date:</b>  <code>&quot;2020-02-03&quot;</code>
+          </li>
+          <li><b>Datetime:</b>  <code>&quot;2020-02-03 00:00:00&quot;</code>
+          </li>
+        </ul>
       </td>
       <td style="text-align:left"><code>{&quot;FullName&quot;: &quot;Louis Canera&quot;}</code>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Integer</b> or <b>Floating Point</b>
+      <td style="text-align:left"><b>Integer</b> or <b>Number</b>
       </td>
-      <td style="text-align:left">n/a</td>
+      <td style="text-align:left">Does not use syntax. Includes these numeric types: integers, numbers (decimals
+        and floating points), multiples, and ranges.</td>
       <td style="text-align:left"><code>{&quot;Age&quot;: 25}</code>
       </td>
     </tr>
