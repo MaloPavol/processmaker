@@ -12,7 +12,16 @@ description: >-
 The Google Places [package](../first-topic.md) is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](https://www.processmaker.com/contact/) or ask your ProcessMaker sales representative how the Google Places package can be installed in your ProcessMaker instance.
 {% endhint %}
 
-Use the Google Places package to allow [Request](../../using-processmaker/requests/what-is-a-request.md) participants to start entering an address, location, or business name into a [ProcessMaker Screen](../../designing-processes/design-forms/what-is-a-form.md) control, then allow the Google API to auto-complete that address or location.
+Use the Google Places package to allow [Request](../../using-processmaker/requests/what-is-a-request.md) participants to do the following in [Form](../../designing-processes/design-forms/screens-builder/types-for-screens.md#form)-type [ProcessMaker Screens](../../designing-processes/design-forms/what-is-a-form.md):
+
+* Start entering an address, location, or business name into a ProcessMaker Screen control, then allow the Google API to auto-complete that address or location.
+* Select a geographical location from a Google map.
+
+ Prior to using the Google Places package, ensure that your organization has a billing account with the JavaScript and Maps Embed APIs enabled, as well as API keys for each API. See the following:
+
+* [Get Started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started)
+* [Get an API key for the JavaScript API](https://developers.google.com/maps/documentation/javascript/get-api-key)
+* [Get an API key for the Maps Embed API](https://developers.google.com/maps/documentation/embed/get-api-key)
 
 The Google Places package has the following components after it is installed to your ProcessMaker instance:
 
