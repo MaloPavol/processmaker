@@ -209,6 +209,11 @@ Below are the settings for the Google Places control in the **Configuration** pa
 
 * [Placeholder Text](google-places-control-settings.md#placeholder-text)
 * [Helper Text](google-places-control-settings.md#helper-text)
+* [Enable Maps](google-places-control-settings.md#enable-maps)
+  * [Hide Address Input](google-places-control-settings.md#hide-address-input)
+  * [Enable Geolocate](google-places-control-settings.md#enable-geolocate)
+  * [Enable Zoom Control](google-places-control-settings.md#enable-zoom-control)
+  * * [Center Map](google-places-control-settings.md#center-map)
 
 #### Placeholder Text
 
@@ -219,6 +224,36 @@ Enter the placeholder text that displays in this control when no value has been 
 
 Enter text that provides additional guidance on this control's use. This setting has no default value.  
 ![](../../../../.gitbook/assets/helper-text-screen-builder-processes.png)
+
+#### Enable Maps
+
+Select to enable Google Maps in this ProcessMaker Screen. This setting is disabled by default.  
+![](../../../../.gitbook/assets/enable-maps-google-places-control-package-screen-builder-designer.png) 
+
+The following settings are available below the **Enable Maps** setting to configure the Google Map settings and the map's geographical location when the map displays:
+
+* [Hide Address Input](google-places-control-settings.md#hide-address-input)
+* [Enable Geolocate](google-places-control-settings.md#enable-geolocate)
+* [Enable Zoom Control](google-places-control-settings.md#enable-zoom-control)
+* * [Center Map](google-places-control-settings.md#center-map)
+
+#### Hide Address Input
+
+Hide the address bar that displays above the map to enter an address to display in the map. This setting is disabled by default to display the address bar. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/hide-address-input-google-places-control-package-screen-builder-designer.png) 
+
+#### Enable Geolocate
+
+Allow the Request participant to select a location in the map. When this setting is disabled, the [**Center Map** setting](google-places-control-settings.md#center-map) is available to enter the geo-location by longitude and latitude to center the map view. The **Enable Geolocate** setting is disabled by default. Note that the **Enable Geolocate** setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/enable-geolocate-google-places-control-package-screen-builder-designer.png) 
+
+#### Enable Zoom Control
+
+
+
+#### Center Map
+
+
 
 ### Design Panel Settings
 
