@@ -6,7 +6,12 @@ description: Add a control that displays an image.
 
 ## Control Description
 
-The Image control displays an image that is PNG, GIF, or JPG file types.
+The Image control has the following functionality:
+
+* The Image control displays a specified image that is PNG, GIF, or JPG file types.
+* The image control may reference another control's Variable Name setting to display its value, such as to display the signature saved in a [Signature](signature-control-settings.md) control. The Signature control saves the signature as a PNG image.
+
+displays an image that is PNG, GIF, or JPG file types.
 
 {% hint style="info" %}
 This control is only available for the following Screen types:
@@ -155,7 +160,7 @@ Select the **Render image from a variable name** setting to render as an image t
 After selecting the **Render image from a variable name** setting, the **Variable Name** setting displays.  
 ![](../../../../.gitbook/assets/render-image-from-a-variable-name-selected-image-control-process-modeler-designer.png) 
 
-In the **Variable Name** setting, enter in mustache syntax the **Variable Name** setting value of the content to display as an image in the Image control. For example, to display a digital signature entered into a Signature control with a **Variable Name** setting of `SignDocument`, enter `{{ SignDocument }}`. If the Signature control has been signed, that digital signature displays in the Image control when it displays.
+In the **Variable Name** setting, enter in mustache syntax the **Variable Name** setting value of the content to display as an image in the Image control. For example, to display a digital signature entered into a [Signature](signature-control-settings.md) control with a **Variable Name** setting of `SignDocument`, enter `{{ SignDocument }}`. If the Signature control has been signed, that digital signature displays in the Image control when it displays.
 
 #### Helper Text
 

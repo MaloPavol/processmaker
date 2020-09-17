@@ -6,14 +6,11 @@ description: Add a control that displays a digital signature in Screens.
 
 ## Control Description <a id="control-description"></a>
 
-The Image control displays an image that is PNG, GIF, or JPG file types.
+The Signature control allows the [Request](../../../../using-processmaker/requests/what-is-a-request.md) participant to sign and save her or his signature. After saving the signature, it is recorded as a PNG image that may be referenced from an [Image](image-control-settings.md) control by [referencing the Signature control's **Variable Name** setting value](image-control-settings.md#render-image-from-a-variable-name).
 
-This control is only available for the following Screen types:
-
-* ​[Form](https://processmaker.gitbook.io/processmaker/designing-processes/design-forms/screens-builder/types-for-screens#form) type
-* ​[Display](https://processmaker.gitbook.io/processmaker/designing-processes/design-forms/screens-builder/types-for-screens#display) type
-
-See [Screen Types](https://processmaker.gitbook.io/processmaker/designing-processes/design-forms/screens-builder/types-for-screens).
+{% hint style="info" %}
+This control is only available for [Form](../types-for-screens.md#form)-type ProcessMaker Screens. See [Screen Types](../types-for-screens.md).
+{% endhint %}
 
 ## Add the Control to a ProcessMaker Screen <a id="add-the-control-to-a-processmaker-screen"></a>
 
