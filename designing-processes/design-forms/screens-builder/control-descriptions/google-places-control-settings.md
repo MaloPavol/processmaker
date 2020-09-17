@@ -213,7 +213,11 @@ Below are the settings for the Google Places control in the **Configuration** pa
   * [Hide Address Input](google-places-control-settings.md#hide-address-input)
   * [Enable Geolocate](google-places-control-settings.md#enable-geolocate)
   * [Enable Zoom Control](google-places-control-settings.md#enable-zoom-control)
-  * * [Center Map](google-places-control-settings.md#center-map)
+  * [Enable Map Type Control](google-places-control-settings.md#enable-map-type-control)
+  * [Enable Fullscreen Mode](google-places-control-settings.md#enable-fullscreen-mode)
+  * [Enable Street View Control](google-places-control-settings.md#enable-street-view-control)
+  * [Center Map](google-places-control-settings.md#center-map)
+  * [Default Zoom](google-places-control-settings.md#default-zoom)
 
 #### Placeholder Text
 
@@ -235,7 +239,11 @@ The following settings are available below the **Enable Maps** setting to config
 * [Hide Address Input](google-places-control-settings.md#hide-address-input)
 * [Enable Geolocate](google-places-control-settings.md#enable-geolocate)
 * [Enable Zoom Control](google-places-control-settings.md#enable-zoom-control)
-* * [Center Map](google-places-control-settings.md#center-map)
+* [Enable Map Type Control](google-places-control-settings.md#enable-map-type-control)
+* [Enable Fullscreen Mode](google-places-control-settings.md#enable-fullscreen-mode)
+* [Enable Street View Control](google-places-control-settings.md#enable-street-view-control)
+* [Center Map](google-places-control-settings.md#center-map)
+* [Default Zoom](google-places-control-settings.md#default-zoom)
 
 #### Hide Address Input
 
@@ -249,11 +257,33 @@ Allow the Request participant to select a location in the map. When this setting
 
 #### Enable Zoom Control
 
+Displays the zoom controls in the lower-right of the map view used to zoom into and out of the map view. This setting is disabled by default to hide the zoom controls. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/enable-zoom-control-google-places-control-package-screen-builder-designer.png) 
 
+#### Enable Map Type Control
+
+Displays the Map or Satellite options in the upper-left of the map view used to toggle between viewing the map or the satellite image of the viewing area. This setting is disabled by default to display the Map options. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/enable-map-type-control-google-places-control-package-screen-builder-designer.png) 
+
+#### Enable Fullscreen Mode
+
+Displays the control in the upper-right of the map view to toggle full screen mode. This setting is disabled by default to hide this control. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/enable-fullscreen-mode-google-places-control-package-screen-builder-designer.png) 
+
+#### Enable Street View Control
+
+Displays the Street View Pegman control to view the street view of the displayed map area. This setting is disabled by default to hide this control. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/enable-street-view-control-google-places-control-package-screen-builder-designer.png) 
 
 #### Center Map
 
+Displays the center geographical location of the map view by longitude and latitude coordinates. The default longitude and latitude coordinates are `-93` by `39`. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected and the [**Enable Geolocate** setting](google-places-control-settings.md#enable-geolocate) is not selected.  
+![](../../../../.gitbook/assets/center-map-google-places-control-package-screen-builder-designer.png) 
 
+#### Default Zoom
+
+Sets the initial map zoom level that ranges from 0 \(no zoom\) to 19 \(maximum zoom\). The default zoom setting is `3`. Note that this setting is not available unless the [**Enable Maps** setting](google-places-control-settings.md#enable-maps) is selected.  
+![](../../../../.gitbook/assets/default-zoom-google-places-control-package-screen-builder-designer.png) 
 
 ### Design Panel Settings
 
