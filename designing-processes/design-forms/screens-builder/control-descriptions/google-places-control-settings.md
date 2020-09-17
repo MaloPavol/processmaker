@@ -344,7 +344,11 @@ Your user account or group membership must have the following permissions to edi
 See the ProcessMaker [Screens](../../../../processmaker-administration/permission-descriptions-for-users-and-groups.md#screens) permissions or ask your ProcessMaker Administrator for assistance.
 {% endhint %}
 
-The Google Places control receives its source data from the Google API after the [Request](../../../../using-processmaker/requests/what-is-a-request.md) participant selects an address or location. The Google Places control stores the entire JSON data object that the Google API returns in the Request data.
+The Google Places control receives its source data from the Google API response after the [Request](../../../../using-processmaker/requests/what-is-a-request.md) participant selects an address or location. The Google Places control stores the [entire JSON data object that the Google API returns](https://developers.google.com/places/web-service/details#PlaceDetailsResponses) in the Request data. See the [Google JSON API response key name descriptions](https://developers.google.com/places/web-service/details#PlaceDetailsResults) to determine how to use JSON key name values in the response for Request data.
+
+{% hint style="info" %}
+Review the Google's JSON API response often as Google revises it often and without notice.
+{% endhint %}
 
 Follow these guidelines to reference [JSON object](../../../../json-the-foundation-of-request-data/what-is-json.md#json-objects) key names and/or [arrays](../../../../json-the-foundation-of-request-data/what-is-json.md#json-arrays) from Google's returned data object in other [ProcessMaker Screen](../../what-is-a-form.md) controls.
 
