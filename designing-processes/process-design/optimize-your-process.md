@@ -1,7 +1,7 @@
 ---
 description: >-
   Optimize workflow in your Process model by visually evaluating its workflow
-  through its Sequence Flow without assigning Task recipients.
+  through its Sequence Flow elements without assigning Task recipients.
 ---
 
 # Optimize Your Process
