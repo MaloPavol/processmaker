@@ -8,7 +8,10 @@ description: >-
 
 ## Control Description
 
-The Google Places control is a text field the [Request](../../../../using-processmaker/requests/what-is-a-request.md) participant uses to start entering an address, location, or business name. The Google Places control uses the Google API to auto-complete that address or location. The Google Place control stores the selected address in the Request data as well as all the returned data from the Google API.
+Use the Google Places package to allow [Request](../../../../using-processmaker/requests/what-is-a-request.md) participants to do the following in [Form](../types-for-screens.md#form)-type [ProcessMaker Screens](../../what-is-a-form.md):
+
+* Start entering an address, location, or business name into a ProcessMaker Screen control, then allow the Google API to auto-complete that address or location. The Google Place control stores the selected address in the Request data as well as all the returned data from the Google API.
+* View and/or select a geographical location from a Google map.
 
 {% hint style="info" %}
 This control is only available for [Form](../types-for-screens.md#form)-type ProcessMaker Screens. See [Screen Types](../types-for-screens.md).

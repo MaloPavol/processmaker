@@ -14,8 +14,8 @@ The Google Places [package](../first-topic.md) is not available in the ProcessMa
 
 Use the Google Places package to allow [Request](../../using-processmaker/requests/what-is-a-request.md) participants to do the following in [Form](../../designing-processes/design-forms/screens-builder/types-for-screens.md#form)-type [ProcessMaker Screens](../../designing-processes/design-forms/what-is-a-form.md):
 
-* Start entering an address, location, or business name into a ProcessMaker Screen control, then allow the Google API to auto-complete that address or location.
-* Select a geographical location from a Google map.
+* Start entering an address, location, or business name into a ProcessMaker Screen control, then allow the Google API to auto-complete that address or location. The Google Place control stores the selected address in the Request data as well as all the returned data from the Google API.
+* View and/or select a geographical location from a Google map.
 
  Prior to using the Google Places package, ensure that your organization has a billing account with the JavaScript and Maps Embed APIs enabled, as well as API keys for each API. See the following:
 
