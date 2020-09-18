@@ -26,6 +26,15 @@ Icons to align and distribute multiple selected Process model objects display to
 
 ## Align Process Model Objects
 
+{% hint style="info" %}
+Your ProcessMaker user account or group membership must have the following permissions to align objects in the Process model unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Processes: Edit Processes
+* Processes: View Processes
+
+See the [Process](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#processes) permissions or ask your ProcessMaker Administrator for assistance.
+{% endhint %}
+
 Follow these steps to align Process model objects:
 
 1. [Select at least two \(2\) Process model objects](select-multiple-process-model-elements-and-connectors.md#select-multiple-process-model-objects) to align. Note that [Lane](model-your-process/process-modeling-element-descriptions.md#lane) elements cannot be aligned from their default alignments in their [Pool](model-your-process/process-modeling-element-descriptions.md#pool) element.
@@ -39,6 +48,15 @@ Follow these steps to align Process model objects:
 3. Optionally, [distribute the selected Process model objects](align-and-distribute-process-model-elements-and-connectors.md#distribute-process-model-objects). Note that at least three \(3\) Process model objects must be selected to distribute them.
 
 ## Distribute Process Model Objects
+
+{% hint style="info" %}
+Your ProcessMaker user account or group membership must have the following permissions to distribute objects in the Process model unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Processes: Edit Processes
+* Processes: View Processes
+
+See the [Process](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#processes) permissions or ask your ProcessMaker Administrator for assistance.
+{% endhint %}
 
 Follow these steps to distribute Process model objects:
 

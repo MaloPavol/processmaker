@@ -273,6 +273,7 @@
   * [Navigate Around Your Process Model](designing-processes/process-design/navigate-around-your-process-model.md)
   * [Save Your Process Model](designing-processes/process-design/toolboxes.md)
   * [Validate Your Process is BPMN 2.0 Compliant](designing-processes/process-design/validate-bpmn-2.0-compliance.md)
+  * [Optimize Your Process](designing-processes/process-design/optimize-your-process.md)
 
 ## ProcessMaker Administration
 
@@ -364,6 +365,7 @@
   * [Google Places Package](package-development-distribution/package-a-connector/google-places-package.md)
   * [Java Package](package-development-distribution/package-a-connector/java-package.md)
   * [PDF Generator Package](package-development-distribution/package-a-connector/pdf-generator-package.md)
+  * [Process Optimization Package](package-development-distribution/package-a-connector/process-optimization-package.md)
   * [Python Package](package-development-distribution/package-a-connector/python-package.md)
   * [R Package](package-development-distribution/package-a-connector/r-package.md)
   * [SAML Package](package-development-distribution/package-a-connector/saml-package.md)

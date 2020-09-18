@@ -29,7 +29,7 @@ Follow these steps to validate your Process model is BPMN 2.0 compliant:
 
 1. ​[View your Processes](https://processmaker.gitbook.io/processmaker-4-community/-LPblkrcFWowWJ6HZdhC/~/drafts/-LRhVZm0ddxDcGGdN5ZN/primary/designing-processes/viewing-processes/view-the-list-of-processes/view-your-processes#view-all-processes). The **Processes** page displays.
 2. ​[Create a new Process](https://processmaker.gitbook.io/processmaker-4-community/-LPblkrcFWowWJ6HZdhC/~/edit/drafts/-LauIZVG_nBSIczT8ilV/designing-processes/viewing-processes/view-the-list-of-processes/create-a-process) or click the **Open Modeler** icon​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJ0aNaVW1m7sNsxVJLV%2F-LVxYmCLNQNVkqtm90bQ%2F-LVxdCH6161DyA6JCRG-%2FOpen%20Modeler%20Edit%20icon%20Processes%20page%20-%20Processes.png?alt=media&token=75758d17-e403-418c-80e0-47ae2dca3c23)to edit the selected Process model. Process Modeler displays.
-3. Enable the **Auto validate** toggle key so that Process Modeler automatically validates your Process model as you work.
+3. Enable the **Auto validate** toggle key from the bottom bar so that Process Modeler automatically validates your Process model as you work.
 4. Design your Process model. Process Modeler indicates any BPMN 2.0 compliance issues as you design. The following indicators may occur:
    * **No errors found:** If no errors are found, the following text displays to the left of the **Auto validate** toggle key: **BPMN VALID**. The green check mark displays. Your Process model is BPMN 2.0 compliant.
 
