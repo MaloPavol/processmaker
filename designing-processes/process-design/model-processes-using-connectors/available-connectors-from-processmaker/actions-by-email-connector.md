@@ -12,7 +12,7 @@ When the Actions By Email connector triggers during an in-progress Request, Proc
 
 ![Example email the Actions By Email connector sends to an email recipient](../../../../.gitbook/assets/actions-by-email-package.png)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Email design is subject to email client limitations and may not fully support HTML5 or CSS3 specifications. Test your emails in your supported client applications.
 {% endhint %}
 
@@ -191,7 +191,7 @@ Follow these steps to configure an Actions By Email connector:
       * **Light:** Displays a button with a white-colored background with black-colored text.
    5. Click **Add**.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Email design is subject to email client limitations and may not fully support HTML5 or CSS3 specifications. Test your emails in your supported client applications.
 {% endhint %}
 
