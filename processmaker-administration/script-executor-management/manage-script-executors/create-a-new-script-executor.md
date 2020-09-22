@@ -32,7 +32,7 @@ Follow these steps to create a new ProcessMaker Script Executor:
 
 ## Video Demonstration
 
-See an example in the following video how to use a ProcessMaker Script Executor that includes a Docker RUN command to package the Google Client class provided by Google into that Script Executor, thereby allowing ProcessMaker Scripts using that Script Executor to successfully call the Google API.
+See an example in the following video how to use a ProcessMaker Script Executor that includes a Docker `RUN` command to package the Google Client class provided by Google into that Script Executor, thereby allowing ProcessMaker Scripts using that Script Executor to successfully call the Google API.
 
 * **Intended audience:** ProcessMaker Administrators, software developers, and coding engineers
 * **Viewing time:** 3 minutes; contains narration
