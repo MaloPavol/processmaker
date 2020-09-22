@@ -20,6 +20,10 @@ When the Actions By Email connector triggers during an in-progress Request, Proc
 
 After the email recipient clicks a button to indicate the decision, ProcessMaker receives the response and uses the indicated decision as part of the Request routing. For example, if you grant a leave request, the Request routes differently than if you deny that leave request.
 
+{% hint style="info" %}
+Email design is subject to email client limitations and may not fully support HTML5 or CSS3 specifications. Test your emails in your supported client applications.
+{% endhint %}
+
 See [Actions By Email Connector](../../designing-processes/process-design/model-processes-using-connectors/available-connectors-from-processmaker/actions-by-email-connector.md).
 
 ## Related Topics

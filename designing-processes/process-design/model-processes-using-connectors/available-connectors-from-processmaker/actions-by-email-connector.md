@@ -12,6 +12,10 @@ When the Actions By Email connector triggers during an in-progress Request, Proc
 
 ![Example email the Actions By Email connector sends to an email recipient](../../../../.gitbook/assets/actions-by-email-package.png)
 
+{% hint style="info" %}
+Email design is subject to email client limitations and may not fully support HTML5 or CSS3 specifications. Test your emails in your supported client applications.
+{% endhint %}
+
 While the Actions by Email connector can send the email to multiple email recipients, ProcessMaker registers only the first response.
 
 After the email recipient clicks a button to indicate the decision, the email client creates an email reply to be delivered to the ProcessMaker instance that used the Actions By Email connector. As indicated in the email reply, do not change anything below the automatically generated response because this response notifies the ProcessMaker instance of the email recipient's decision for Request routing.
@@ -186,6 +190,10 @@ Follow these steps to configure an Actions By Email connector:
       * **Dark:** Displays a button with a black-colored background with white-colored text.
       * **Light:** Displays a button with a white-colored background with black-colored text.
    5. Click **Add**.
+
+{% hint style="info" %}
+Email design is subject to email client limitations and may not fully support HTML5 or CSS3 specifications. Test your emails in your supported client applications.
+{% endhint %}
 
 ## Related Topics
 
