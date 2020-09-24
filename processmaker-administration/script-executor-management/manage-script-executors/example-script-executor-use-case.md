@@ -212,5 +212,5 @@ Follow these steps to start a Request of this Process as [described in this exam
 
 1. [Log on](../../../using-processmaker/log-in.md#log-on) as a ProcessMaker user you configured from the Start Event element that can start Requests for this Process.
 2. [Start a Request of this Process](../../../using-processmaker/requests/make-a-request.md#start-a-request). Remember that the Process name is `Excel Spreadsheet Records to Collection Records Example`.
-3. Open the **Upload File** Form Task from your [To Do Tasks](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks). After opening the Task, the ProcessMaker Screen to upload the Excel file in the example displays.
+3. Open the **Upload File** Form Task from your [To Do Tasks](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks). After opening the Task, the ProcessMaker Screen to upload the Excel file in the example displays. Ensure that you have [downloaded the Excel file](example-script-executor-use-case.md#download-the-excel-file).
 
