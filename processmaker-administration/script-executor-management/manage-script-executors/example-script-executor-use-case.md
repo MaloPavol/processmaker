@@ -69,8 +69,9 @@ Follow these steps to import the ProcessMaker Collection as [described in this e
 3. Click **Browse** to locate the ProcessMaker Collection you downloaded named `people.json`.
 4. Click **Import**. The **Import Collection** screen displays to indicate that the ProcessMaker Collection imported correctly. ![](../../../.gitbook/assets/import-collection-screen-package.png) 
 5. Click **List Collections**. The **Collections** page displays.
-6. [View the records for the ProcessMaker Collection](../../processmaker-collections/manage-records-in-a-collection/view-all-records-in-a-collection.md#view-all-records-in-a-collection) named People that this example uses.
-7. [View a record](../../processmaker-collections/manage-records-in-a-collection/view-a-collection-record.md) in this ProcessMaker Collection to see an example of the information to be migrated from the Excel spreadsheet.
+6. Make note of the imported Collection's ID as displayed in the **Collection ID** column. This ID is required to specify to which ProcessMaker Collection to write the read Excel spreadsheet records that are stored in the `persons` Request variable during a Request. You will revise the Collection ID after you [import the Process](example-script-executor-use-case.md#import-the-process) for this example.
+7. [View the records for the ProcessMaker Collection](../../processmaker-collections/manage-records-in-a-collection/view-all-records-in-a-collection.md#view-all-records-in-a-collection) named People that this example uses.
+8. [View a record](../../processmaker-collections/manage-records-in-a-collection/view-a-collection-record.md) in this ProcessMaker Collection to see an example of the information to be migrated from the Excel spreadsheet.
 
 ## Import the Process
 
@@ -130,6 +131,24 @@ Follow these steps to import the Process:
 
      Assign which ProcessMaker user or group has permission to [edit Request data](../../../using-processmaker/requests/request-details/summary-for-completed-requests.md#editable-request-data) from this Process. By editing Request data, these users and group members can adjust the data that Request participants have submitted during a Request. If no user or group are selected, no one can edit Request data from this Process. Type into the **Assign Edit Data** setting to filter ProcessMaker users and/or groups that display in that setting's drop-down menu.
 7. Click **Save**. The **Processes** page displays the imported Process.
+8. [View](../../../designing-processes/viewing-processes/view-the-list-of-processes/view-your-processes.md) and then edit the imported Process. The Process model displays.
+9. Select the `Save to Process` Script Task element that runs a ProcessMaker Script to write the Excel spreadsheet records stored in that Request's JSON data model in the persons Request variable.  
+   ![](../../../.gitbook/assets/script-executor-example-save-collection-script-task.png) 
+
+   The settings for this Script Task element display.
+
+10. From the **Configuration** panel, locate the **Script Configuration** setting, and then click the![](../../../.gitbook/assets/json-configuration-script-icon-script-task-element-process-modeler-processes.png)icon to edit this ProcessMaker Script's configuration. The **Script Config** screen displays with configuration settings the Request sends to the ProcessMaker Script when the `Save to Collection` Script runs.
+
+    `{`
+
+        `"recordsVariableName": "persons",`
+
+        `"collectionId": 18`
+
+    `}`
+
+11. Change the value of the `collectionID` key name to the ProcessMaker Collection ID you [imported for this example](example-script-executor-use-case.md#import-the-processmaker-collection).
+12. [Save](../../../designing-processes/process-design/toolboxes.md#save-your-process-model) the Process model.
 
 ## Create the Custom ProcessMaker Script Executor
 
