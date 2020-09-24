@@ -448,8 +448,6 @@ Enter the default value as JavaScript, especially if a [Calculated Property](../
 
 #### Visibility Rule
 
-#### Visibility Rule
-
 Specify an expression that indicates the condition\(s\) under which this control displays. See [Expression Syntax Components for "Visibility Rule" Control Settings](expression-syntax-components-for-show-if-control-settings.md#expression-syntax-components-for-show-if-control-settings). If this setting does not have an expression, then this control displays by default.  
 ![](../../../../.gitbook/assets/visibility-rule-screen-builder-processes.png) 
 

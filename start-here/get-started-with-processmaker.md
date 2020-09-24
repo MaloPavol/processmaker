@@ -228,6 +228,8 @@ This example demonstrates dependent fields: how the options in one [Select List]
 
 The Select List control that contains the countries as its options gets those options from a [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md) that uses an [Endpoint](../designing-processes/data-connector-management/what-is-an-endpoint.md) to get the list of countries and their corresponding ISO codes from a third-party application program interface \(API\). A [Watcher](../designing-processes/design-forms/screens-builder/manage-watchers/what-is-a-watcher.md) monitors when a country is selected, and then another ProcessMaker Data Connector uses an Endpoint to get the list of states and/or provinces from that selected country based on that country's ISO code. The Watcher stores that list of states/provinces as a Request variable in that Request's data so that the second Select List control may access that list to display as its options. The second Select List control's options depend on the first Select List control's selection.
 
+See [how to do this demonstration](../designing-processes/design-forms/screens-builder/control-descriptions/select-list-control-settings.md#dependent-field-design-example-using-select-list-controls).
+
 * **Intended audience:** Process designers, Web designers, graphic designers, software developers, coding engineers
 * **Viewing time:** 21 minutes; contains narration
 * **Tags:** [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md); [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md); [Select List](../designing-processes/design-forms/screens-builder/control-descriptions/select-list-control-settings.md) control; dependent controls; dependent fields; API; application program interface; third-party API call; demo; video
@@ -237,6 +239,8 @@ The Select List control that contains the countries as its options gets those op
 ### Example 2
 
 This example demonstrates dependent fields: how the options in one [Select List](../designing-processes/design-forms/screens-builder/control-descriptions/select-list-control-settings.md) control depend on which option is selected from a previous Select List control. This example demonstrates how a Select List control in a [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md) can display the names of major universities around the world as its options in a drop-down menu. The options in this Select List control come from a [ProcessMaker Data Connector](../designing-processes/data-connector-management/what-is-a-data-connector.md) that calls a third-party Application Program Interface \(API\) when the ProcessMaker Screen containing the Select List control opens.
+
+See [how to do this example use case](../designing-processes/data-connector-management/data-connector-example.md).
 
 * **Intended audience:** Process designers, Web designers, graphic designers, software developers, coding engineers
 * **Viewing time:** 9 minutes; contains narration
@@ -298,15 +302,13 @@ See how to design a [ProcessMaker Vocabulary](../designing-processes/vocabularie
 * **Viewing time:** 15 minutes; contains narration
 * **Tags:** data validation; data compliance; form design; [ProcessMaker Screen](../designing-processes/design-forms/what-is-a-form.md); [Screen Builder](../designing-processes/design-forms/screens-builder/); [Process modeling](../designing-processes/process-design/); video
 
-{% embed url="https://vimeo.com/458748422" %}
+{% embed url="https://vimeo.com/461560220" %}
 
 ### Related Topics
 
 {% page-ref page="../designing-processes/vocabularies-management/what-is-a-vocabulary.md" %}
 
 {% page-ref page="../designing-processes/design-forms/what-is-a-form.md" %}
-
-{% page-ref page="../designing-processes/design-forms/screens-builder/what-is-screens-builder.md" %}
 {% endtab %}
 {% endtabs %}
 
@@ -405,6 +407,24 @@ Use a ProcessMaker Script Executor that includes a Docker RUN command to package
 ### Related Topics
 
 {% page-ref page="../processmaker-administration/script-executor-management/what-is-a-script-executor.md" %}
+
+{% page-ref page="../designing-processes/scripts/what-is-a-script.md" %}
+{% endtab %}
+
+{% tab title="Custom Script Executors" %}
+Use a custom [ProcessMaker Script Executor](../processmaker-administration/script-executor-management/what-is-a-script-executor.md) to migrate Microsoft Excel spreadsheet records to a [ProcessMaker Collection](../processmaker-administration/processmaker-collections/what-is-a-collection.md). See [how to do this example use case](../processmaker-administration/script-executor-management/manage-script-executors/example-script-executor-use-case.md).
+
+* **Intended audience:** ProcessMaker Administrators, software developers, and coding engineers
+* **Viewing time:** 5 minutes; contains narration
+* **Tags:** [ProcessMaker Script Executor](../processmaker-administration/script-executor-management/what-is-a-script-executor.md); [ProcessMaker Script](../designing-processes/scripts/what-is-a-script.md); [ProcessMaker Collections](../processmaker-administration/processmaker-collections/what-is-a-collection.md); records Excel; demo; video
+
+{% embed url="https://vimeo.com/461573938" %}
+
+### Related Topics
+
+{% page-ref page="../processmaker-administration/script-executor-management/what-is-a-script-executor.md" %}
+
+{% page-ref page="../processmaker-administration/processmaker-collections/what-is-a-collection.md" %}
 
 {% page-ref page="../designing-processes/scripts/what-is-a-script.md" %}
 {% endtab %}

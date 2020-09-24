@@ -25,7 +25,7 @@ See an example in the following video how to use a ProcessMaker Vocabulary.
 * **Intended audience:** Process designers, software developers, and coding engineers
 * **Viewing time:** 15 minutes; contains narration
 
-{% embed url="https://vimeo.com/458748422" caption="Video demonstration how to use a ProcessMaker Vocabulary" %}
+{% embed url="https://vimeo.com/461560220" caption="Video demonstration how to use a ProcessMaker Vocabulary" %}
 
 ## What is a ProcessMaker Vocabulary?
 

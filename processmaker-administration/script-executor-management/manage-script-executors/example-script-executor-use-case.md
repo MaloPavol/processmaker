@@ -35,7 +35,7 @@ This example uses the following ProcessMaker assets:
 
 Click the video below to watch a demonstration of this example.
 
-
+{% embed url="https://vimeo.com/461573938" caption="Video demonstration how to migrate Excel spreadsheet records to a ProcessMaker Collection" %}
 
 This example contains the following procedures in this order:
 
@@ -214,5 +214,11 @@ Follow these steps to start a Request of this Process as [described in this exam
 
 1. [Log on](../../../using-processmaker/log-in.md#log-on) as a ProcessMaker user you configured from the Start Event element that can start Requests for this Process.
 2. [Start a Request of this Process](../../../using-processmaker/requests/make-a-request.md#start-a-request). Remember that the Process name is `Excel Spreadsheet Records to Collection Records Example`.
-3. Open the **Upload File** Form Task from your [To Do Tasks](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks). After opening the Task, the ProcessMaker Screen to upload the Excel file in the example displays. Ensure that you have [downloaded the Excel file](example-script-executor-use-case.md#download-the-excel-file).
+3. Open the **Upload File** Task from your [To Do Tasks](../../../using-processmaker/task-management/view-tasks-you-need-to-do.md#view-your-assigned-tasks). After opening the Task, the ProcessMaker Screen to upload the Excel file in the example displays. Ensure that you have [downloaded the Excel file](example-script-executor-use-case.md#download-the-excel-file).
+4. From the **Upload File** Task, click the **Select File** button, locate the Excel file you downloaded, and then click the **Upload File** button.
+
+   The **Review Upload** Task automatically opens because the **Upload File** Form Task element in the Process model uses the [**Display Next Task to Task Assignee** option](../../../designing-processes/process-design/model-your-process/add-and-configure-task-elements.md#display-the-next-assigned-task-to-the-task-assignee). The `Read Excel File to JSON` ProcessMaker Script read the records from the Excel spreadsheet, stored them into the `persons` Request variable, and now displays their contents in the **Review Upload** Task.
+
+5. From the **Review Upload** Task, click the **Save File** button.
+6. View the imported ProcessMaker Collection records to see two additional records in this Collection that have been migrated from the Excel spreadsheet.
 
