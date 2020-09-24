@@ -132,7 +132,7 @@ Follow these steps to import the Process:
      Assign which ProcessMaker user or group has permission to [edit Request data](../../../using-processmaker/requests/request-details/summary-for-completed-requests.md#editable-request-data) from this Process. By editing Request data, these users and group members can adjust the data that Request participants have submitted during a Request. If no user or group are selected, no one can edit Request data from this Process. Type into the **Assign Edit Data** setting to filter ProcessMaker users and/or groups that display in that setting's drop-down menu.
 7. Click **Save**. The **Processes** page displays the imported Process.
 8. [View](../../../designing-processes/viewing-processes/view-the-list-of-processes/view-your-processes.md) and then edit the imported Process. The Process model displays.
-9. Select the `Save to Process` Script Task element that runs a ProcessMaker Script to write the Excel spreadsheet records stored in that Request's JSON data model in the persons Request variable.  
+9. Select the `Save to Collection` Script Task element that runs a ProcessMaker Script to write the Excel spreadsheet records stored in that Request's JSON data model in the persons Request variable.  
    ![](../../../.gitbook/assets/script-executor-example-save-collection-script-task.png) 
 
    The settings for this Script Task element display.
