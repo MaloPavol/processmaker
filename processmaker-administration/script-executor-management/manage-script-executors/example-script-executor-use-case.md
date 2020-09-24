@@ -159,7 +159,7 @@ Follow these steps to create the custom ProcessMaker Script Executor as [describ
 3. In the **Name** setting, enter the unique name for the ProcessMaker Script Executor. This name displays from ProcessMaker Script configuration settings, so enter a descriptive name that ProcessMaker designers configuring their ProcessMaker Scripts understand what customization this Script Executor provides. This example uses the name `PHP with PHPSpreadsheet package`.
 4. In the **Description** setting, enter a description for the ProcessMaker Script Executor.
 5. From the **Language** setting, select the **PHP** option. The default [Dockerfile](https://docs.docker.com/engine/reference/builder/#:~:text=A%20Dockerfile%20is%20a%20text,can%20use%20in%20a%20Dockerfile%20.) content to run PHP ProcessMaker Scripts displays in the **Dockerfile** setting. The Dockerfile content includes the ProcessMaker SDK for that language.
-6. From the **Dockerfile** setting, append the default Dockerfile content with the following commands that contain the dependencies to use the PHPSpreadsheet package and integrate this package into this Docker contain. Ensure not to edit the default Dockerfile content as this is necessary to run ProcessMaker Scripts successfully in this Docker container.
+6. From the **Dockerfile** setting, add the following commands that contain the dependencies to use the PHPSpreadsheet package and integrate this package into this Docker container:
 
    `RUN apt-get update -y \`
 
