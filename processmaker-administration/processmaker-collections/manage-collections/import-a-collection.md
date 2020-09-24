@@ -30,7 +30,7 @@ Follow these steps to import a ProcessMaker Collection:
 1. [View your ProcessMaker Collections](view-collections.md#view-all-collections). The **Collections** page displays.
 2. Click the **Import** button. The **Import Collection** screen displays. ![](../../../.gitbook/assets/import-collections-package.png) 
 3. Click **Browse** to locate the ProcessMaker Collection to import. ProcessMaker Collections have the `.json` file extension.
-4. Click **Import**. The **Import Collection** screen displays to indicate that the ProcessMaker Collection imported correctly. ![](../../../.gitbook/assets/import-collections-screen-package.png) 
+4. Click **Import**. The **Import Collection** screen displays to indicate that the ProcessMaker Collection imported correctly. ![](../../../.gitbook/assets/import-collection-screen-package.png) 
 5. Click **List Collections**. The **Collections** page displays the imported ProcessMaker Collection with the same name as the original ProcessMaker Collection except with a number "2" suffix.![](../../../.gitbook/assets/imported-collection-package.png) 
 
 ## Related Topics

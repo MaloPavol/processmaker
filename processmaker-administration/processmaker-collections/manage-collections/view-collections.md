@@ -24,7 +24,7 @@ See the ProcessMaker [Collections](../../permission-descriptions-for-users-and-g
 
 Follow these steps to view all ProcessMaker Collections in your organization:
 
-1. Ensure that you are [logged on](../../../using-processmaker/log-in.md#log-in) to ProcessMaker.
+1. [Log on](../../../using-processmaker/log-in.md#log-on) to ProcessMaker.
 2. Click the **Admin** option from the top menu. The **Users** page displays.
 3. Click the **Collections** icon![](../../../.gitbook/assets/collections-icon-admin.png)in the left sidebar. The **Collections** page displays the ProcessMaker Collections that you are allowed to view.
 

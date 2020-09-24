@@ -318,6 +318,7 @@
     * [Create a New Script Executor](processmaker-administration/script-executor-management/manage-script-executors/create-a-new-script-executor.md)
     * [Edit a Script Executor](processmaker-administration/script-executor-management/manage-script-executors/edit-a-script-executor.md)
     * [Delete a Script Executor](processmaker-administration/script-executor-management/manage-script-executors/delete-a-script-executor.md)
+    * [Example Script Executor Use Case](processmaker-administration/script-executor-management/manage-script-executors/example-script-executor-use-case.md)
 * [Single Sign-On \(SSO\) to ProcessMaker Via SAML](processmaker-administration/single-sign-on-to-processmaker-via-saml/README.md)
   * [What is Single Sign-On \(SSO\)?](processmaker-administration/single-sign-on-to-processmaker-via-saml/what-is-single-sign-on.md)
   * [Configure Single Sign-On \(SSO\) Via SAML](processmaker-administration/single-sign-on-to-processmaker-via-saml/view-the-saml-settings.md)

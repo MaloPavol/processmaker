@@ -17,11 +17,7 @@ Use the Google Places package to allow [Request](../../using-processmaker/reques
 * Start entering an address, location, or business name into a ProcessMaker Screen control, then allow the Google API to auto-complete that address or location. The Google Place control stores the selected address in the Request data as well as all the returned data from the Google API.
 * View and/or select a geographical location from a Google map.
 
- Prior to using the Google Places package, ensure that your organization has a billing account with the JavaScript and Maps Embed APIs enabled, as well as API keys for each API. See the following:
-
-* [Get Started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started)
-* [Get an API key for the JavaScript API](https://developers.google.com/maps/documentation/javascript/get-api-key)
-* [Get an API key for the Maps Embed API](https://developers.google.com/maps/documentation/embed/get-api-key)
+ Prior to using the Google Places package, ensure that your organization has a [billing account](https://developers.google.com/maps/gmp-get-started) with the [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) and [Places API](https://developers.google.com/places/web-service/overview) enabled, as well as API keys for each API.
 
 The Google Places package has the following components after it is installed to your ProcessMaker instance:
 

@@ -29,6 +29,21 @@ This example contains the following procedures in this order:
 
 ## Create the ProcessMaker Data Connector
 
+{% hint style="info" %}
+### ProcessMaker Package Required
+
+The [Data Connector package](../../package-development-distribution/package-a-connector/data-connector-package.md) must be installed in your ProcessMaker instance. The [Data Connector](what-is-a-data-connector.md) package is not available in the ProcessMaker open-source edition. Contact [ProcessMaker Sales](https://www.processmaker.com/contact/) or ask your ProcessMaker sales representative how the Data Connectors package can be installed in your ProcessMaker instance.
+
+### Permissions Required
+
+Your user account or group membership must have the following permissions to create a new Data Connector unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Data Connectors: Create Data Connectors
+* Data Connectors: View Data Connectors
+
+See the ProcessMaker [Data Connectors](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#data-connectors) permissions or ask your ProcessMaker Administrator for assistance.
+{% endhint %}
+
 Follow these steps to create the ProcessMaker Data Connector as [described in this example](data-connector-example.md#overview):
 
 1. [Log on](../../using-processmaker/log-in.md#log-in) to ProcessMaker.
@@ -102,6 +117,15 @@ Follow these steps to configure the Select List control as [described in this ex
 14. [Save your ProcessMaker Screen](../design-forms/screens-builder/save-a-screen.md#save-a-processmaker-screen). The Select List control is configured for this example.
 
 ## Create the Process Model
+
+{% hint style="info" %}
+Your ProcessMaker user account or group membership must have the following permissions to create a new Process unless your user account has the **Make this user a Super Admin** setting selected:
+
+* Processes: Create Processes
+* Processes: View Processes
+
+See the ProcessMaker [Processes](../../processmaker-administration/permission-descriptions-for-users-and-groups.md#processes) permissions or ask your ProcessMaker Administrator for assistance.
+{% endhint %}
 
 Follow these steps to create the Process model as [described in this example](data-connector-example.md#overview):
 
