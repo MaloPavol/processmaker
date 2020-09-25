@@ -152,6 +152,13 @@ Follow these steps to import the Process:
 11. Change the value of the `collectionID` key name to the ProcessMaker Collection ID you [imported for this example](example-script-executor-use-case.md#import-the-processmaker-collection).
 12. [Save](../../../designing-processes/process-design/toolboxes.md#save-your-process-model) the Process model.
 
+{% hint style="info" %}
+Would you prefer to save the Excel spreadsheet records to a different Request variable than persons when the `Read Excel File to JSON` ProcessMaker Script that run when the **Process File** Script Task element triggers? Locate the **Script Configuration** setting for the **Process File** Script Task element as described above, and then change the JSON key name `recordsVariableName`'s value to the Request variable name you want:  
+`{ "fileVariableName": "recordsFile", "recordsVariableName": "persons" }`
+
+Ensure to change the JSON key name `recordsVariableName`'s value for the `Save to Collection` ProcessMaker Script's configuration to the same value.
+{% endhint %}
+
 ## Create the Custom ProcessMaker Script Executor
 
 Follow these steps to create the custom ProcessMaker Script Executor as [described in this example](example-script-executor-use-case.md#overview):
