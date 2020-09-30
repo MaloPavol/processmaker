@@ -79,7 +79,7 @@ See [Display-type Screen Settings](record-list-control-settings.md#display-type-
 
 After opening a Task or Manual Task with a Display-type ProcessMaker Screen using a Record List control, the record list displays each record as entered in a Form-type Screen in a previous Task of that Request.
 
-### Use the `_parent` JSON Key to Reference Request Data from Controls in a Record List Control
+## Use the `_parent` JSON Key to Reference Request Data from Controls in a Record List Control
 
 The Record List control uses a unique JSON key available to any control placed into the secondary page from which the Record List control references its values so that those controls can reference Request data. Controls that are placed into that secondary page function within a container and may only access another control's data that is in the same secondary page. Use the `_parent` JSON key in a control's settings placed into the secondary page to reference Request data outside of that Record List control.
 

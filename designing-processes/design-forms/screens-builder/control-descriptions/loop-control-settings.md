@@ -29,7 +29,7 @@ Do not place another Loop control inside the first Loop control.
 This control is only available for [Form](../types-for-screens.md#form)-type ProcessMaker Screens. See [Screen Types](../types-for-screens.md).
 {% endhint %}
 
-### Use the `_parent` JSON Key to Reference Request Data from Controls in a Loop Control
+## Use the `_parent` JSON Key to Reference Request Data from Controls in a Loop Control
 
 The Loop control uses a unique JSON key available to any control placed within the Loop control to reference Request data. Controls that are placed into a Loop control for duplication are within a container and may only access another control's data that is in the same Loop control. Use the `_parent` JSON key in a control's settings placed within a Loop control to reference Request data outside of that Loop control.
 
