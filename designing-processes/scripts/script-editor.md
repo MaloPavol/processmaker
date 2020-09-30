@@ -70,6 +70,19 @@ A ProcessMaker Script may reference ProcessMaker Screen control values during a 
 }
 ```
 
+### Reference a Request Variable from a Script Configuration Setting
+
+As a best practice when referencing ProcessMaker Scripts from a [Script Task](../process-design/model-your-process/process-modeling-element-descriptions.md#script-task) element, declare Request variable names from a Script Task element's Script Configuration setting rather than from the ProcessMaker Script itself:
+
+* Declaring Request variable names from the Process model and not the ProcessMaker Script itself promotes greater usability, flexibility, and re-use.
+* Process designers configuring ProcessMaker Scripts from the Script Task element dictate how to declare the Request variable, while the ProcessMaker Script references that Request variable name when it runs.
+
+In the ProcessMaker Script use the [`$data` and `$config` variables](script-editor.md#processmaker-and-environment-variable-syntax-usage-sdk-and-examples) for your Script's programming language to reference the Request variables in a specified Process model. Use the following as a template, where `process` is the name of the Process from which to reference its Request variables.
+
+```text
+$var = $data[$config[“process”]
+```
+
 ### ‌Test Your ProcessMaker Script
 
 ‌Click the **Run** button to test your ProcessMaker Script. Script Editor evaluates any JSON data entered into the **Configuration** and **Sample Input** panels.‌
