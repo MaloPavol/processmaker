@@ -201,13 +201,14 @@ If no ProcessMaker Scripts exist, the **Script** drop-down menu contains no opti
 
 #### Configure the Selected ProcessMaker Script
 
-After [selecting the ProcessMaker Script for the Script Task element](add-and-configure-script-task-elements.md#select-the-processmaker-script-for-a-script-task-element), optionally provide a JSON script that configures variable values for the selected ProcessMaker Script. Providing a JSON script from the Script Task is identical to providing JSON configuration script in the **Script Config JSON** panel in Scripts Editor for a ProcessMaker Script.
+After [selecting the ProcessMaker Script for the Script Task element](add-and-configure-script-task-elements.md#select-the-processmaker-script-for-a-script-task-element), optionally provide a JSON object that configures variable values for the selected ProcessMaker Script. Providing a JSON script from the Script Task is identical to providing JSON configuration script in the **Script Config JSON** panel in Scripts Editor for a ProcessMaker Script.
 
 {% hint style="info" %}
 See the following topics for more information:
 
 * [What is a Script?](../../scripts/what-is-a-script.md)
-* [Script Editor](../../scripts/script-editor.md)
+* [Script Editor](../../scripts/script-editor.md), including the [Reference a Request Variable from a Script Configuration Setting](../../scripts/script-editor.md#reference-a-request-variable-from-a-script-configuration-setting) section
+* [Example Script Executor Use Case](../../../processmaker-administration/script-executor-management/manage-script-executors/example-script-executor-use-case.md), specifically the [Import the Process](../../../processmaker-administration/script-executor-management/manage-script-executors/example-script-executor-use-case.md#import-the-process) section how a JSON object is used to configure a ProcessMaker Script for a Script Task element
 {% endhint %}
 
 If a JSON script exists in the Script Task element, that script is used for the ProcessMaker Script. An existing JSON configuration script displays in the **Script Configuration** option for a selected Script Task element.
