@@ -240,32 +240,33 @@ Follow these steps to select who can start a Request via a Web Entry URL via thi
 2. Select the Start Event element from the Process model in which to select who may start a Request via a Web Entry URL. Panels to configure this element display.
 3. Expand the **Web Entry** panel if it is not presently expanded. The **Web Entry** setting displays.  
 
-   ![](../../../.gitbook/assets/web-entry-mode-start-event-process-modeler-processes.png)
+   ![](../../../.gitbook/assets/web-entry-mode-disabled-package-process-modeler-designer.png)
 
 4. From the **Mode** drop-down menu, select one of the following options:
+   * **Disabled:** Select the **Disabled** setting to disable Web Entry for this Start Event element when this element currently is configured to do so. This is the default setting.
    * **Anonymous:** Select the **Anonymous** option to allow any person who has access to the Web Entry's URL to start a Request. This person is not authenticated as a ProcessMaker user. Note that if an anonymous person starts a Request and a later Task element or [Manual Task](process-modeling-element-descriptions.md#manual-task) element is assigned to the requester, then the following Request error occurs: **This process was started by an anonymous user so this task can not be assigned to the requester**. Therefore, use this option cautiously.  
 
-     ![](../../../.gitbook/assets/web-entry-anonymous-mode-start-event-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-anonymous-package-process-modeler-designer.png)
 
    * **Authenticated:** Select the **Authenticated** option to require an authenticated ProcessMaker user or group member to start a Request via the Web Entry's URL.  
 
-     ![](../../../.gitbook/assets/web-entry-authenticated-mode-start-event-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-package-process-modeler-designer.png)
 
      Select whether a ProcessMaker user or group member may start a Request via the Web Entry's URL. To do so, follow these guidelines:
 
      **ProcessMaker User**
 
-     1. From the **Web Entry Start Permission** drop-down menu, select the **User** option. The **User** drop-down menu displays below the **Web Entry Start Permission** drop-down menu.  
+     1. From the **Web Entry Start Permission** drop-down menu, select the **User** option. The **User** drop-down menu displays below the **Web Entry Start Permission** drop-down menu and selects the first alphabetical ProcessMaker user in the ProcessMaker instance by default.  
 
-        ![](../../../.gitbook/assets/web-entry-authenticated-mode-user-start-event-process-modeler-processes.png)
+        ![](../../../.gitbook/assets/web-entry-mode-authenticated-user-package-process-modeler-designer.png)
 
      2. From the **User** drop-down menu, select which ProcessMaker user may start a Request via the Web Entry's URL.
 
      **ProcessMaker Group**
 
-     1. From the **Web Entry Start Permission** drop-down menu, select the **Group** option. The **Group** drop-down menu displays below the **Web Entry Start Permission** drop-down menu.  
+     1. From the **Web Entry Start Permission** drop-down menu, select the **Group** option. The **Group** drop-down menu displays below the **Web Entry Start Permission** drop-down menu and selects the first alphabetical ProcessMaker group in the ProcessMaker instance by default.  
 
-        ![](../../../.gitbook/assets/web-entry-authenticated-mode-group-start-event-process-modeler-processes.png)
+        ![](../../../.gitbook/assets/web-entry-mode-authenticated-group-package-process-modeler-designer.png)
 
      2. From the **Group** drop-down menu, select which ProcessMaker group may start a Request via the Web Entry's URL. Any member of that ProcessMaker group may start a Request via the Web Entry's URL.
 5. From the **Screen Associated** drop-down menu, select the [ProcessMaker Screen](../../design-forms/what-is-a-form.md) that displays when the Web Entry URL is accessed. This drop-down menu displays only [Form](../../design-forms/screens-builder/types-for-screens.md#form) types so the Requester can interact with information in the ProcessMaker Screen. This is a required setting.  
@@ -277,20 +278,32 @@ Follow these steps to select who can start a Request via a Web Entry URL via thi
 
      ![](../../../.gitbook/assets/web-entry-completed-action-screen-start-event-process-modeler-processes.png)
 
-     After the **Screen** option is selected, the **Screen For Completed** drop-down menu displays below the **Completed Action** drop-down menu. From the **Screen For Completed** drop-down menu, select the ProcessMaker Screen that displays after the Requester submits the ProcessMaker Screen selected from the **Screen Associated** drop-down menu. This drop-down menu displays only [Display](../../design-forms/screens-builder/types-for-screens.md#display) types to display a message to the Requester. This is a required setting.  
+     After the **Screen** option is selected, the following settings display below the **Completed Action** option:
 
-     ![](../../../.gitbook/assets/web-entry-screen-completed-start-event-process-modeler-processes.png)
+     * **Screen For Completed:** From the **Screen For Completed** setting, select the ProcessMaker Screen that displays after submitting the ProcessMaker Screen selected from the **Screen Associated** drop-down menu. This drop-down menu displays only [Display](../../design-forms/screens-builder/types-for-screens.md#display) types to display a message to the Requester. This is a required setting.
+     * **Allow query string data:** Select the **Allow query string data** setting to read query string parameters suffixed as key name and value pairs to the base URL to be included in that Request's data. This setting is useful to suffix metadata for email campaigns. 
 
-   * **Url:** Select the **Url** option to indicate that the Requester is redirected to a URL after the Requester submits the ProcessMaker Screen selected from the **Screen Associated** drop-down menu.  
+       ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-screen-allow-query-string-data-package-process-modeler-designer.png)
 
-     ![](../../../.gitbook/assets/web-entry-completed-action-url-start-event-process-modeler-processes.png)
+   * **Url:** Select the **Url** option to indicate that the requester is redirected to a URL after the requester submits the ProcessMaker Screen selected from the **Screen Associated** drop-down menu.  
 
-     After the **Url** option is selected, the **Url to redirect to** setting displays below the **Completed Action** drop-down menu to redirect the Requester after the Requester submits the ProcessMaker Screen selected from the Screen Associated drop-down menu. The redirect URL supports [mustache syntax](https://mustache.github.io/mustache.5.html) to reference the value of a Request variable as the URL. In the **Url to redirect to** setting, enter the URL to redirect the Requester, and then press **Enter**. This is a required setting.  
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-url-package-process-modeler-designer.png)
 
-     ![](../../../.gitbook/assets/web-entry-url-start-event-process-modeler-processes.png)
+     After the **Url** option is selected, the following settings display below the **Completed Action** option:
+
+     * **Redirect URL:** In the **Redirect URL** setting, enter the URL the requester redirects to after the submitting the ProcessMaker Screen selected from the **Screen Associated** drop-down menu, and then press **Enter**. The redirect URL supports [mustache syntax](https://mustache.github.io/mustache.5.html) to reference the value of a Request variable as the URL. This is a required setting.
+     * **Allow query string data:** Select the **Allow query string data** setting to read query string parameters suffixed as key name and value pairs to the base URL to be included in that Request's data. This setting is useful to suffix metadata for email campaigns. 
+
+       ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-url-redirected-allow-query-string-data-package-process-modeler-designer.png)
 7. The **Web Entry URL** displays the Web Entry URL from which the Requester accesses the ProcessMaker Screen selected from the **Screen Associated** drop-down menu. The **Web Entry URL** value cannot be changed. The Web Entry package generates this URL using the following structure: _`ProcessMaker instance domain`_`/webentry/`_`Web Entry numerical instance`_`/`_`Identifier Value of this Start Event element`_. If necessary, click the **Copy to clipboard** link to copy the **Web Entry URL** value so that it is available in your clipboard.  
 
-   ![](../../../.gitbook/assets/web-entry-url-access-start-event-process-modeler-processes.png)
+   ![](../../../.gitbook/assets/web-entry-mode-url-package-process-modeler-designer.png)
+
+8. The **Embed Code** displays the ProcessMaker Screen rendering code for that Web Entry. If necessary, click the **Copy to clipboard** link to copy the **Embed Code** content so that it is available in your clipboard for use in a third-party HTML document such as a Web server or blog to render that Web Entry form. ![](../../../.gitbook/assets/web-entry-mode-embed-code-package-process-modeler-designer.png) 
+
+The Start Event element's icon changes to indicate that this element uses Web Entry to trigger.
+
+![Start Event element configured to use Web Entry](../../../.gitbook/assets/start-event-element-using-web-entry-package-process-modeler-designer.png)
 
 ### Vocabularies Panel Settings
 

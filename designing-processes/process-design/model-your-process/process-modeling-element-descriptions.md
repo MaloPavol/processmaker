@@ -70,6 +70,10 @@ Below is a Start Event element when it has been placed into a Process model.
 
 ![Start Event element](../../../.gitbook/assets/start-event-element-process-modeler-designer.png)
 
+Below is a Start Event element configured to use Web Entry.
+
+![Start Event element configured to use Web Entry](../../../.gitbook/assets/start-event-element-using-web-entry-package-process-modeler-designer.png)
+
 {% hint style="info" %}
 See [Add and Configure Event Elements](add-and-configure-an-event-element.md#add-a-start-event-element).
 {% endhint %}

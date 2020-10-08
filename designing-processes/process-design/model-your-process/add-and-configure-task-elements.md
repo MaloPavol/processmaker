@@ -755,11 +755,11 @@ Follow these steps to select to whom to assign the Task via a Web Entry:
    * **Disabled:** Select the **Disabled** option to disable the Web Entry package from assigning this Form Task element via a Web Entry. This is the default setting.
    * **Anonymous:** Select the **Anonymous** option to assign the Task to any person who has access to the Web Entry's URL. This person may not be a ProcessMaker user.  
 
-     ![](../../../.gitbook/assets/web-entry-anonymous-task-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-anonymous-package-process-modeler-designer.png)
 
    * **Authenticated:** Select the **Authenticated** option to assign the Task to an authenticated ProcessMaker user or group member via the Web Entry's URL.  
 
-     ![](../../../.gitbook/assets/web-entry-authenticated-task-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-package-process-modeler-designer.png)
 
      Select whether to assign a ProcessMaker user or group the Task via the Web Entry's URL. To do so, follow these guidelines:
 
@@ -767,7 +767,7 @@ Follow these steps to select to whom to assign the Task via a Web Entry:
 
      1. From the **Web Entry Start Permission** drop-down menu, select the **User** option. The **User** drop-down menu displays below the **Web Entry Start Permission** drop-down menu.  
 
-        ![](../../../.gitbook/assets/web-entry-authenticated-mode-user-start-event-process-modeler-processes.png)
+        ![](../../../.gitbook/assets/web-entry-mode-authenticated-user-package-process-modeler-designer.png)
 
      2. From the **User** drop-down menu, select which ProcessMaker user to assign the Task via the Web Entry's URL.
 
@@ -775,7 +775,7 @@ Follow these steps to select to whom to assign the Task via a Web Entry:
 
      1. From the **Web Entry Start Permission** drop-down menu, select the **Group** option. The **Group** drop-down menu displays below the **Web Entry Start Permission** drop-down menu.  
 
-        ![](../../../.gitbook/assets/web-entry-authenticated-mode-group-start-event-process-modeler-processes.png)
+        ![](../../../.gitbook/assets/web-entry-mode-authenticated-group-package-process-modeler-designer.png)
 
      2. From the **Group** drop-down menu, select which ProcessMaker group to assign the Task via the Web Entry's URL. Any member of that ProcessMaker group may be assigned the Task via the Web Entry's URL.
 5. From the **Completed Action** drop-down menu, select one of the following options:
@@ -784,18 +784,18 @@ Follow these steps to select to whom to assign the Task via a Web Entry:
 
      After the **Screen** option is selected, the **Screen For Completed** drop-down menu displays below the **Completed Action** drop-down menu. From the **Screen For Completed** drop-down menu, select the ProcessMaker Screen that displays after the Task assignee submits the Task. This drop-down menu displays only [Display](../../design-forms/screens-builder/types-for-screens.md#display) types to display a message to the Task assignee. This is a required setting.
 
-     ![](../../../.gitbook/assets/web-entry-screen-completed-start-event-process-modeler-processes.png) 
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-screen-allow-query-string-data-package-process-modeler-designer.png) 
 
    * **Url:** Select the **Url** option to indicate that the Task assignee is redirected to a URL after the Task assignee submits the ProcessMaker Screen selected from the **Screen Associated** drop-down menu.  
 
-     ![](../../../.gitbook/assets/web-entry-completed-action-url-start-event-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-url-package-process-modeler-designer.png)
 
      After the **Url** option is selected, the **Url to redirect** to setting displays below the **Completed Action** drop-down menu to redirect the Task assignee after that Task assignee submits the ProcessMaker Screen selected from the **Screen Associated** drop-down menu. The redirect URL supports [mustache syntax](https://mustache.github.io/mustache.5.html) to reference the value of a Request variable as the URL. In the **Url to redirect to** setting, enter the URL to redirect the Task assignee, and then press **Enter**. This is a required setting.  
 
-     ![](../../../.gitbook/assets/web-entry-url-start-event-process-modeler-processes.png)
+     ![](../../../.gitbook/assets/web-entry-mode-authenticated-completed-action-url-redirected-allow-query-string-data-package-process-modeler-designer.png)
 6. The **Web Entry URL** displays the Web Entry URL from which the Task assignee accesses the ProcessMaker Screen selected from the **Screen Associated** drop-down menu. The **Web Entry URL** value cannot be changed. The Web Entry package generates this URL using the following structure: _`ProcessMaker instance domain`_`/webentry/`_`Web Entry numerical instance`_`/`_`Identifier Value of this Start Event element`_. If necessary, click the **Copy to clipboard** link to copy the **Web Entry URL** value so that it is available in your clipboard.  
 
-   ![](../../../.gitbook/assets/web-entry-url-access-start-event-process-modeler-processes.png)
+   ![](../../../.gitbook/assets/web-entry-mode-url-package-process-modeler-designer.png)
 
 ### Vocabularies Panel Settings
 
