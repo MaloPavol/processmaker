@@ -57,7 +57,7 @@ If a ProcessMaker Screen control affected by a visibility rule is hidden by defa
 | or | `or` |
 
 {% hint style="info" %}
-Consider the following example common for [Select List](select-list-control-settings.md#control-description) controls configured to allow multiple selections. Suppose a Select List control with a **Variable Name** setting of `SelectListControl` has the following options:
+Consider the following example common for [Select List](select-list-control-settings.md#control-description) controls configured to allow multiple selections. Suppose a Select List control with a **Variable Name** setting of `SelectListControl` that stores single values has the following options:
 
 * Beatty
 * Fred
@@ -94,7 +94,7 @@ To configure another control in that ProcessMaker Screen to remain hidden if the
 | does not contain | `not in` |
 
 {% hint style="info" %}
-Consider the following example common for [Select List](select-list-control-settings.md#control-description) controls configured to allow multiple selections. Suppose a Select List control with a **Variable Name** setting of `SelectListControl` has the following options:
+Consider the following example common for [Select List](select-list-control-settings.md#control-description) controls configured to allow multiple selections. Suppose a Select List control with a **Variable Name** setting of `SelectListControl` that stores single values has the following options:
 
 * Beatty
 * Fred
