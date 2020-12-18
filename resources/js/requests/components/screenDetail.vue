@@ -78,8 +78,9 @@
       window.ProcessMaker.apiClient.requestCountFlag = true;
       window.addEventListener('load', () => {
         setTimeout(() => {
+          console.log('load finish');
           this.interval = setInterval(this.printWhenNoRequestsArePending, 1000);
-        }, 750);
+        }, 500);
 
         setTimeout(() => {
           this.closeRequestCount();
@@ -97,6 +98,7 @@
       printWhenNoRequestsArePending() {
         if (this.canPrint && window.ProcessMaker.apiClient.requestCount === 0) {
           clearInterval(this.interval);
+          console.log('print: ' + window.ProcessMaker.apiClient.requestCount);
           this.closeRequestCount();
           this.print();
         }

@@ -213,6 +213,7 @@ window.ProcessMaker.apiClient.interceptors.request.use((request) => {
   //flags print forms
   if (window.ProcessMaker.apiClient.requestCountFlag) {
     window.ProcessMaker.apiClient.requestCount++;
+    console.log('add: ' + window.ProcessMaker.apiClient.requestCount);
   }
 
   window.ProcessMaker.EventBus.$emit("api-client-loading", request);
@@ -227,6 +228,7 @@ window.ProcessMaker.apiClient.interceptors.response.use((response) => {
   //flags print forms
   if (window.ProcessMaker.apiClient.requestCountFlag && window.ProcessMaker.apiClient.requestCount > 0) {
     window.ProcessMaker.apiClient.requestCount--;
+    console.log('remove: ' + window.ProcessMaker.apiClient.requestCount);
   }
   return response;
 }, (error) => {

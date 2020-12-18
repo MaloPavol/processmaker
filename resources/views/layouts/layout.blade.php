@@ -32,13 +32,46 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{ mix('css/sidebar.css') }}" rel="stylesheet">
     <link href="/css/bpmn-symbols/css/bpmn.css" rel="stylesheet">
-    <style type="text/css" media="print">
+    <link href="{{ mix('css/print.css') }}" rel="stylesheet" media="print">
+    <style type="text/css">
         html, body {
-            height: auto;
+          border: yellow solid 2px;
+          width: 1200px !important;
+          padding: 0;
+          margin: 0;
+          height: auto;
         }
+
+
+
+        div.row {
+          border: blue solid 2px;
+          background-color: red;
+          margin: 0;
+          padding: 0;
+        }
+        
         div {
-            overflow:hidden;
-            width:100%;
+          overflow:hidden;
+          page-break-before: auto;
+        }
+        div.card {
+          margin: 0;
+          border: red solid 2px;
+        }
+        div.card.h-100 {
+          margin: 0;
+          padding: 0;
+          background-color: red;
+          border: red solid 2px;
+        }
+        .container {
+          width:100%;
+        }
+        div.page {
+          border: green solid 2px;
+          max-width: 880px !important;
+          page-break-before: auto;
         }
     </style>
     @yield('css')
